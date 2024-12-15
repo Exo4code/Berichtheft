@@ -1,41 +1,113 @@
-function generateWeeks() {
+function generateWeeksList() {
     const startDate = new Date('2024-07-08');
     const endDate = new Date('2026-07-08');
-    const weekStartList = document.getElementById('weekdays');
-    const weekEndList = document.getElementById('weekdays-end');
-    
     let currentDate = new Date(startDate);
     
+    let currentMonth = -1;
+    let currentYear = -1;
+    
     while (currentDate <= endDate) {
-        // Start der Woche
-        const startOption = document.createElement('option');
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+        const weekList = document.getElementById(`weekList${year}`);
+        
+        // Neuer Monat beginnt
+        if (month !== currentMonth || year !== currentYear) {
+            const monthDiv = document.createElement('div');
+            monthDiv.className = 'month-separator';
+            monthDiv.textContent = currentDate.toLocaleDateString('de-DE', {
+                month: 'long',
+                year: 'numeric'
+            });
+            weekList.appendChild(monthDiv);
+            
+            currentMonth = month;
+            currentYear = year;
+        }
+        
+        const li = document.createElement('li');
+        li.className = 'week-item';
+        
+        // Startdatum formatieren
         const startDateStr = currentDate.toLocaleDateString('de-DE', {
             day: '2-digit',
             month: '2-digit',
             year: 'numeric'
         });
-        startOption.value = startDateStr;
-        weekStartList.appendChild(startOption);
         
-        // Ende der Woche (5 Tage später)
+        // Enddatum berechnen (5 Tage später)
         const endDate = new Date(currentDate);
         endDate.setDate(endDate.getDate() + 4);
-        const endOption = document.createElement('option');
         const endDateStr = endDate.toLocaleDateString('de-DE', {
             day: '2-digit',
             month: '2-digit',
             year: 'numeric'
         });
-        endOption.value = endDateStr;
-        weekEndList.appendChild(endOption);
         
-        // Nächste Woche
+        // Erstelle einen Container für das Datum und den Download-Button
+        const dateSpan = document.createElement('span');
+        dateSpan.className = 'week-date';
+        dateSpan.textContent = `${startDateStr} - ${endDateStr}`;
+        
+        // Click-Event nur für das Datum
+        dateSpan.addEventListener('click', () => {
+            document.querySelectorAll('.week-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            li.classList.add('active');
+            
+            document.getElementById('weekStart').value = startDateStr;
+            document.getElementById('weekEnd').value = endDateStr;
+        });
+        
+        const downloadButton = document.createElement('button');
+        downloadButton.className = 'week-download-button';
+        downloadButton.innerHTML = '<i class="fi fi-sr-download"></i>';
+        
+        // Event-Listener für den Download-Button
+        downloadButton.addEventListener('click', (e) => {
+            e.stopPropagation(); // Verhindert das Auslösen des Click-Events des Eltern-Elements
+            
+            // Setze die Daten im Hauptformular
+            document.getElementById('weekStart').value = startDateStr;
+            document.getElementById('weekEnd').value = endDateStr;
+            
+            // Führe den Download aus
+            exportToPDF();
+        });
+        
+        li.appendChild(dateSpan);
+        li.appendChild(downloadButton);
+        
+        weekList.appendChild(li);
         currentDate.setDate(currentDate.getDate() + 7);
     }
 }
 
-// Ausführen der Funktion beim Laden der Seite
-generateWeeks();
+// Jahr-Button-Handler
+function initializeYearButtons() {
+    const yearButtons = document.querySelectorAll('.year-button');
+    
+    yearButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Button-Status aktualisieren
+            yearButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Listen ein-/ausblenden
+            const year = button.dataset.year;
+            document.querySelectorAll('.week-list').forEach(list => {
+                list.classList.remove('visible');
+            });
+            document.querySelector(`.week-list[data-year="${year}"]`).classList.add('visible');
+        });
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    generateWeeksList();
+    initializeYearButtons();
+});
 
 // Vereinfachter Event Listener
 document.getElementById('weekStart').addEventListener('change', function(e) {
