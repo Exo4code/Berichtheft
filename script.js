@@ -45,19 +45,25 @@ function generateWeeksList() {
         });
         
         // Erstelle einen Container für das Datum und den Download-Button
-        const dateSpan = document.createElement('span');
+        const dateSpan = document.createElement('div');
         dateSpan.className = 'week-date';
         dateSpan.textContent = `${startDateStr} - ${endDateStr}`;
         
-        // Click-Event nur für das Datum
+        // Event-Listener für das Datum hinzufügen
         dateSpan.addEventListener('click', () => {
+            // Aktiven Status für alle Week-Items entfernen
             document.querySelectorAll('.week-item').forEach(item => {
                 item.classList.remove('active');
             });
+            
+            // Aktiven Status für das geklickte Item setzen
             li.classList.add('active');
             
-            document.getElementById('weekStart').value = startDateStr;
-            document.getElementById('weekEnd').value = endDateStr;
+            // Formular mit den Daten füllen
+            updateFormWithDates(startDateStr, endDateStr);
+            
+            // Scroll zum Formular (optional)
+            document.querySelector('.container').scrollIntoView({ behavior: 'smooth' });
         });
         
         const downloadButton = document.createElement('button');
@@ -84,6 +90,79 @@ function generateWeeksList() {
     }
 }
 
+function updateFormWithDates(startDate, endDate) {
+    // Datum-Inputs aktualisieren
+    document.getElementById('weekStart').value = startDate;
+    document.getElementById('weekEnd').value = endDate;
+    
+    // Alle Aktivitäts-Textareas leeren
+    document.querySelectorAll('.activity-input').forEach(textarea => {
+        textarea.value = '';
+    });
+    
+    // Stunden auf Standardwerte zurücksetzen
+    document.querySelectorAll('.hours-input').forEach(input => {
+        if (!input.closest('tr').classList.contains('weekend')) {
+            input.value = '8';
+        } else {
+            input.value = '--';
+        }
+    });
+    
+    // Nummer automatisch generieren
+    const weekNumber = calculateWeekNumber(startDate);
+    document.querySelector('.number-input').value = weekNumber;
+    
+    // Speichern des aktuellen Datums im localStorage
+    localStorage.setItem('currentWeekStart', startDate);
+    localStorage.setItem('currentWeekEnd', endDate);
+}
+
+function calculateWeekNumber(dateStr) {
+    // Datum aus dem deutschen Format (DD.MM.YYYY) parsen
+    const parts = dateStr.split('.');
+    const inputDate = new Date(parts[2], parts[1] - 1, parts[0]);
+    
+    // Referenzdaten für die Jahre
+    const startDates = {
+        2024: new Date('2024-07-08'),
+        2025: new Date('2025-01-01'),
+        2026: new Date('2026-01-01')
+    };
+    
+    const year = inputDate.getFullYear();
+    const startDate = startDates[year];
+    
+    // Wenn kein Startdatum für das Jahr existiert oder das Datum vor dem Startdatum liegt
+    if (!startDate || inputDate < startDate) {
+        return '';
+    }
+    
+    if (year === 2024) {
+        // Für 2024: Spezielle Wochenberechnung ab 08.07.2024
+        const weeks = [
+            '08.07.2024', '15.07.2024', '22.07.2024', '29.07.2024',
+            '05.08.2024', '12.08.2024', '19.08.2024', '26.08.2024',
+            '02.09.2024', '09.09.2024', '16.09.2024', '23.09.2024', '30.09.2024',
+            '07.10.2024', '14.10.2024', '21.10.2024', '28.10.2024',
+            '04.11.2024', '11.11.2024', '18.11.2024', '25.11.2024',
+            '02.12.2024', '09.12.2024', '16.12.2024', '23.12.2024', '30.12.2024'
+        ];
+        
+        const weekIndex = weeks.indexOf(dateStr);
+        if (weekIndex !== -1) {
+            return `${weekIndex + 1}/2024`;
+        }
+    } else {
+        // Für 2025 und 2026: Berechne Wochen ab 1. Januar
+        const msPerWeek = 1000 * 60 * 60 * 24 * 7;
+        const weekNumber = Math.floor((inputDate - startDate) / msPerWeek) + 1;
+        return `${weekNumber}/${year}`;
+    }
+    
+    return '';
+}
+
 // Jahr-Button-Handler
 function initializeYearButtons() {
     const yearButtons = document.querySelectorAll('.year-button');
@@ -104,10 +183,70 @@ function initializeYearButtons() {
     });
 }
 
+// Beim Laden der Seite den gespeicherten Status wiederherstellen
 document.addEventListener('DOMContentLoaded', function() {
     generateWeeksList();
     initializeYearButtons();
+    
+    // Gespeicherte Daten wiederherstellen
+    const savedStartDate = localStorage.getItem('currentWeekStart');
+    const savedEndDate = localStorage.getItem('currentWeekEnd');
+    
+    if (savedStartDate && savedEndDate) {
+        updateFormWithDates(savedStartDate, savedEndDate);
+        
+        // Aktiven Status in der Liste wiederherstellen
+        const weekItems = document.querySelectorAll('.week-date');
+        weekItems.forEach(item => {
+            if (item.textContent.includes(savedStartDate)) {
+                item.closest('.week-item').classList.add('active');
+            }
+        });
+    }
 });
+
+// Funktion zum Speichern der Formulardaten
+function saveFormData(startDate) {
+    const formData = {
+        activities: [],
+        hours: [],
+        number: document.querySelector('.number-input').value
+    };
+    
+    // Aktivitäten sammeln
+    document.querySelectorAll('.activity-input').forEach(textarea => {
+        formData.activities.push(textarea.value);
+    });
+    
+    // Stunden sammeln
+    document.querySelectorAll('.hours-input').forEach(input => {
+        formData.hours.push(input.value);
+    });
+    
+    // Im localStorage speichern
+    localStorage.setItem(`formData_${startDate}`, JSON.stringify(formData));
+}
+
+// Funktion zum Laden der Formulardaten
+function loadFormData(startDate) {
+    const savedData = localStorage.getItem(`formData_${startDate}`);
+    if (savedData) {
+        const formData = JSON.parse(savedData);
+        
+        // Aktivitäten wiederherstellen
+        document.querySelectorAll('.activity-input').forEach((textarea, index) => {
+            textarea.value = formData.activities[index] || '';
+        });
+        
+        // Stunden wiederherstellen
+        document.querySelectorAll('.hours-input').forEach((input, index) => {
+            input.value = formData.hours[index] || '';
+        });
+        
+        // Nummer wiederherstellen
+        document.querySelector('.number-input').value = formData.number || '';
+    }
+}
 
 // Vereinfachter Event Listener
 document.getElementById('weekStart').addEventListener('change', function(e) {
@@ -211,3 +350,11 @@ function exportToPDF() {
 
 // Event Listener für den Download-Button
 document.querySelector('.download-button').addEventListener('click', exportToPDF);
+
+// Event-Listener für Änderungen im Formular
+document.querySelectorAll('.activity-input, .hours-input, .number-input').forEach(input => {
+    input.addEventListener('change', () => {
+        const startDate = document.getElementById('weekStart').value;
+        saveFormData(startDate);
+    });
+});
