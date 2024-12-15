@@ -116,6 +116,33 @@ function updateFormWithDates(startDate, endDate) {
     // Speichern des aktuellen Datums im localStorage
     localStorage.setItem('currentWeekStart', startDate);
     localStorage.setItem('currentWeekEnd', endDate);
+    
+    loadPredefinedTexts(startDate);
+}
+
+async function loadPredefinedTexts(startDate) {
+    try {
+        const response = await fetch('weekTexts.json');
+        const weekTexts = await response.json();
+        
+        // Prüfen ob es vordefinierte Texte für diese Woche gibt
+        if (weekTexts[startDate]) {
+            const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'];
+            const textareas = document.querySelectorAll('.activity-input');
+            
+            // Die ersten 5 Textareas (Mo-Fr) mit den vordefinierten Texten füllen
+            days.forEach((day, index) => {
+                if (weekTexts[startDate][day]) {
+                    textareas[index].value = weekTexts[startDate][day];
+                }
+            });
+            
+            // Speichern der geladenen Daten
+            saveFormData(startDate);
+        }
+    } catch (error) {
+        console.error('Fehler beim Laden der vordefinierten Texte:', error);
+    }
 }
 
 function calculateWeekNumber(dateStr) {

@@ -1,0 +1,751 @@
+{
+    "08.07.2024": {
+        "monday": "Einführung in die Ausbildung\n- Begrüßung durch Ausbildungsleiter\n- Rundgang durch das Unternehmen\n- Sicherheitsunterweisung",
+        "tuesday": "IT-Grundlagen\n- Einrichtung des Arbeitsplatzes\n- Installation benötigter Software\n- Einführung in das Firmennetzwerk",
+        "wednesday": "Programmierung Basics\n- Einführung in HTML/CSS\n- Erste Übungsaufgaben\n- Code-Editor Einrichtung",
+        "thursday": "Datenbanken Grundlagen\n- Einführung in SQL\n- Datenbankdesign Basics\n- Praktische Übungen",
+        "friday": "Projektmanagement\n- Agile Methoden\n- SCRUM Grundlagen\n- Team-Meeting"
+    },
+    "15.07.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "22.07.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "29.07.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "05.08.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "12.08.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "19.08.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "26.08.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "02.09.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "09.09.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "16.09.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "23.09.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "30.09.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "07.10.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "14.10.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "21.10.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "28.10.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "04.11.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "11.11.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "18.11.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "25.11.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "02.12.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "09.12.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "16.12.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "23.12.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "30.12.2024": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "01.01.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "06.01.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "13.01.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "20.01.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "27.01.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "03.02.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "10.02.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "17.02.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "24.02.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "03.03.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "10.03.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "17.03.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "24.03.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "31.03.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "07.04.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "14.04.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "21.04.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "28.04.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "05.05.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "12.05.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "19.05.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "26.05.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "02.06.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "09.06.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "16.06.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "23.06.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "30.06.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "07.07.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "14.07.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "21.07.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "28.07.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "04.08.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "11.08.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "18.08.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "25.08.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "01.09.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "08.09.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "15.09.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "22.09.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "29.09.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "06.10.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "13.10.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "20.10.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "27.10.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "03.11.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "10.11.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "17.11.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "24.11.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "01.12.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "08.12.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "15.12.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "22.12.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "29.12.2025": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "01.01.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "05.01.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "12.01.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "19.01.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "26.01.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "02.02.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "09.02.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "16.02.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "23.02.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "02.03.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "09.03.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "16.03.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "23.03.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "30.03.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "06.04.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "13.04.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "20.04.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "27.04.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "04.05.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "11.05.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "18.05.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "25.05.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "01.06.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "08.06.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "15.06.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "22.06.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "29.06.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    },
+    "06.07.2026": {
+        "monday": "Platzhalter für Montag",
+        "tuesday": "Platzhalter für Dienstag",
+        "wednesday": "Platzhalter für Mittwoch",
+        "thursday": "Platzhalter für Donnerstag",
+        "friday": "Platzhalter für Freitag"
+    }
+} 
