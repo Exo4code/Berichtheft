@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ausbildungsnachweis</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+  
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-row">
+                <h1>Ausbildungsnachweis (täglich)</h1>
+                <div class="number">
+                    <label>Nummer:</label>
+                    <input type="text" class="number-input">
+                </div>
+                <button class="download-button" title="Herunterladen">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMTVMMTcgMTBNMTIgMTVMNyAxME0xMiAxNUwxMiAzTTIwIDIxSDRDMy40NDc3MiAyMSAzIDIwLjU1MjMgMyAyMFYxOU0yMCAyMUMyMC41NTIzIDIxIDIxIDIwLjU1MjMgMjEgMjBWMTlNMjAgMjFIMjFWMTlNNCAxOUgzTTQgMTlIMjAiIHN0cm9rZT0iIzZFNkU2RSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==" 
+                         alt="Download">
+                </button>
+            </div>
+            
+            <div class="info-row">
+                <label>Name des/der Auszubildenden:</label>
+                <input type="text" class="underline-input">
+            </div>
+            
+            <div class="info-row">
+                <label>Ausbildungsberuf:</label>
+                <input type="text" class="underline-input">
+                <label>Ausbildungsjahr:</label>
+                <input type="text" class="year-input" value="1">
+            </div>
+            
+            <div class="info-row">
+                <label>Ausbildungswoche vom</label>
+                <input type="text" 
+                       class="underline-input-small" 
+                       list="weekdays" 
+                       id="weekStart"
+                       autocomplete="off"
+                       onclick="this.value=''"
+                       onfocus="this.value=''">
+                <datalist id="weekdays">
+                </datalist>
+                <label>bis</label>
+                <input type="text" 
+                       class="underline-input-small" 
+                       list="weekdays-end" 
+                       id="weekEnd"
+                       autocomplete="off">
+                <datalist id="weekdays-end">
+                </datalist>
+                <label>ggf. ausbildende Abteilung:</label>
+                <input type="text" class="underline-input-small">
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="day-column"></th>
+                    <th>Betriebliche Tätigkeiten, Unterweisungen, Lehrgespräche, sonstige Schulungen, Themen des Berufsschulunterrichts, ggf. Fehlzeiten</th>
+                    <th class="hours-column">Stunden</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Montag</td>
+                    <td><textarea class="activity-input" maxlength="330"></textarea></td>
+                    <td><input type="text" class="hours-input" value="8"></td>
+                </tr>
+                <tr>
+                    <td>Dienstag</td>
+                    <td><textarea class="activity-input" maxlength="330"></textarea></td>
+                    <td><input type="text" class="hours-input" value="8"></td>
+                </tr>
+                <tr>
+                    <td>Mittwoch</td>
+                    <td><textarea class="activity-input" maxlength="330"></textarea></td>
+                    <td><input type="text" class="hours-input" value="8"></td>
+                </tr>
+                <tr>
+                    <td>Donnerstag</td>
+                    <td><textarea class="activity-input" maxlength="330"></textarea></td>
+                    <td><input type="text" class="hours-input" value="8"></td>
+                </tr>
+                <tr>
+                    <td>Freitag</td>
+                    <td><textarea class="activity-input" maxlength="330"></textarea></td>
+                    <td><input type="text" class="hours-input" value="8"></td>
+                </tr>
+                <tr class="weekend">
+                    <td>Sonnabend</td>
+                    <td>kein Unterricht</td>
+                    <td><input type="text" class="hours-input" value="--"></td>
+                </tr>
+                <tr class="weekend">
+                    <td>Sonntag</td>
+                    <td>kein Unterricht</td>
+                    <td><input type="text" class="hours-input" value="--"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            <p>Durch die nachfolgenden Unterschriften wird die Richtigkeit und Vollständigkeit der obigen Angaben bestätigt.</p>
+            
+            <div class="signatures">
+                <div class="signature-row">
+                    <div class="signature-line">
+                        <div class="line"></div>
+                        <label>Datum, Unterschrift Auszubildende/r</label>
+                    </div>
+                    <div class="signature-line">
+                        <div class="line"></div>
+                        <label>Datum, Unterschrift des Ausbilders/der Ausbilderin</label>
+                    </div>
+                </div>
+                
+                <div class="signature-row">
+                    <div class="signature-line">
+                        <div class="line"></div>
+                        <label>Datum, Unterschrift gesetzlicher Vertreter</label>
+                    </div>
+                    <div class="signature-line">
+                        <div class="line"></div>
+                        <label>Datum, ggf. weitere Sichtvermerke</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-number">15.03.2022/Bl./Zc-2</div>
+        </div>
+    </div>
+
+    <script>
+    function generateWeeks() {
+        const startDate = new Date('2024-07-08');
+        const endDate = new Date('2026-07-08');
+        const weekStartList = document.getElementById('weekdays');
+        const weekEndList = document.getElementById('weekdays-end');
+        
+        let currentDate = new Date(startDate);
+        
+        while (currentDate <= endDate) {
+            // Start der Woche
+            const startOption = document.createElement('option');
+            const startDateStr = currentDate.toLocaleDateString('de-DE', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric'
+            });
+            startOption.value = startDateStr;
+            weekStartList.appendChild(startOption);
+            
+            // Ende der Woche (5 Tage später)
+            const endDate = new Date(currentDate);
+            endDate.setDate(endDate.getDate() + 4);
+            const endOption = document.createElement('option');
+            const endDateStr = endDate.toLocaleDateString('de-DE', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric'
+            });
+            endOption.value = endDateStr;
+            weekEndList.appendChild(endOption);
+            
+            // Nächste Woche
+            currentDate.setDate(currentDate.getDate() + 7);
+        }
+    }
+
+    // Ausführen der Funktion beim Laden der Seite
+    generateWeeks();
+
+    // Vereinfachter Event Listener
+    document.getElementById('weekStart').addEventListener('change', function(e) {
+        if (!e.target.value) return;
+        
+        const parts = e.target.value.split('.');
+        if (parts.length !== 3) return;
+        
+        const startDate = new Date(parts[2], parts[1] - 1, parts[0]);
+        const endDate = new Date(startDate);
+        endDate.setDate(endDate.getDate() + 4);
+        
+        const endDateStr = endDate.toLocaleDateString('de-DE', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+        });
+        
+        document.getElementById('weekEnd').value = endDateStr;
+    });
+
+    // PDF Export Konfiguration und Funktion
+    function exportToPDF() {
+        const element = document.querySelector('.container');
+
+        // Textareas vorbereiten für PDF-Export
+        const textareas = element.querySelectorAll('.activity-input');
+        textareas.forEach(textarea => {
+            // Ersetze \n mit <br> für HTML-Rendering
+            const text = textarea.value;
+            const div = document.createElement('div');
+            div.className = 'activity-input';
+            div.innerHTML = text.replace(/\n/g, '<br>');
+            textarea.parentNode.insertBefore(div, textarea);
+            textarea.style.display = 'none';
+        });
+
+        const opt = {
+            margin: 0,
+            filename: 'Ausbildungsnachweis.pdf',
+            image: { type: 'jpeg', quality: 1 },
+            html2canvas: { 
+                scale: 2,
+                useCORS: true,
+                letterRendering: true,
+                height: 1123, // 297mm in Pixel bei 96dpi
+            },
+            jsPDF: { 
+                unit: 'mm', 
+                format: 'a4', 
+                orientation: 'portrait',
+                putOnlyUsedFonts: true
+            }
+        };
+
+        // Temporär den Download-Button ausblenden für den Export
+        const downloadBtn = document.querySelector('.download-button');
+        downloadBtn.style.display = 'none';
+
+        // Originale Styles speichern
+        const originalStyles = {
+            height: element.style.height,
+            padding: element.style.padding
+        };
+
+        // Exakte DIN A4 Höhe setzen
+        element.style.height = '297mm';
+        element.style.padding = '15mm';
+        element.style.overflow = 'hidden';
+
+        // PDF generieren
+        html2pdf()
+            .set(opt)
+            .from(element)
+            .toPdf()
+            .get('pdf')
+            .then((pdf) => {
+                if (pdf.internal.pages.length > 1) {
+                    pdf.deletePage(2);
+                }
+                return pdf;
+            })
+            .save()
+            .then(() => {
+                // Textareas wiederherstellen
+                textareas.forEach(textarea => {
+                    textarea.style.display = '';
+                    const div = textarea.previousSibling;
+                    if (div && div.className === 'activity-input') {
+                        div.remove();
+                    }
+                });
+
+                // Styles wiederherstellen
+                element.style.height = originalStyles.height;
+                element.style.padding = originalStyles.padding;
+                element.style.overflow = '';
+                downloadBtn.style.display = 'flex';
+            });
+    }
+
+    // Event Listener für den Download-Button
+    document.querySelector('.download-button').addEventListener('click', exportToPDF);
+    </script>
+</body>
+</html> 
