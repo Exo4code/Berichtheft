@@ -358,3 +358,26 @@ document.querySelectorAll('.activity-input, .hours-input, .number-input').forEac
         saveFormData(startDate);
     });
 });
+
+// Event-Listener für die Jahr-Buttons hinzufügen
+document.querySelectorAll('.year-button').forEach(button => {
+    button.addEventListener('click', function() {
+        // Bestehende Button-Logik...
+        
+        // Ausbildungsjahr basierend auf gewähltem Jahr setzen
+        const yearInput = document.querySelector('.year-input');
+        const selectedYear = this.dataset.year;
+        
+        switch(selectedYear) {
+            case '2024':
+                yearInput.value = '1';
+                break;
+            case '2025':
+                yearInput.value = '2';
+                break;
+            case '2026':
+                yearInput.value = '3';
+                break;
+        }
+    });
+});
