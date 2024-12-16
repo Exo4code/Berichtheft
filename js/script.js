@@ -372,11 +372,15 @@ document.getElementById('weekStart').addEventListener('change', function(e) {
 // PDF Export Konfiguration und Funktion
 function exportToPDF() {
     const element = document.querySelector('.container');
+    
+    // Hole das Start- und Enddatum für den Dateinamen
+    const startDate = document.getElementById('weekStart').value;
+    const endDate = document.getElementById('weekEnd').value;
+    const fileName = `Berichtsheft_${startDate}-${endDate}.pdf`;
 
     // Textareas vorbereiten für PDF-Export
     const textareas = element.querySelectorAll('.activity-input');
     textareas.forEach(textarea => {
-        // Ersetze \n mit <br> für HTML-Rendering
         const text = textarea.value;
         const div = document.createElement('div');
         div.className = 'activity-input';
@@ -386,20 +390,25 @@ function exportToPDF() {
     });
 
     const opt = {
-        margin: 0,
-        filename: 'Ausbildungsnachweis.pdf',
+        margin: [0, 0, 0, 0],
+        filename: fileName,
         image: { type: 'jpeg', quality: 1 },
         html2canvas: { 
             scale: 2,
             useCORS: true,
             letterRendering: true,
-            height: 1123, // 297mm in Pixel bei 96dpi
+            height: 1123,
+            windowWidth: 794,
+            windowHeight: 1123,
+            x: 0,
+            y: 0
         },
         jsPDF: { 
             unit: 'mm', 
             format: 'a4', 
             orientation: 'portrait',
-            putOnlyUsedFonts: true
+            putOnlyUsedFonts: true,
+            compress: true
         }
     };
 
