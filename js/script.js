@@ -237,6 +237,14 @@ document.addEventListener('DOMContentLoaded', function() {
     generateWeeksList();
     initializeYearButtons();
     
+    // Persönliche Daten laden
+    loadPersonalData();
+    
+    // Event Listener für Änderungen an den persönlichen Daten
+    document.querySelectorAll('.name-input, .profession-input').forEach(input => {
+        input.addEventListener('change', savePersonalData);
+    });
+    
     // Gespeicherte Daten wiederherstellen
     const savedStartDate = localStorage.getItem('currentWeekStart');
     const savedEndDate = localStorage.getItem('currentWeekEnd');
@@ -257,6 +265,9 @@ document.addEventListener('DOMContentLoaded', function() {
 // Neue loadFormData Funktion
 async function loadFormData(startDate) {
     try {
+        // Persönliche Daten laden
+        loadPersonalData();
+        
         const savedData = localStorage.getItem(`formData_${startDate}`);
         if (savedData) {
             const data = JSON.parse(savedData);
@@ -339,6 +350,9 @@ function saveFormData(startDate) {
     const number = document.querySelector('.number-input').value;
     const yearInput = document.querySelector('.year-input').value;
     
+    // Persönliche Daten auch hier speichern
+    savePersonalData();
+    
     const formData = {
         activities,
         hours,
@@ -347,6 +361,27 @@ function saveFormData(startDate) {
     };
     
     localStorage.setItem(`formData_${startDate}`, JSON.stringify(formData));
+}
+
+// Neue Funktion zum Speichern der persönlichen Daten
+function savePersonalData() {
+    const name = document.querySelector('.name-input').value;
+    const profession = document.querySelector('.profession-input').value;
+    
+    localStorage.setItem('apprenticeName', name);
+    localStorage.setItem('apprenticeProfession', profession);
+}
+
+// Neue Funktion zum Laden der persönlichen Daten
+function loadPersonalData() {
+    const nameInputs = document.querySelectorAll('.name-input');
+    const professionInputs = document.querySelectorAll('.profession-input');
+    
+    const savedName = localStorage.getItem('apprenticeName') || '';
+    const savedProfession = localStorage.getItem('apprenticeProfession') || '';
+    
+    nameInputs.forEach(input => input.value = savedName);
+    professionInputs.forEach(input => input.value = savedProfession);
 }
 
 // Vereinfachter Event Listener
@@ -390,7 +425,7 @@ function exportToPDF() {
     });
 
     const opt = {
-        margin: [0, 0, 0, 0],
+        margin: [5, 0, 0, 0],
         filename: fileName,
         image: { type: 'jpeg', quality: 1 },
         html2canvas: { 
@@ -401,7 +436,8 @@ function exportToPDF() {
             windowWidth: 794,
             windowHeight: 1123,
             x: 0,
-            y: 0
+            y: 0,
+            scrollY: -window.scrollY
         },
         jsPDF: { 
             unit: 'mm', 
@@ -419,12 +455,14 @@ function exportToPDF() {
     // Originale Styles speichern
     const originalStyles = {
         height: element.style.height,
-        padding: element.style.padding
+        padding: element.style.padding,
+        margin: element.style.margin
     };
 
-    // Exakte DIN A4 Höhe setzen
+    // Exakte DIN A4 Höhe setzen mit reduziertem oberem Padding
     element.style.height = '297mm';
-    element.style.padding = '15mm';
+    element.style.padding = '5mm 15mm 15mm 15mm';
+    element.style.margin = '0';
     element.style.overflow = 'hidden';
 
     // PDF generieren
@@ -453,6 +491,7 @@ function exportToPDF() {
             // Styles wiederherstellen
             element.style.height = originalStyles.height;
             element.style.padding = originalStyles.padding;
+            element.style.margin = originalStyles.margin;
             element.style.overflow = '';
             downloadBtn.style.display = 'flex';
         });
