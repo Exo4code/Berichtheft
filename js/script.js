@@ -365,11 +365,20 @@ function saveFormData(startDate) {
 
 // Neue Funktion zum Speichern der persönlichen Daten
 function savePersonalData() {
-    const name = document.querySelector('.name-input').value;
-    const profession = document.querySelector('.profession-input').value;
+    const nameInputs = document.querySelectorAll('.name-input');
+    const professionInputs = document.querySelectorAll('.profession-input');
     
+    // Nimm den Wert vom ersten Input-Feld
+    const name = nameInputs[0]?.value || '';
+    const profession = professionInputs[0]?.value || '';
+    
+    // Speichern im localStorage
     localStorage.setItem('apprenticeName', name);
     localStorage.setItem('apprenticeProfession', profession);
+    
+    // Aktualisiere alle anderen Instanzen der gleichen Felder
+    nameInputs.forEach(input => input.value = name);
+    professionInputs.forEach(input => input.value = profession);
 }
 
 // Neue Funktion zum Laden der persönlichen Daten
@@ -380,6 +389,7 @@ function loadPersonalData() {
     const savedName = localStorage.getItem('apprenticeName') || '';
     const savedProfession = localStorage.getItem('apprenticeProfession') || '';
     
+    // Setze die Werte in alle entsprechenden Input-Felder
     nameInputs.forEach(input => input.value = savedName);
     professionInputs.forEach(input => input.value = savedProfession);
 }
