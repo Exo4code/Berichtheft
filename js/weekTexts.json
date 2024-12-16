@@ -1,164 +1,164 @@
 {
     "08.07.2024": {
-        "monday": "Einführung in die Ausbildung\n- Begrüßung durch Ausbildungsleiter\n- Rundgang durch das Unternehmen\n- Sicherheitsunterweisung",
-        "tuesday": "IT-Grundlagen\n- Einrichtung des Arbeitsplatzes\n- Installation benötigter Software\n- Einführung in das Firmennetzwerk",
-        "wednesday": "Programmierung Basics\n- Einführung in HTML/CSS\n- Erste Übungsaufgaben\n- Code-Editor Einrichtung",
-        "thursday": "Datenbanken Grundlagen\n- Einführung in SQL\n- Datenbankdesign Basics\n- Praktische Übungen",
-        "friday": "Projektmanagement\n- Agile Methoden\n- SCRUM Grundlagen\n- Team-Meeting"
+        "monday": "- Teams Einführung und Funktionen\n- Support-Bereich kennenlernen\n- Gegenseitiges Vorstellen",
+        "tuesday": "- Tuckman Phasenmodell & Konstruktivismus\n- Kommunikation mit Ich-Botschaften\n- Lerntechniken und Lerntypen",
+        "wednesday": "- Lernmethoden (Karteikarten, Mindmapping, LOCI)\n- Zeitmanagement (SMART, ABC-Analyse)\n- Eisenhower & Pomodoro Techniken",
+        "thursday": "- Dateiorganisation & Sicherung\n- Grundlagen CMD\n- RemoteLab & Windows Installation",
+        "friday": "- Zahlensysteme (Dezimal, Binär)\n- Hexadezimal System\n- Umrechnungen zwischen Systemen"
     },
     "15.07.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung ins Lernfeld LF02\n- EVA-Prinzip & PC-Grundfunktionen\n- Technologietreiber in der IT\n- Digitalisierung & IT-Trends",
+        "tuesday": "- IT-Systeme: Bauformen & Spezifikationen\n- Qualitätsansprüche & Zertifikate\n- Green-IT & Umweltschutz\n- Gruppenarbeit: IT-Nachhaltigkeit",
+        "wednesday": "- Wirtschaftlichkeit von IT-Systemen\n- Hardware: Mainboard, CPU, RAM\n- CPU & RAM Vergleiche\n- Selbstlernphase: Komponenten",
+        "thursday": "- Mainboard-Schnittstellen\n- Netzteile & Speichersysteme\n- Monitortechnologien & Ergonomie\n- Drucktechnologien & Zubehör",
+        "friday": "- Binär-Dezimal Umrechnung\n- Kundenberatung & AIDA\n- Marketing-Grundlagen\n- Projektmanagement-Basics"
     },
     "22.07.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Miete, Finanzierung, Leasing\n- Handlungskosten & Kalkulation",
+        "tuesday": "- Gewinn- & Rückwärtskalkulation\n- Industriekalkulation",
+        "wednesday": "- Stundensatzberechnung\n- Leistungsprozess & Angebote",
+        "thursday": "- Lieferung & Installation\n- Überprüfung (B2C, B2B)",
+        "friday": "- Risikoanalyse & Recycling\n- Verpackungsgesetz"
     },
     "29.07.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub",
+        "tuesday": "Urlaub",
+        "wednesday": "Urlaub", 
+        "thursday": "Urlaub",
+        "friday": "Urlaub"
     },
     "05.08.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in kaufmännische Themen\n- Handlungsaufgabe: IT-Arbeitsplatz Einrichtung\n- Lasten- und Pflichtenheft\n- Selbstlernphase LF02",
+        "tuesday": "- Wiederholung LF02-Themen\n- Lernzielkontrolle & Nachbesprechung\n- Gruppenarbeit: Vorgangsliste & Handlungsaufgabe",
+        "wednesday": "- Reflexion der Handlungsaufgabe\n- Nutzwert- und Risikoanalyse\n- Kalkulation & Projektablaufplan\n- Recherche & Einzelgespräche",
+        "thursday": "- Review: Projektstruktur & Meilensteine\n- Angebotserstellung & Übergabeprotokoll\n- Strom- und Datenberechnungen\n- Leasingoptionen",
+        "friday": "- Finalisierung der Projektarbeit\n- Teampräsentationen\n- Reflexion & Kursbeurteilung\n- Abschlussfeedback"
     },
     "12.08.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Das Unternehmen und die eigene Rolle\n- Duales Ausbildungssystem\n- Berufsausbildungsvertrag",
+        "tuesday": "- Sozialversicherungen & Steuerklassen\n- Arbeitsrechte & Kündigung\n- Mitbestimmung der Arbeitnehmer",
+        "wednesday": "- Betriebsvereinbarung & Tarifvertrag\n- Globalisierung & Wirtschaftskreislauf\n- E-Business & E-Commerce", 
+        "thursday": "- Vollkommener Markt\n- Monopol & Oligopol\n- Preisbildung & Verkäufermarkt",
+        "friday": "- Wiederholung & Zusammenfassung\n- Lernzielkontrolle\n- Feedback & Reflexion"
     },
     "19.08.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Vorstellung des Dozenten und der Teilnehmer:innen\n- Einführung in Microsoft Office\n- Microsoft Word kennenlernen\n- Grundlegende Textformatierung",
+        "tuesday": "- Wiederholung: WORD Grundlagen\n- Ansätze formalisieren und Tabstopps\n- Dokumentvorlagen nutzen\n- Bilder und Formen einfügen",
+        "wednesday": "- EXCEL: Grundlegende Techniken\n- Formeln und Zellen formatieren\n- Tabellenansicht strukturieren\n- Diagramme und Bezüge",
+        "thursday": "- PowerPoint Grundlagen einführen\n- Folienbearbeitung und Gestaltung\n- Effektive Ansichten und Objekte\n- Programme erstellen",
+        "friday": "- Projekt: Stadtvorstellung\n- Präsentationen individualisieren\n- Folien und Begleitmaterial\n- Abschlusspräsentation"
     },
     "26.08.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung ins Bewerbungstraining\n- Analyse des Arbeitsmarktes\n- Selbstanalyse und Stärken-Schwächen-Profil\n- Recherche von Stellenangeboten",
+        "tuesday": "- Lebenslauf-Struktur und Aufbau\n- Gestaltung des Lebenslaufs\n- Formulierung von Tätigkeitsbeschreibungen\n- Bewerbungsfotos und Standards",
+        "wednesday": "- Anschreiben: Aufbau und Inhalt\n- Formulierungstechniken\n- Deckblatt-Gestaltung\n- Corporate Design in Bewerbungen",
+        "thursday": "- Vorbereitung auf Bewerbungsgespräche\n- Typische Fragen und Antworten\n- Körpersprache und Auftreten\n- Gehaltsverhandlungen",
+        "friday": "- Assessment Center: Ablauf und Übungen\n- Gruppendiskussionen\n- Präsentationstechniken\n- Simulationen und Rollenspiele"
     },
     "02.09.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Business English: Office Communication\n- Email Writing Skills\n- Professional Phone Calls\n- Meeting Vocabulary",
+        "tuesday": "- Technical English: Hardware Terms\n- Computer Components\n- Troubleshooting Vocabulary\n- Practice Dialogues",
+        "wednesday": "- English for Programming\n- Code Documentation\n- Technical Documentation\n- Developer Meetings",
+        "thursday": "- Customer Service English\n- Help Desk Communication\n- Problem Resolution\n- Client Meetings",
+        "friday": "- Presentation Skills in English\n- Public Speaking\n- Slide Design\n- Q&A Sessions"
     },
     "09.09.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- IT Project Management English\n- Planning Vocabulary\n- Team Coordination\n- Progress Reports",
+        "tuesday": "- Network Technology English\n- Infrastructure Terms\n- Security Vocabulary\n- Technical Discussions",
+        "wednesday": "- Software Development English\n- Agile Terminology\n- Code Reviews\n- Sprint Planning",
+        "thursday": "- Business Negotiations\n- Contract Terms\n- Price Discussions\n- Partnership Meetings",
+        "friday": "- Technical Writing\n- User Manuals\n- System Documentation\n- Report Writing"
     },
     "16.09.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung LF03: Clients in Netzwerke einbinden\n- Netzbereiche: private/öffentliche Netze, VLANs\n- Netzwerk-Clients & Cisco Packet Tracer",
+        "tuesday": "- Grundlagen Datenübertragung & LAN\n- Übertragungsarten & Multiplexing\n- Netzwerkadressierung & Übungen",
+        "wednesday": "- Ethernet-Standards & Frame-Aufbau\n- TCP/IP-Protokolle & Ports\n- IPv4-Adressen & Packet Tracer",
+        "thursday": "- Cloud-, Fog- und Edge-Computing\n- Cloud Services: SaaS, PaaS, IaaS\n- Netzwerksicherheit & Entwurf",
+        "friday": "- Netzwerktopologien & Verkabelung\n- Netzwerkmedien: Kupfer, LWL, Funk\n- Spezifikationen & Übungen"
     },
     "23.09.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Rückblick: Strukturierte Verkabelung & Netzwerkmedien\n- Grundkonfiguration eines Netzwerks\n- Switchtypen und Router\n- ISO/OSI- und TCP/IP-Modelle",
+        "tuesday": "- Vertiefung: ISO/OSI-Modell & Routing\n- MAC/IP-Adressen & CIDR\n- Netzwerklast & IP-Konfiguration\n- Dokumentation & Port-Scans",
+        "wednesday": "- Feedback: IPv4-Subnetting & Ethernet\n- IP-Konfiguration & DHCP\n- Cloud-Dienste & Speicher\n- Benutzerverwaltung & RADIUS",
+        "thursday": "- Wiederholung: Subnetze & Medienzugriff\n- Netzwerkprüfung & Verbindungstests\n- Management & Wartung\n- Selbstlernphase: Wartungsprozesse",
+        "friday": "- Gesprächsrunde: Topologien & Adressen\n- Router, Switches & VPN\n- Firewall & RAID-Systeme\n- Selbstlernphase: Netzwerksicherheit"
     },
     "30.09.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- RAID-Systeme, Medienzugriffsverfahren & Verkabelung\n- Managed Switches, Router & ISO/OSI-Modell\n- Backupstrategien & Netzwerksicherheit",
+        "tuesday": "- Subnetting, Proxy-Server & RAID-Systeme\n- USV, PoE & Netzersatzanlagen\n- IT-Stromversorgung & Infrastruktur",
+        "wednesday": "- LZK-Vorbereitung & Lernfeld-Reflexion\n- Green-IT & Stromverbrauchsoptimierung\n- RAID & Subnetting Vertiefung",
+        "thursday": "Tag der Deutschen Einheit (Feiertag)",
+        "friday": "- Abschließende LZK-Vorbereitung\n- Durchführung der Lernzielkontrolle\n- Ergebnisbesprechung & Kursabschluss"
     },
     "07.10.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung Projektmanagement: Projekt/Produkt\n- Projektstrukturplan & Ablaufplanung\n- Projektausgangssituation Timeshift GmbH\n- Schulung & Wochenabschluss",
+        "tuesday": "- Ressourcenplanung & Netzplantechnik\n- Critical Path Method & Gantt-Diagramm\n- Projektdokumentation\n- Feedback & Tagesabschluss",
+        "wednesday": "- Ressourcen- & Beschaffungsmanagement\n- Wertschöpfungskette & Vertragsmanagement\n- Personal- & Sachmittelplanung\n- Gesamtdokumentation",
+        "thursday": "- Kostenplanung & Projektkostenrechnung\n- Top-Down/Bottom-Up-Kostenplanung\n- Dokumentation & Gruppenarbeit\n- Ergebnisbesprechung",
+        "friday": "- Risikomanagement: PESTLE & Risikomatrix\n- Risikoidentifikation & Chancenumwandlung\n- Gruppenarbeit & Präsentation\n- Dokumentation & Abschluss"
     },
     "14.10.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Projektinitiierung & Stakeholderanalyse\n- Projektumfang & Zieldefinition\n- Meilensteinplanung\n- Kick-off Meeting Vorbereitung",
+        "tuesday": "- Agile Methoden: Scrum & Kanban\n- Sprint Planning & Daily Standups\n- User Stories & Product Backlog\n- Projektmanagement-Tools",
+        "wednesday": "- Projektcontrolling & Reporting\n- Earned Value Analyse\n- Qualitätsmanagement\n- Change Management",
+        "thursday": "- Risikomanagement & SWOT-Analyse\n- Projektbudgetierung\n- Ressourcenplanung\n- Konfliktmanagement",
+        "friday": "- Projektabschlusspräsentation\n- Lessons Learned Workshop\n- Projektdokumentation\n- Retrospektive & Evaluation"
     },
     "21.10.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Überblick über Kurs- und Wochenthemen: IT-Grundschutz und Ziele\n- Verantwortliche Stellen, Aufsichtsbehörden und relevante Gesetze\n- Selbstlernphase zur Vertiefung der Inhalte",
+        "tuesday": "- Elementare Gefährdungen, Risikoanalyse und Bedrohungen\n- Kryptographie: Verschlüsselungsziele, Kennwörter und Hash-Verfahren\n- Selbstlernphase zur weiteren Vertiefung",
+        "wednesday": "- Einführung in Malware-Arten und deren Wirkungsweise\n- Social Engineering: Techniken und Präventionsmaßnahmen\n- Technisch-organisatorische Maßnahmen (TOM) besprochen",
+        "thursday": "- Schutzbedarfsfeststellung anhand praktischer Beispiele\n- Urheberrecht, Copyright und Grundlagen des Hacking-Prozesses\n- Selbstlernphase zur Vorbereitung auf die Lernzielkontrolle",
+        "friday": "- Wiederholungsquiz und Klärung offener Fragen\n- Selbstlernphase und Durchführung der Lernzielkontrolle\n- Abschlussrunde mit Feedback und Reflexion"
     },
     "28.10.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Wiederholung: Verkabelung, Ethernet, TCP/IP\n- Kundenanforderungen & Lastenheft\n- Praktische Dokumentationsübungen",
+        "tuesday": "- Switching-Grundlagen & Broadcast-Domains\n- ARP, STP & PDU\n- MAC-Adressen & Switching-Übungen",
+        "wednesday": "- Statisches & Dynamisches Routing\n- IGP/EGP & Routing-Protokolle\n- Praktische Routing-Übungen",
+        "thursday": "Feiertag (Reformationstag)",
+        "friday": "Allerheiligen (Feiertag)"
     },
     "04.11.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Grundlagen von VLANs, Trunking und Tagging\n- Praxisprojekt: Aufbau, Konfiguration und Prüfung der Netzwerke\n- Troubleshooting: Broadcast-Stürme und Verbindung von Netzwerken",
+        "tuesday": "- Wiederholung: IPv4 Grundlagen und Subnetting\n- Einführung in IPv6: Adresstypen, Regeln und Präfixe\n- Übungen zu Subnetting und IPv6-Regeln",
+        "wednesday": "- IPv6 Neighbor Discovery, SLAAC und Privacy Extensions\n- Grundlagen und Optionen von DHCP, Lease-Erzeugung und Erneuerung\n- DHCP Relay-Agent und praktische Übungen",
+        "thursday": "- DNS: Grundlagen, hierarchischer Aufbau und Zonenverwaltung\n- Nachverfolgung von DHCP- und DNS-Nachrichten mit Wireshark\n- Übungen zur Vertiefung von DNS- und DHCP-Konzepten",
+        "friday": "- WAN: Internetverbindungen (Kabel, DSL, Mobilfunk) und Dual Stack\n- Firewalls: Grundlagen, Paketfilterung und Access Control Lists (ACLs)\n- Netzwerk-NAT: Portfreigabe, (S)NAT und SPI (Stateful Packet Inspection)"
     },
     "11.11.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Firewalls: DMZ, Topologien und Segmentierung\n- WLAN: Standards, Ad-hoc- und Infrastrukturmodus\n- Verschlüsselungsmethoden und praktische Übungen",
+        "tuesday": "- Einführung in Linux: Philosophie, Aufbau, Dateisysteme\n- Grundbefehle und Syntax mit Demonstration\n- Praxis: Arbeiten mit Dateisystemen und Grundbefehlen",
+        "wednesday": "- Linux-Shell: Umleitung, Verkettung, Pipe-Mechanismus\n- Installation eines Debian-Servers (headless)\n- SSH: Grundlagen und Client-Server-Verbindung",
+        "thursday": "- SSH-Sicherheit: PubkeyAuthentication & Konfiguration\n- Projekt: Installation von Nextcloud auf Debian\n- Vorbereitung auf die Lernzielkontrolle",
+        "friday": "- Durchführung der Lernzielkontrolle\n- Besprechung der Ergebnisse\n- Freie Lernphase für Vertiefung"
     },
     "18.11.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Analyse des Softwareentwicklungsumfelds und Aufgaben von Entwicklern\n- Einführung in Python: Entwicklungsumgebung und erste Programme\n- Verzweigungen implementieren und erste Übungen",
+        "tuesday": "- Softwarearten, Neuentwicklung vs. Anpassung, EVA-Prinzip\n- Zahlensysteme (Dezimal, Dual, Hexadezimal) und Datendarstellung\n- Python: Einfache Anwendungen programmieren",
+        "wednesday": "- Umrechnungsmethoden (Addition, Subtraktion, Division) vertiefen\n- Darstellungsformen von Daten in IT-Systemen analysieren\n- Einzelarbeit zu Umrechnungsmethoden",
+        "thursday": "- Phasen der Softwareentwicklung und Vorgehensmodelle analysieren\n- Python: Schleifen und Listen implementieren\n- Einzelarbeit zu Schleifen und Listen",
+        "friday": "- Syntaktische Grundlagen und Exception-Handling\n- Programmierung von Schleifen und Listen in Python\n- Einzelarbeit zur Vertiefung der Schleifenkonzepte"
     },
     "25.11.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Anforderungen an Software und Lasten-/Pflichtenheft spezifizieren\n- Einführung in den Entwurfsprozess und Modellierungssprachen\n- Übungen zur Modellierung von Softwareanforderungen",
+        "tuesday": "- Python: Verzweigungen und Funktionen implementieren\n- Schleifen-Programmierung in Einzel- und Gruppenarbeit\n- Weiterführung der Übungen zu Schleifen und Listen",
+        "wednesday": "- Verzweigungen und Funktionen mit Rekursion vertiefen\n- Zugriff auf Dateien in Python realisieren\n- Übungen zu Dateizugriff und Datenmanagement",
+        "thursday": "- Planung und Umsetzung von Datenbanken\n- Erstellung eines ER-Modells zur Beschreibung von Datenbeziehungen\n- Grundlagen des relationalen Datenmodells erläutern",
+        "friday": "- Ranking und Vergleich von Datenbanksystemen\n- Erstellung und Analyse von relationalen Datenmodellen\n- Übungen zur Anwendung der Datenbankkonzepte in der Praxis"
     },
     "02.12.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in das relationale Datenmodell und Datenbankplanung\n- Erstellung einer einfachen Datenbank in XAMPP\n- Übungen zum relationalen Datenmodell und Datenbankstruktur",
+        "tuesday": "- Überführung von ER-Modellen in relationale Datenmodelle\n- Grundlagen der Datenbanksprache SQL (SELECT, INSERT, UPDATE)\n- Erste SQL-Übungen und Abfragen in Einzelarbeit",
+        "wednesday": "- Anwendung von INNER JOIN, LEFT JOIN, RIGHT JOIN in SQL\n- Aufbau komplexer Abfragen und Datenbankmanipulation\n- Praktische Einzelarbeit zur Vertiefung von SQL-Joins",
+        "thursday": "- SQLite-Datenbanken mit Python ansprechen und bearbeiten\n- Einführung in Softwaretests: Testprozess und Dokumentation\n- Einzelarbeit: Implementierung und Testen einer SQLite-Datenbank",
+        "friday": "- Lernzielkontrolle zu den Themen relationaler Datenbanken und SQL\n- Erstellung von Softwaredokumentationen und Bewertung des Entwicklungsprozesses\n- Evaluation von Programmiersprachen und deren Anwendungsmöglichkeiten"
     },
     "09.12.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Überblick über IT-Servicearten und ITIL-Service-Lifecycle\n- Standards und rechtliche Anforderungen (ISO, DSGVO, Governance)\n- Selbstlernphase: Datenschutz und Datensicherheit",
+        "tuesday": "- Grundlagen des Lizenzrechts und Service-Ticketsysteme (SPoC, RACI, SLA)\n- Prozesse der Störungsbearbeitung: Klassifizierung, Priorisierung, Eskalation\n- Selbstlernphase: Erfolgsfaktoren, KPIs und Verfügbarkeitsberechnung",
+        "wednesday": "- Incident- und Problem-Management: DMAIC-Zyklus, Ishikawa-Diagramm\n- Monitoring-Tools: Infrastruktur-, Log- und TCP-Analyse\n- Selbstlernphase: Prinzipien der Arbeitsorganisation (Eisenhower, Pareto)",
+        "thursday": "- Kommunikationsmodelle (Schulz von Thun, Lewin) und gute Servicedesk-Praxis\n- Konfliktbewältigung: Deeskalationsstrategien und Problemanalyse nach Kepner-Tregoe\n- Selbstlernphase: SLA-Übungen und präventive Wartungsmaßnahmen",
+        "friday": "- Maßnahmen zur Störungsvermeidung und Instandhaltungsstrategien\n- Verbesserung der Kundenberatung durch Medienkompetenz und Schulungsmaßnahmen\n- Reflexion und Kursabschluss mit Übungsbesprechung"
     },
     "16.12.2024": {
         "monday": "Platzhalter für Montag",
