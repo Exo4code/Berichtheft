@@ -424,30 +424,6 @@ function exportToPDF() {
         textarea.style.display = 'none';
     });
 
-    const opt = {
-        margin: [5, 0, 0, 0],
-        filename: fileName,
-        image: { type: 'jpeg', quality: 1 },
-        html2canvas: { 
-            scale: 2,
-            useCORS: true,
-            letterRendering: true,
-            height: 1123,
-            windowWidth: 794,
-            windowHeight: 1123,
-            x: 0,
-            y: 0,
-            scrollY: -window.scrollY
-        },
-        jsPDF: { 
-            unit: 'mm', 
-            format: 'a4', 
-            orientation: 'portrait',
-            putOnlyUsedFonts: true,
-            compress: true
-        }
-    };
-
     // Temporär den Download-Button ausblenden für den Export
     const downloadBtn = document.querySelector('.download-button');
     downloadBtn.style.display = 'none';
@@ -456,14 +432,48 @@ function exportToPDF() {
     const originalStyles = {
         height: element.style.height,
         padding: element.style.padding,
-        margin: element.style.margin
+        margin: element.style.margin,
+        position: element.style.position,
+        top: element.style.top
     };
 
-    // Exakte DIN A4 Höhe setzen mit reduziertem oberem Padding
+    // Exakte Positionierung für den Export setzen
+    element.style.position = 'fixed';
+    element.style.top = '0';
     element.style.height = '297mm';
-    element.style.padding = '5mm 15mm 15mm 15mm';
+    element.style.padding = '10mm 15mm 15mm 15mm';
     element.style.margin = '0';
     element.style.overflow = 'hidden';
+    element.style.backgroundColor = 'white';
+
+    const opt = {
+        margin: 0,
+        filename: fileName,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { 
+            scale: 2,
+            useCORS: true,
+            letterRendering: true,
+            width: 794, // Exakte A4-Breite in Pixeln
+            height: 1123, // Exakte A4-Höhe in Pixeln
+            x: 0,
+            y: 0,
+            scrollY: 0,
+            windowWidth: 794,
+            windowHeight: 1123,
+            removeContainer: true,
+            logging: false,
+            backgroundColor: '#FFFFFF'
+        },
+        jsPDF: { 
+            unit: 'mm', 
+            format: 'a4', 
+            orientation: 'portrait',
+            putOnlyUsedFonts: true,
+            compress: true,
+            precision: 16
+        }
+    };
 
     // PDF generieren
     html2pdf()
@@ -472,6 +482,7 @@ function exportToPDF() {
         .toPdf()
         .get('pdf')
         .then((pdf) => {
+            // Entferne zusätzliche Seiten, falls vorhanden
             if (pdf.internal.pages.length > 1) {
                 pdf.deletePage(2);
             }
@@ -488,11 +499,14 @@ function exportToPDF() {
                 }
             });
 
-            // Styles wiederherstellen
+            // Originale Styles wiederherstellen
+            element.style.position = originalStyles.position;
+            element.style.top = originalStyles.top;
             element.style.height = originalStyles.height;
             element.style.padding = originalStyles.padding;
             element.style.margin = originalStyles.margin;
             element.style.overflow = '';
+            element.style.backgroundColor = '';
             downloadBtn.style.display = 'flex';
         });
 }
