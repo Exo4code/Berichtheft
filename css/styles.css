@@ -213,12 +213,12 @@ td:first-child {
     border-bottom: 1px solid #000;
     outline: none;
     font-family: Arial, sans-serif;
-    font-size: 13px;
-    padding: 4px 0;
+    font-size: 16px;
+    padding: 0px 2px;
     background: transparent;
     height: 24px;
     position: relative;
-    top: -4px;
+    top: -3px;
 }
 
 .underline-input-small {
@@ -227,12 +227,12 @@ td:first-child {
     border-bottom: 1px solid #000;
     outline: none;
     font-family: Arial, sans-serif;
-    font-size: 13px;
-    padding: 4px 0;
+    font-size: 15px;
+    padding: 0px 0;
     background: transparent;
     height: 24px;
     position: relative;
-    top: -4px;
+    top: -3px;
 }
 
 /* Styling für das Dropdown-Icon */
@@ -310,8 +310,8 @@ input[list="weekdays-end"] {
     border-bottom: 1px solid #000;
     outline: none;
     font-family: Arial, sans-serif;
-    font-size: 13px;
-    padding: 4px 0;
+    font-size: 16px;
+    padding: 0px 0;
     background: transparent;
     text-align: center;
     position: relative;
@@ -344,8 +344,8 @@ input[list="weekdays-end"] {
     border-bottom: 1px solid #000;
     outline: none;
     font-family: Arial, sans-serif;
-    font-size: 13px;
-    padding: 4px 0;
+    font-size: 16px;
+    padding: 0px 0;
     background: transparent;
     height: 24px;
 }
