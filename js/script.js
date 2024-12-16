@@ -71,12 +71,34 @@ function generateWeeksList() {
         downloadButton.innerHTML = '<i class="fi fi-sr-download"></i>';
         
         // Event-Listener für den Download-Button
-        downloadButton.addEventListener('click', (e) => {
-            e.stopPropagation(); // Verhindert das Auslösen des Click-Events des Eltern-Elements
+        downloadButton.addEventListener('click', async (e) => {
+            e.stopPropagation();
             
             // Setze die Daten im Hauptformular
             document.getElementById('weekStart').value = startDateStr;
             document.getElementById('weekEnd').value = endDateStr;
+            
+            // Setze das korrekte Ausbildungsjahr basierend auf dem Jahr
+            const year = startDateStr.split('.')[2];
+            const yearInput = document.querySelector('.year-input');
+            switch(year) {
+                case '2024':
+                    yearInput.value = '1';
+                    break;
+                case '2025':
+                    yearInput.value = '2';
+                    break;
+                case '2026':
+                    yearInput.value = '3';
+                    break;
+            }
+            
+            // Setze die korrekte Nummer für diese Woche
+            const weekNumber = calculateWeekNumber(startDateStr);
+            document.querySelector('.number-input').value = weekNumber;
+            
+            // Lade die gespeicherten Daten für diese Woche
+            await loadFormData(startDateStr);
             
             // Führe den Download aus
             exportToPDF();
@@ -232,47 +254,99 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Funktion zum Speichern der Formulardaten
-function saveFormData(startDate) {
-    const formData = {
-        activities: [],
-        hours: [],
-        number: document.querySelector('.number-input').value
-    };
-    
-    // Aktivitäten sammeln
-    document.querySelectorAll('.activity-input').forEach(textarea => {
-        formData.activities.push(textarea.value);
-    });
-    
-    // Stunden sammeln
-    document.querySelectorAll('.hours-input').forEach(input => {
-        formData.hours.push(input.value);
-    });
-    
-    // Im localStorage speichern
-    localStorage.setItem(`formData_${startDate}`, JSON.stringify(formData));
+// Neue loadFormData Funktion
+async function loadFormData(startDate) {
+    try {
+        const savedData = localStorage.getItem(`formData_${startDate}`);
+        if (savedData) {
+            const data = JSON.parse(savedData);
+            
+            // Aktivitäten laden
+            const textareas = document.querySelectorAll('.activity-input');
+            data.activities.forEach((activity, index) => {
+                if (textareas[index]) {
+                    textareas[index].value = activity || '';
+                }
+            });
+            
+            // Stunden laden
+            const hoursInputs = document.querySelectorAll('.hours-input');
+            data.hours.forEach((hours, index) => {
+                if (hoursInputs[index]) {
+                    hoursInputs[index].value = hours || '';
+                }
+            });
+            
+            // Nummer laden
+            if (data.number) {
+                document.querySelector('.number-input').value = data.number;
+            }
+            
+            // Ausbildungsjahr laden, falls gespeichert
+            if (data.yearInput) {
+                document.querySelector('.year-input').value = data.yearInput;
+            } else {
+                // Setze Standard-Ausbildungsjahr basierend auf dem Jahr
+                const year = startDate.split('.')[2];
+                switch(year) {
+                    case '2024':
+                        document.querySelector('.year-input').value = '1';
+                        break;
+                    case '2025':
+                        document.querySelector('.year-input').value = '2';
+                        break;
+                    case '2026':
+                        document.querySelector('.year-input').value = '3';
+                        break;
+                }
+            }
+        } else {
+            // Wenn keine gespeicherten Daten existieren
+            // Setze Standard-Ausbildungsjahr basierend auf dem Jahr
+            const year = startDate.split('.')[2];
+            switch(year) {
+                case '2024':
+                    document.querySelector('.year-input').value = '1';
+                    break;
+                case '2025':
+                    document.querySelector('.year-input').value = '2';
+                    break;
+                case '2026':
+                    document.querySelector('.year-input').value = '3';
+                    break;
+            }
+            
+            // Setze die korrekte Nummer für diese Woche
+            const weekNumber = calculateWeekNumber(startDate);
+            document.querySelector('.number-input').value = weekNumber;
+            
+            // Lade vordefinierte Texte
+            await loadPredefinedTexts(startDate);
+        }
+    } catch (error) {
+        console.error('Fehler beim Laden der Formulardaten:', error);
+    }
 }
 
-// Funktion zum Laden der Formulardaten
-function loadFormData(startDate) {
-    const savedData = localStorage.getItem(`formData_${startDate}`);
-    if (savedData) {
-        const formData = JSON.parse(savedData);
-        
-        // Aktivitäten wiederherstellen
-        document.querySelectorAll('.activity-input').forEach((textarea, index) => {
-            textarea.value = formData.activities[index] || '';
-        });
-        
-        // Stunden wiederherstellen
-        document.querySelectorAll('.hours-input').forEach((input, index) => {
-            input.value = formData.hours[index] || '';
-        });
-        
-        // Nummer wiederherstellen
-        document.querySelector('.number-input').value = formData.number || '';
-    }
+// Bestehende saveFormData Funktion (zur Referenz)
+function saveFormData(startDate) {
+    const activities = Array.from(document.querySelectorAll('.activity-input'))
+        .map(textarea => textarea.value);
+    
+    const hours = Array.from(document.querySelectorAll('.hours-input'))
+        .map(input => input.value);
+    
+    const number = document.querySelector('.number-input').value;
+    const yearInput = document.querySelector('.year-input').value;
+    
+    const formData = {
+        activities,
+        hours,
+        number,
+        yearInput
+    };
+    
+    localStorage.setItem(`formData_${startDate}`, JSON.stringify(formData));
 }
 
 // Vereinfachter Event Listener
