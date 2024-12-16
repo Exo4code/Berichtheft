@@ -122,7 +122,7 @@ function updateFormWithDates(startDate, endDate) {
 
 async function loadPredefinedTexts(startDate) {
     try {
-        const response = await fetch('weekTexts.json');
+        const response = await fetch('./js/weekTexts.json');
         const weekTexts = await response.json();
         
         // Prüfen ob es vordefinierte Texte für diese Woche gibt
