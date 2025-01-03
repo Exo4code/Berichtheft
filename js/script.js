@@ -232,7 +232,7 @@ function initializeYearButtons() {
     });
 }
 
-// Beim Laden der Seite den gespeicherten Status wiederherstellen
+// Beim Laden der Seite
 document.addEventListener('DOMContentLoaded', function() {
     generateWeeksList();
     initializeYearButtons();
@@ -245,20 +245,23 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('change', savePersonalData);
     });
     
-    // Gespeicherte Daten wiederherstellen
-    const savedStartDate = localStorage.getItem('currentWeekStart');
-    const savedEndDate = localStorage.getItem('currentWeekEnd');
-    
-    if (savedStartDate && savedEndDate) {
-        updateFormWithDates(savedStartDate, savedEndDate);
+    // Automatisch die erste Woche auswählen und laden
+    const firstWeekItem = document.querySelector('.week-item');
+    if (firstWeekItem) {
+        // Extrahiere das Datum aus dem ersten Week-Item
+        const dateSpan = firstWeekItem.querySelector('.week-date');
+        const dateText = dateSpan.textContent;
+        const [startDate, endDate] = dateText.split(' - ');
         
-        // Aktiven Status in der Liste wiederherstellen
-        const weekItems = document.querySelectorAll('.week-date');
-        weekItems.forEach(item => {
-            if (item.textContent.includes(savedStartDate)) {
-                item.closest('.week-item').classList.add('active');
-            }
-        });
+        // Setze aktiven Status
+        firstWeekItem.classList.add('active');
+        
+        // Formular mit den Daten der ersten Woche füllen
+        updateFormWithDates(startDate, endDate);
+        
+        // Speichere die aktuelle Auswahl im localStorage
+        localStorage.setItem('currentWeekStart', startDate);
+        localStorage.setItem('currentWeekEnd', endDate);
     }
 });
 
