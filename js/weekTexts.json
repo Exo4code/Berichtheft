@@ -161,32 +161,32 @@
         "friday": "- Maßnahmen zur Störungsvermeidung und Instandhaltungsstrategien\n- Verbesserung der Kundenberatung durch Medienkompetenz und Schulungsmaßnahmen\n- Reflexion und Kursabschluss mit Übungsbesprechung"
     },
     "16.12.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in IoT\n- Einflussfaktoren auf CPS\n- Aufgaben im Arbeitsbuch (S. 60-63)",
+        "tuesday": "- Anwendungsfelder von CPS\n- Struktureller Aufbau von CPS\n- IoT- und Industrial-Protokolle",
+        "wednesday": "- IoT- und Industrial-Protokolle\n- MQTT-Protokoll\n- Open-UA Standard",
+        "thursday": "- Datenfluss an CPS-Schnittstellen\n- Energie-, Stoff-, Informationsflüsse\n- Praktische Übungen (WokWi)",
+        "friday": "- CPS-Analyse im Unternehmen\n- Bestandsaufnahme & Gefahren\n- Schnittstellenvergleich (GPIO, UART, I²C, SPI)"
     },
     "23.12.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub (Weihnachtsferien)",
+        "tuesday": "Urlaub (Weihnachtsferien)", 
+        "wednesday": "Urlaub (Weihnachtsferien)",
+        "thursday": "Urlaub (Weihnachtsferien)",
+        "friday": "Urlaub (Weihnachtsferien)"
     },
     "30.12.2024": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub (Weihnachtsferien)",
+        "tuesday": "Urlaub (Weihnachtsferien)",
+        "wednesday": "Urlaub (Weihnachtsferien)",
+        "thursday": "Urlaub (Weihnachtsferien)", 
+        "friday": "Urlaub (Weihnachtsferien)"
     },
     "01.01.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub (Weihnachtsferien)",
+        "tuesday": "Urlaub (Weihnachtsferien)",
+        "wednesday": "Urlaub (Weihnachtsferien)",
+        "thursday": "Urlaub (Weihnachtsferien)",
+        "friday": "Urlaub (Weihnachtsferien)"
     },
     "06.01.2025": {
         "monday": "Platzhalter für Montag",
