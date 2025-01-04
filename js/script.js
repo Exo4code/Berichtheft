@@ -608,20 +608,25 @@ document.querySelectorAll('.year-button').forEach(button => {
 
 // Neue Funktion für den kombinierten PDF-Download 2024
 async function downloadCombinedPDF2024() {
-    // Button-Status ändern während des Downloads
-    const batchButton = document.querySelector('.all2024files');
-    const originalContent = batchButton.innerHTML;
-    batchButton.innerHTML = '<i class="fi fi-sr-spinner"></i>';
-    batchButton.style.pointerEvents = 'none';
-    batchButton.classList.add('loading');
-
+    // Zeige das Overlay
+    const overlay = document.querySelector('.download-overlay');
+    overlay.classList.add('active');
+    
     try {
         // Alle Wochen-Items aus 2024 holen
         const weekItems = document.querySelectorAll('#weekList2024 .week-item');
         let mergedPdf = await PDFLib.PDFDocument.create();
         
+        // Status-Text aktualisieren
+        const statusText = document.querySelector('.download-status');
+        let currentPage = 0;
+        const totalPages = weekItems.length;
+        
         // Für jede Woche eine Seite erstellen
         for (const weekItem of weekItems) {
+            currentPage++;
+            statusText.textContent = `Verarbeite Seite ${currentPage} von ${totalPages}...`;
+            
             const dateSpan = weekItem.querySelector('.week-date');
             const dateText = dateSpan.textContent;
             const [startDate, endDate] = dateText.split(' - ');
@@ -696,6 +701,7 @@ async function downloadCombinedPDF2024() {
         }
         
         // Finale PDF speichern und herunterladen
+        statusText.textContent = 'PDF wird heruntergeladen...';
         const mergedPdfBytes = await mergedPdf.save();
         const blob = new Blob([mergedPdfBytes], { type: 'application/pdf' });
         const link = document.createElement('a');
@@ -710,9 +716,8 @@ async function downloadCombinedPDF2024() {
         console.error('Fehler beim Erstellen der kombinierten PDF:', error);
         alert('Es gab einen Fehler beim Erstellen der PDF. Bitte versuchen Sie es erneut.');
     } finally {
-        batchButton.innerHTML = originalContent;
-        batchButton.classList.remove('loading');
-        batchButton.style.pointerEvents = 'auto';
+        // Overlay ausblenden
+        overlay.classList.remove('active');
     }
 }
 
