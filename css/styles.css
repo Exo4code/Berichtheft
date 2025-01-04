@@ -440,8 +440,16 @@ table, th, td {
     padding: 0 4px;
 }
 
-.year-button {
+.year-group {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.year-button {
+    width: 100%;
     padding: 6px 12px;
     background: #343541;
     border: 1px solid #565869;
@@ -450,6 +458,53 @@ table, th, td {
     font-size: 13px;
     color: #ECECF1;
     transition: all 0.2s ease;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 0;
+}
+
+.all2024files {
+    width: 100%;
+    background: #343541;
+    border: 1px solid #565869;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px 8px;
+    color: #ECECF1;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    min-width: 0;
+}
+
+.all2024files:hover {
+    background-color: #40414F;
+    border-color: #6E6E80;
+}
+
+.all2024files:active {
+    transform: scale(0.98);
+}
+
+.all2024files i {
+    font-size: 14px;
+}
+
+/* Animation für den Spinner während des Downloads */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.all2024files .fi-sr-spinner {
+    animation: spin 1s linear infinite;
+}
+
+/* Anpassung der Jahr-Buttons für besseren Platz */
+.year-button:last-child {
+    margin-right: 0;
 }
 
 .year-button:hover {
@@ -777,4 +832,134 @@ table, th, td {
     .underline-input-small {
         width: 80px;
     }
+}
+
+/* Mangekyo Sharingan Spinner Animation */
+@keyframes sharingan-spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+        filter: drop-shadow(0 0 2px #ff0000);
+    }
+    33% {
+        transform: rotate(120deg) scale(1.1);
+        filter: drop-shadow(0 0 6px #ff0000);
+    }
+    66% {
+        transform: rotate(240deg) scale(1.1);
+        filter: drop-shadow(0 0 8px #ff0000);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+        filter: drop-shadow(0 0 2px #ff0000);
+    }
+}
+
+@keyframes tomoe-pulse {
+    0% {
+        opacity: 0.7;
+        filter: brightness(1) drop-shadow(0 0 2px #ff0000);
+    }
+    50% {
+        opacity: 1;
+        filter: brightness(1.5) drop-shadow(0 0 8px #ff0000);
+    }
+    100% {
+        opacity: 0.7;
+        filter: brightness(1) drop-shadow(0 0 2px #ff0000);
+    }
+}
+
+.all2024files .fi-sr-spinner {
+    animation: sharingan-spin 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    color: #ff0000;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    transform-origin: center;
+    display: inline-block;
+    position: relative;
+}
+
+.all2024files.loading {
+    background: radial-gradient(circle, #1a0000 0%, #000000 100%);
+    border: 1px solid #ff0000;
+    overflow: hidden;
+    position: relative;
+}
+
+.all2024files.loading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(
+        circle,
+        transparent 30%,
+        rgba(255, 0, 0, 0.1) 40%,
+        transparent 50%
+    );
+    transform: translate(-50%, -50%);
+    animation: tomoe-pulse 2s ease-out infinite;
+}
+
+/* Hover-Effekt für den Loading-Zustand */
+.all2024files.loading:hover {
+    background: radial-gradient(circle, #2a0000 0%, #000000 100%);
+    border-color: #ff3333;
+}
+
+/* Zusätzlicher Glüh-Effekt */
+.all2024files.loading::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(
+        circle at center,
+        rgba(255, 0, 0, 0.2) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+/* Loader Animation im modernen Stil */
+@keyframes l7 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+.all2024files .fi-sr-spinner {
+    width: 20px;
+    aspect-ratio: 1;
+    --_c: no-repeat radial-gradient(farthest-side, #ECECF1 92%, #0000);
+    background: 
+        var(--_c) top,
+        var(--_c) left,
+        var(--_c) right,
+        var(--_c) bottom;
+    background-size: 6px 6px;
+    animation: l7 1s infinite;
+    position: relative;
+    font-size: 0; /* Versteckt das Icon */
+}
+
+.all2024files.loading {
+    background: #343541;
+    border: 1px solid #565869;
+    position: relative;
+    overflow: hidden;
+}
+
+.all2024files.loading:hover {
+    background: #40414F;
+    border-color: #6E6E80;
+}
+
+/* Entferne alte Styles */
+.all2024files.loading::before,
+.all2024files.loading::after {
+    content: none;
 }

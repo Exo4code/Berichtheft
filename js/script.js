@@ -232,6 +232,70 @@ function initializeYearButtons() {
     });
 }
 
+// Neue Funktion zur Erkennung des aktuellen Datums und der Woche
+function selectCurrentWeek() {
+    const today = new Date();
+    const currentYear = today.getFullYear();
+    
+    // Prüfe ob das aktuelle Jahr in unseren Ausbildungsjahren liegt
+    if (currentYear >= 2024 && currentYear <= 2026) {
+        // Aktiviere den korrekten Jahr-Button
+        const yearButtons = document.querySelectorAll('.year-button');
+        yearButtons.forEach(button => {
+            if (button.dataset.year === currentYear.toString()) {
+                button.click(); // Simuliere Klick auf den richtigen Jahr-Button
+            }
+        });
+        
+        // Finde die aktuelle Woche
+        const weekItems = document.querySelectorAll('.week-item');
+        let currentWeekItem = null;
+        let smallestDiff = Infinity;
+        
+        weekItems.forEach(item => {
+            const dateSpan = item.querySelector('.week-date');
+            const dateText = dateSpan.textContent;
+            const [startDateStr] = dateText.split(' - ');
+            
+            // Konvertiere das Datum aus dem deutschen Format (DD.MM.YYYY)
+            const [day, month, year] = startDateStr.split('.');
+            const weekDate = new Date(year, month - 1, day);
+            
+            // Berechne die Differenz zum heutigen Datum
+            const diff = Math.abs(today - weekDate);
+            
+            // Wenn diese Woche näher am aktuellen Datum ist
+            if (diff < smallestDiff) {
+                smallestDiff = diff;
+                currentWeekItem = item;
+            }
+        });
+        
+        // Wenn eine passende Woche gefunden wurde, wähle sie aus
+        if (currentWeekItem) {
+            const dateSpan = currentWeekItem.querySelector('.week-date');
+            const dateText = dateSpan.textContent;
+            const [startDate, endDate] = dateText.split(' - ');
+            
+            // Setze aktiven Status
+            document.querySelectorAll('.week-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            currentWeekItem.classList.add('active');
+            
+            // Formular mit den Daten der aktuellen Woche füllen
+            updateFormWithDates(startDate, endDate);
+            
+            // Speichere die aktuelle Auswahl im localStorage
+            localStorage.setItem('currentWeekStart', startDate);
+            localStorage.setItem('currentWeekEnd', endDate);
+            
+            // Scrolle zur ausgewählten Woche
+            currentWeekItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+}
+
 // Beim Laden der Seite
 document.addEventListener('DOMContentLoaded', function() {
     generateWeeksList();
@@ -245,24 +309,8 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('change', savePersonalData);
     });
     
-    // Automatisch die erste Woche auswählen und laden
-    const firstWeekItem = document.querySelector('.week-item');
-    if (firstWeekItem) {
-        // Extrahiere das Datum aus dem ersten Week-Item
-        const dateSpan = firstWeekItem.querySelector('.week-date');
-        const dateText = dateSpan.textContent;
-        const [startDate, endDate] = dateText.split(' - ');
-        
-        // Setze aktiven Status
-        firstWeekItem.classList.add('active');
-        
-        // Formular mit den Daten der ersten Woche füllen
-        updateFormWithDates(startDate, endDate);
-        
-        // Speichere die aktuelle Auswahl im localStorage
-        localStorage.setItem('currentWeekStart', startDate);
-        localStorage.setItem('currentWeekEnd', endDate);
-    }
+    // Automatische Erkennung und Auswahl der aktuellen Woche
+    selectCurrentWeek();
 });
 
 // Neue loadFormData Funktion
@@ -557,3 +605,116 @@ document.querySelectorAll('.year-button').forEach(button => {
         }
     });
 });
+
+// Neue Funktion für den kombinierten PDF-Download 2024
+async function downloadCombinedPDF2024() {
+    // Button-Status ändern während des Downloads
+    const batchButton = document.querySelector('.all2024files');
+    const originalContent = batchButton.innerHTML;
+    batchButton.innerHTML = '<i class="fi fi-sr-spinner"></i>';
+    batchButton.style.pointerEvents = 'none';
+    batchButton.classList.add('loading');
+
+    try {
+        // Alle Wochen-Items aus 2024 holen
+        const weekItems = document.querySelectorAll('#weekList2024 .week-item');
+        let mergedPdf = await PDFLib.PDFDocument.create();
+        
+        // Für jede Woche eine Seite erstellen
+        for (const weekItem of weekItems) {
+            const dateSpan = weekItem.querySelector('.week-date');
+            const dateText = dateSpan.textContent;
+            const [startDate, endDate] = dateText.split(' - ');
+            
+            // Formular mit den Daten der Woche füllen
+            document.getElementById('weekStart').value = startDate;
+            document.getElementById('weekEnd').value = endDate;
+            document.querySelector('.year-input').value = '1';
+            document.querySelector('.number-input').value = calculateWeekNumber(startDate);
+            
+            // Lade die gespeicherten Daten für diese Woche
+            await loadFormData(startDate);
+            
+            // Generiere PDF für diese Woche
+            const element = document.querySelector('.container');
+            
+            // Vorbereitung für PDF-Export
+            const textareas = element.querySelectorAll('.activity-input');
+            textareas.forEach(textarea => {
+                const text = textarea.value;
+                const div = document.createElement('div');
+                div.className = 'activity-input';
+                div.innerHTML = text.replace(/\n/g, '<br>');
+                textarea.parentNode.insertBefore(div, textarea);
+                textarea.style.display = 'none';
+            });
+
+            // PDF für diese Woche generieren
+            const pdfBytes = await html2pdf()
+                .set({
+                    margin: 0,
+                    filename: `Berichtsheft_${startDate}.pdf`,
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { 
+                        scale: 2,
+                        useCORS: true,
+                        letterRendering: true,
+                        width: 794,
+                        height: 1123,
+                        x: 0,
+                        y: 0,
+                        scrollY: 0,
+                        windowWidth: 794,
+                        windowHeight: 1123,
+                        removeContainer: true,
+                        logging: false,
+                        backgroundColor: '#FFFFFF'
+                    },
+                    jsPDF: { 
+                        unit: 'mm', 
+                        format: 'a4', 
+                        orientation: 'portrait',
+                        compress: true
+                    }
+                })
+                .from(element)
+                .outputPdf('arraybuffer');
+
+            // PDF zur zusammengeführten PDF hinzufügen
+            const currentPdf = await PDFLib.PDFDocument.load(pdfBytes);
+            const copiedPages = await mergedPdf.copyPages(currentPdf, [0]);
+            mergedPdf.addPage(copiedPages[0]);
+            
+            // Cleanup
+            textareas.forEach(textarea => {
+                textarea.style.display = '';
+                const div = textarea.previousSibling;
+                if (div && div.className === 'activity-input') {
+                    div.remove();
+                }
+            });
+        }
+        
+        // Finale PDF speichern und herunterladen
+        const mergedPdfBytes = await mergedPdf.save();
+        const blob = new Blob([mergedPdfBytes], { type: 'application/pdf' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'Berichtshefte_2024_komplett.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(link.href);
+        
+    } catch (error) {
+        console.error('Fehler beim Erstellen der kombinierten PDF:', error);
+        alert('Es gab einen Fehler beim Erstellen der PDF. Bitte versuchen Sie es erneut.');
+    } finally {
+        batchButton.innerHTML = originalContent;
+        batchButton.classList.remove('loading');
+        batchButton.style.pointerEvents = 'auto';
+    }
+}
+
+// Event-Listener für den Batch-Download-Button
+document.querySelector('.all2024files').addEventListener('click', downloadCombinedPDF2024);

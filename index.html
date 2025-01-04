@@ -10,15 +10,26 @@
   
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
 </head>
 <body>
     <div class="layout-wrapper">
         <div class="sidebar">
             <div class="sidebar-title">Wochenübersicht</div>
             <div class="year-buttons">
-                <button class="year-button active" data-year="2024">2024</button>
-                <button class="year-button" data-year="2025">2025</button>
-                <button class="year-button" data-year="2026">2026</button>
+                <div class="year-group">
+                    <button class="year-button active" data-year="2024">2024</button>
+                    <button class="all2024files" title="Alle Berichte 2024 herunterladen">
+                        <i class="fi fi-sr-download"></i>
+                    </button>
+                </div>
+                <div class="year-group">
+                    <button class="year-button" data-year="2025">2025</button>
+                </div>
+                <div class="year-group">
+                    <button class="year-button" data-year="2026">2026</button>
+                </div>
             </div>
             <ul class="week-list visible" id="weekList2024" data-year="2024">
                 <!-- Wird durch JavaScript gefüllt -->
