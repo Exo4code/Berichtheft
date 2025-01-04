@@ -418,7 +418,7 @@ table, th, td {
     width: 260px;
     background-color: #202123;
     border-right: none;
-    padding: 8px;
+    padding: 5px;
     overflow-y: auto;
     padding-bottom: 100px;
 }
@@ -449,7 +449,7 @@ table, th, td {
 
 .year-button {
     width: 100%;
-    padding: 6px 12px;
+    padding: 8px 12px;
     background: #343541;
     border: 1px solid #565869;
     border-radius: 6px;
@@ -665,7 +665,7 @@ table, th, td {
         width: 100%;
         height: auto;
         position: relative;
-        padding: 12px;
+        padding: 5px;
         max-height: none;
         overflow-y: visible;
         margin-top: 20px;
@@ -795,7 +795,7 @@ table, th, td {
 /* Zusätzliche Anpassungen für sehr kleine Bildschirme */
 @media screen and (max-width: 480px) {
     .sidebar {
-        padding: 8px;
+        padding: 1px;
     }
 
     .week-item {
@@ -804,8 +804,8 @@ table, th, td {
     }
 
     .year-button {
-        padding: 8px 12px;
-        font-size: 13px;
+        font-size: 15px;
+        padding: 8px 5px;
     }
 
     .month-separator {
