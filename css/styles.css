@@ -411,6 +411,7 @@ table, th, td {
     display: flex;
     min-height: 100vh;
     overflow: hidden;
+    justify-content: center;
 }
 
 .sidebar {
@@ -418,8 +419,6 @@ table, th, td {
     background-color: #202123;
     border-right: none;
     padding: 8px;
-    height: 100vh;
-    position: fixed;
     overflow-y: auto;
     padding-bottom: 100px;
 }
@@ -553,7 +552,6 @@ table, th, td {
 }
 
 .main-content {
-    margin-left: 260px;
     flex: 1;
     padding: 20px;
     background-color: #FFFFFF;
@@ -676,14 +674,16 @@ table, th, td {
 
     .main-content {
         margin-left: 0;
-        padding: 10px;
+        padding: 0;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .container {
-        width: 100%;
-        padding: 15px;
-        margin: 0;
+        width: calc(100% - 8px);
+        margin: 0 4px;
+        padding: 8px;
         height: auto;
         min-height: auto;
     }
