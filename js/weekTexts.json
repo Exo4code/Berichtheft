@@ -189,46 +189,46 @@
         "friday": "Urlaub (Weihnachtsferien)"
     },
     "06.01.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub (Weihnachtsferien)",
+        "tuesday": "- CPS konstruieren und programmieren\n- MQTT-Broker/Client-Kommunikation\n- CPS-Funktionalität testen",
+        "wednesday": "- CPS-Erweiterungen dokumentieren\n- Projektergebnisse erfassen\n- Sicherheitsanalyse durchführen",
+        "thursday": "- CPS-Sicherheitsrisiken bewerten\n- Verbesserungsvorschläge präsentieren\n- Arduino-Übungen (LEDs, Sensoren)",
+        "friday": "- Lernerfolgskontrolle (LZK)\n- Smart-Home-Übungen\n- Abschluss mit Kahoot-Quiz"
     },
     "13.01.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in den Kurs und Einrichtung der Tools\n- Wiederholung von Variablen und Datentypen\n- Umwandlung von Datentypen und Feedbackrunde",
+        "tuesday": "- Mathematische Operatoren und Kontrollstrukturen\n- Projektarbeit: Trinkgeldrechner\n- Kombination von Kontrollstrukturen mit Operatoren",
+        "wednesday": "- Wiederholung von Listen und Verzweigungen\n- Projekt Schere-Stein-Papier\n- Feedback und Tagesabschluss",
+        "thursday": "- Übungen zu Zählerschleifen und Funktionen\n- Programmiertraining mit Reeborg's World\n- Abschluss mit Feedbackrunde",
+        "friday": "- Wiederholung von While-Schleifen und Funktionen\n- Einführung in UML und Use Cases\n- Feedback zur gesamten Woche"
     },
     "20.01.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in Use Case Diagramme\n- Erstellung verschiedener Anwendungsfalldiagramme\n- Feedback und Transfer",
+        "tuesday": "- Einführung in Turtle für Benutzeroberflächen\n- Übungen zu Kontrollstrukturen und Objektorientierung\n- Erstellung eines Fraktalbaums",
+        "wednesday": "- Einführung in UML-Klassendiagramme\n- Erstellung von Klassendiagrammen für verschiedene Szenarien\n- Vertiefung von Beziehungen zwischen Klassen",
+        "thursday": "- Implementierung von Klassen und Objekten\n- Objektorientierung mit Konstruktoren und Methoden\n- Erstellung eines objektorientierten Quiz-Programms",
+        "friday": "- Fertigstellung des Quiz-Programms\n- Einführung in UML-Aktivitätsdiagramme\n- Erstellung verschiedener Aktivitätsdiagramme"
     },
     "27.01.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Abschluss der Aktivitätsdiagramm-Aufgabe\n- Einführung in Vererbung und Polymorphie\n- Erste Schritte mit Tkinter für GUI-Entwicklung",
+        "tuesday": "- Einführung in MariaDB und Datenbankgrundlagen\n- CRUD-Befehle zur Datenbankmodifikation\n- Inner Join von Tabellen und Erweiterungen",
+        "wednesday": "- BASE vs. ACID in Datenbanken\n- Einführung in Entity-Relationship-Modelle\n- Erstellung von ER-Diagrammen für verschiedene Szenarien",
+        "thursday": "- Primär- und Fremdschlüssel in Datenbanken\n- Normalisierung bis zur dritten Normalform (3NF)\n- Einführung in SQL-Abfragen mit DQL",
+        "friday": "- Testvorbereitung und Lernerfolgskontrolle (LZK)\n- Nachbesprechung der Prüfungen\n- Abschlussprojekt \"SQL Island\""
     },
     "03.02.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in Windows 10 Editionen und Bereitstellung\n- Einrichtung eines RemoteLab mit Servern und Clients\n- Hochstufen des Servers zum Domänencontroller",
+        "tuesday": "- Upgrade und Migration auf Windows 10\n- Einführung in Gruppenrichtlinien (GPOs)\n- Praktische Übung zur GPO-Konfiguration",
+        "wednesday": "- Anpassung der Benutzeroberfläche und Systemsteuerung\n- Erweiterte Konfiguration mit AD, Azure AD und PowerShell\n- Verknüpfung und Verwaltung von Gruppenrichtlinien",
+        "thursday": "- Einführung in Treiber und Windows-Updates\n- Netzwerkfunktionen: Arbeitsgruppen, Domänen, Firewall\n- Remote-Zugriff, Proxy und NTFS-Freigaben",
+        "friday": "- VPN und WLAN-Sicherheit mit Verschlüsselungstypen\n- Ethernet, Firewall und IP-Adresskonfiguration\n- Speicherverwaltung: Partitionierung und RAID-Systeme"
     },
     "10.02.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in Windows-Apps und Installationsmethoden\n- Sicherheit im Web: SSL-Zertifikate und EFS\n- Gruppenrichtlinien für zentrale Speicherverwaltung",
+        "tuesday": "- Authentifizierung und Autorisierung von Benutzerkonten\n- Einführung in NTFS-Berechtigungen und Dateisysteme\n- Praktische Übung zum Einrichten eines Dateiservers",
+        "wednesday": "- Schutzmaßnahmen gegen Malware und Windows Defender\n- Netzwerksicherheit durch Firewall-Regeln\n- Basisverzeichnisse für Administratoren einrichten",
+        "thursday": "- Simulationen zu Windows 10 Themen im RemoteLab\n- Einführung in BitLocker und AppLocker\n- Windows-Support-Tools: Task-Manager und MMCs",
+        "friday": "- Durchführung der Lernerfolgskontrolle (LZK)\n- Datensicherung mit Windows Backup und Wiederherstellung\n- Verwaltung lokaler Gruppenrichtlinien im RemoteLab"
     },
     "17.02.2025": {
         "monday": "Platzhalter für Montag",
