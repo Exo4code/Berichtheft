@@ -172,44 +172,48 @@ function calculateWeekNumber(dateStr) {
     const parts = dateStr.split('.');
     const inputDate = new Date(parts[2], parts[1] - 1, parts[0]);
     
-    // Referenzdaten für die Jahre
-    const startDates = {
-        2024: new Date('2024-07-08'),
-        2025: new Date('2025-01-01'),
-        2026: new Date('2026-01-01')
+    // Feste Liste der Wochen und ihrer Nummern
+    const weekMap = {
+        '08.07.2024': '01/2024',
+        '15.07.2024': '02/2024',
+        '22.07.2024': '03/2024',
+        '29.07.2024': '04/2024',
+        '05.08.2024': '05/2024',
+        '12.08.2024': '06/2024',
+        '19.08.2024': '07/2024',
+        '26.08.2024': '08/2024',
+        '02.09.2024': '09/2024',
+        '09.09.2024': '10/2024',
+        '16.09.2024': '11/2024',
+        '23.09.2024': '12/2024',
+        '30.09.2024': '13/2024',
+        '07.10.2024': '14/2024',
+        '14.10.2024': '15/2024',
+        '21.10.2024': '16/2024',
+        '28.10.2024': '17/2024',
+        '04.11.2024': '18/2024',
+        '11.11.2024': '19/2024',
+        '18.11.2024': '20/2024',
+        '25.11.2024': '21/2024',
+        '02.12.2024': '22/2024',
+        '09.12.2024': '23/2024',
+        '16.12.2024': '24/2024',
+        '23.12.2024': '25/2024',
+        '30.12.2024': '26/2024'
     };
-    
+
+    // Direkt die Nummer aus der Map zurückgeben
+    if (weekMap[dateStr]) {
+        return weekMap[dateStr];
+    }
+
+    // Für 2025 und 2026: Weiterzählen ab der letzten 2024er Nummer
+    const startDate = new Date('2024-07-08');
+    const msPerWeek = 1000 * 60 * 60 * 24 * 7;
+    const weekNumber = Math.floor((inputDate - startDate) / msPerWeek) + 1;
     const year = inputDate.getFullYear();
-    const startDate = startDates[year];
     
-    // Wenn kein Startdatum für das Jahr existiert oder das Datum vor dem Startdatum liegt
-    if (!startDate || inputDate < startDate) {
-        return '';
-    }
-    
-    if (year === 2024) {
-        // Für 2024: Spezielle Wochenberechnung ab 08.07.2024
-        const weeks = [
-            '08.07.2024', '15.07.2024', '22.07.2024', '29.07.2024',
-            '05.08.2024', '12.08.2024', '19.08.2024', '26.08.2024',
-            '02.09.2024', '09.09.2024', '16.09.2024', '23.09.2024', '30.09.2024',
-            '07.10.2024', '14.10.2024', '21.10.2024', '28.10.2024',
-            '04.11.2024', '11.11.2024', '18.11.2024', '25.11.2024',
-            '02.12.2024', '09.12.2024', '16.12.2024', '23.12.2024', '30.12.2024'
-        ];
-        
-        const weekIndex = weeks.indexOf(dateStr);
-        if (weekIndex !== -1) {
-            return `${weekIndex + 1}/2024`;
-        }
-    } else {
-        // Für 2025 und 2026: Berechne Wochen ab 1. Januar
-        const msPerWeek = 1000 * 60 * 60 * 24 * 7;
-        const weekNumber = Math.floor((inputDate - startDate) / msPerWeek) + 1;
-        return `${weekNumber}/${year}`;
-    }
-    
-    return '';
+    return `${weekNumber.toString().padStart(2, '0')}/${year}`;
 }
 
 // Jahr-Button-Handler
@@ -723,3 +727,24 @@ async function downloadCombinedPDF2024() {
 
 // Event-Listener für den Batch-Download-Button
 document.querySelector('.all2024files').addEventListener('click', downloadCombinedPDF2024);
+
+function getWeekNumber(date) {
+    const firstDayOfYear = new Date(date.getFullYear(), 0, 1);
+    const pastDaysOfYear = (date - firstDayOfYear) / 86400000;
+    return Math.ceil((pastDaysOfYear + firstDayOfYear.getDay() + 1) / 7);
+}
+
+function updateWeekNumber() {
+    const weekStartInput = document.getElementById('weekStart');
+    const numberInput = document.querySelector('.number-input');
+    
+    if (weekStartInput.value) {
+        const date = new Date(weekStartInput.value);
+        const weekNumber = getWeekNumber(date);
+        const year = date.getFullYear();
+        numberInput.value = `${weekNumber}/${year}`;
+    }
+}
+
+// Fügen Sie diesen Event-Listener zu Ihrem bestehenden Code hinzu
+document.getElementById('weekStart').addEventListener('change', updateWeekNumber);
