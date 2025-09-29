@@ -23,7 +23,7 @@
     "29.07.2024": {
         "monday": "Urlaub",
         "tuesday": "Urlaub",
-        "wednesday": "Urlaub", 
+        "wednesday": "Urlaub",
         "thursday": "Urlaub",
         "friday": "Urlaub"
     },
@@ -37,7 +37,7 @@
     "12.08.2024": {
         "monday": "- Das Unternehmen und die eigene Rolle\n- Duales Ausbildungssystem\n- Berufsausbildungsvertrag",
         "tuesday": "- Sozialversicherungen & Steuerklassen\n- Arbeitsrechte & Kündigung\n- Mitbestimmung der Arbeitnehmer",
-        "wednesday": "- Betriebsvereinbarung & Tarifvertrag\n- Globalisierung & Wirtschaftskreislauf\n- E-Business & E-Commerce", 
+        "wednesday": "- Betriebsvereinbarung & Tarifvertrag\n- Globalisierung & Wirtschaftskreislauf\n- E-Business & E-Commerce",
         "thursday": "- Vollkommener Markt\n- Monopol & Oligopol\n- Preisbildung & Verkäufermarkt",
         "friday": "- Wiederholung & Zusammenfassung\n- Lernzielkontrolle\n- Feedback & Reflexion"
     },
@@ -169,7 +169,7 @@
     },
     "23.12.2024": {
         "monday": "Urlaub (Weihnachtsferien)",
-        "tuesday": "Urlaub (Weihnachtsferien)", 
+        "tuesday": "Urlaub (Weihnachtsferien)",
         "wednesday": "Urlaub (Weihnachtsferien)",
         "thursday": "Urlaub (Weihnachtsferien)",
         "friday": "Urlaub (Weihnachtsferien)"
@@ -178,7 +178,7 @@
         "monday": "Urlaub (Weihnachtsferien)",
         "tuesday": "Urlaub (Weihnachtsferien)",
         "wednesday": "Urlaub (Weihnachtsferien)",
-        "thursday": "Urlaub (Weihnachtsferien)", 
+        "thursday": "Urlaub (Weihnachtsferien)",
         "friday": "Urlaub (Weihnachtsferien)"
     },
     "01.01.2025": {
@@ -231,39 +231,39 @@
         "friday": "- Durchführung der Lernerfolgskontrolle (LZK)\n- Datensicherung mit Windows Backup und Wiederherstellung\n- Verwaltung lokaler Gruppenrichtlinien im RemoteLab"
     },
     "17.02.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Vorstellungsrunde\n- Ziele der Schulung und EXIN-Prüfung\n- Besprechung Prüfungsvorbereitung\n- Einführung Softwareentwicklungsprozess Teil 1\n- Produktvision und erste Anforderungsliste\n- Übung und Besprechung zur Produktvision",
+        "tuesday": "- Wiederholung Produktvision und Anforderungsliste\n- Softwareentwicklungsprozess Teil 2: Pflichtenheft, Implementierung, Testen, Release\n- Einführung Agiles Manifest\n- Agiles Mindset\n- Selbststudium: Scrum Guide\n- Übungsfragen (GFN und Exin) bearbeiten und besprechen",
+        "wednesday": "- Wiederholung Softwareentwicklungsprozess (Pflichtenheft bis Release)\n- Scrum Grundlagen und Scrum Framework\n- Scrum Team\n- Scrum Events Teil 1\n- Selbststudium Scrum Guide\n- Übungsaufgaben Kapitel 1–5 bearbeiten\n- Tagesabschluss und Feedback",
+        "thursday": "- Wiederholung Vortag\n- Scrum Events Teil 2\n- Scrum Artefakte\n- Planung vom Groben zum Detail (Teil 1)\n- Selbstlernphase\n- Übungsaufgaben besprechen",
+        "friday": "- Wiederholung Scrum Events\n- Wiederholung Scrum Artefakte\n- Planung vom Groben zum Detail\n- Extreme Programming (XP)\n- Selbstlernphase\n- Übungsaufgaben Kapitel 8 und 9 besprechen"
     },
     "24.02.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Wiederholung Scrum Artefakte\n- SCRUM-Skalierung und agile Methoden\n- Selbstlernzeit\n- Übungsfragen des Tages besprechen",
+        "tuesday": "- Besprechung GFN Zusatzfragen\n- Selbstlernzeit: EXIN Musterprüfung\n- Besprechung EXIN Musterprüfung\n- Selbstlernphase",
+        "wednesday": "- Einführung Übungstage Agiles Arbeiten / Kursprojekt\n- Selbstlernen und Prüfung ablegen\n- Übung: Vom Epic zur User Story\n- Besprechung der Übung\n- Selbstlernen und Prüfung ablegen\n- Tagesabschluss und Feedback",
+        "thursday": "- Einführung Tools für Sprintbacklog (Trello etc.)\n- Einführung Jira\n- Selbstlernphase / Prüfung\n- Übung: Eindeutige User Story\n- Besprechung der Übung\n- Tagesabschluss",
+        "friday": "- Einführung Low-Code / No-Code Anwendungen\n- Selbstlernzeit / EXIN-Prüfung extern\n- Übung: Vom Epic zur User Story\n- Übung: Drei Commitments\n- Besprechung Übungen\n- Interaktive Besprechung Scrum (Wortwolken)\n- Kursabschluss und Feedback"
     },
     "03.03.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung und Vorstellung des Kursblocks\n- Einrichtung der notwendigen Tools\n- Einführung in HTML: Tags und Elemente\n- Verwendung verschiedener Tags mit Vertiefungsaufgaben\n- HTML Miniprojekte: Geburtstagseinladung\n- HTML Miniprojekte: Portfolio Website\n- Feedbackrunde",
+        "tuesday": "- Transfer des Vortages\n- Projekte auf GitHub bereitstellen\n- HTML Resume Portfolio Projekt\n- Einführung in CSS\n- Unterschiede Inline, Internal und External CSS\n- CSS Selektoren\n- Miniprojekt zu CSS-Grundlagen\n- Feedbackrunde und Transfer",
+        "wednesday": "- Transfer des Vortages\n- CSS Eigenschaften: Schriften, Farben, Textausrichtung\n- Vorstellung des CSS Boxmodels\n- Vertiefungsaufgabe zum Boxmodel\n- Projekt: Motivations-Meme-Webseite\n- CSS Vererbunghierarchien\n- Vertiefungsaufgaben zu Vererbungshierarchien\n- Kombinationen von Selektoren\n- Vertiefungsaufgaben zu Selektorkombinationen",
+        "thursday": "- Transfer des Vortages\n- Inline, Internal und External CSS\n- Farbwerte, Hintergrundfarben, Templates\n- Schriftarten, Größen, Breite, Serif vs. Sans-Serif\n- Schriftarten im HTML-Dokument implementieren, Text-Ausrichtung\n- Browser DevTools: Edge, Firefox, Chrome\n- CSS Box Model: Margin, Border, Padding, Div-Container\n- Projekt: Motivations-Meme-Webseite\n- Feedbackrunde",
+        "friday": "- Transfer des Vortages\n- Einführung Responsive Design, Block vs. Inline Elemente\n- Float-Eigenschaft\n- Media Queries (Theorie und Übungen)\n- Einführung Flexbox\n- Einführung CSS Grid\n- Feedbackrunde"
     },
     "10.03.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Transfer der letzten Woche\n- CSS Flexbox Eigenschaften mit Vertiefungsaufgaben\n- Flexbox Defence Übung\n- Projekt: Preistabelle mit Flexbox\n- CSS Grid: Schachbrett erstellen\n- Grid Eigenschaften und Attribute\n- Projekt Grid-Garden\n- Feedbackrunde",
+        "tuesday": "- Transfer des Vortages\n- Einführung in JavaScript\n- Datentypen in JavaScript\n- Miniprojekt: Wurfspiel in JavaScript\n- Variablen in JavaScript\n- Zeichenketten und Methoden\n- Zahlen: Floats und Ganzzahlen (BMI-/Trinkgeldrechner)\n- Feedbackrunde",
+        "wednesday": "- Transfer des Vortages\n- Projekt Trinkgeldrechner abschließen\n- Verzweigungen in JavaScript (if/else if)\n- Übungen zu Verzweigungen: Gerade/Ungerade, BMI, Schaltjahr, Steuerrechner\n- Vorbereitung Minispiel: Fallgeschwindigkeit und Wurfweite (For-Schleifen)\n- Feedbackrunde und Transfer",
+        "thursday": "- Transfer des Vortages\n- Kontrollstrukturen: Vertiefungsprojekt mit For-Schleifen und Verzweigungen\n- Umgang mit zufälligen Werten\n- Einführung While-Schleifen\n- Projekt: Zahlen Raten (DOM-Zugriff in JavaScript)\n- Feedbackrunde",
+        "friday": "- Transfer des Vortages\n- Projekt Zahlenraten mit Benutzeroberfläche\n- Einführung in Funktionen\n- Übungen Kontrollstrukturen und Funktionen mit Reeborg World\n- Projekt Schere-Stein-Papier mit Benutzeroberfläche\n- Feedbackrunde"
     },
     "17.03.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Transfer der Vorwoche\n- Grundlagen Web-Design\n- Benutzeroberflächen gestalten\n- Projekt Schere-Stein-Papier: Benutzerinterface aufsetzen\n- Projekt Schere-Stein-Papier: Logik implementieren\n- Feedbackrunde",
+        "tuesday": "- Transfer des Vortages\n- Weiterführung Projekt Schere-Stein-Papier\n- Gestaltung der Portfoliowebseite mit Projekten\n- Einführung Projekt Codebreaker (Operatoren und Kontrollstrukturen)\n- Projekt Codebreaker: GUI erstellen\n- Projekt Codebreaker: Logik implementieren\n- Feedbackrunde",
+        "wednesday": "- Transfer des Vortages (Projektdaily)\n- Weiterführung Portfoliowebseite mit allen Projekten\n- UI/UX Design und Barrierefreiheit in Projekten umsetzen\n- Feedbackrunde",
+        "thursday": "- Transfer des Vortages\n- UI/UX Design: Farben und Schriftarten\n- UI/UX Design: Barrierefreiheit\n- UI/UX Design: Intuitiver Seitenaufbau\n- Umsetzung in Projekten\n- Veröffentlichung auf GitHub\n- Code Reviews, QM und Tests\n- Feedbackgespräch",
+        "friday": "- Transfer der gesamten drei Wochen\n- Testvorbereitung\n- Durchführung der Lernerfolgskontrolle (LZK)\n- Besprechung der LZK\n- Implementierung von Unit Tests\n- Feedbackrunde und Kursabschluss"
     },
     "24.03.2025": {
         "monday": "Platzhalter für Montag",
@@ -280,95 +280,95 @@
         "friday": "Platzhalter für Freitag"
     },
     "07.04.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Vorstellung des Kurses\n- Vorstellung und Auswahl der Projektideen\n- Einarbeitung, Absprache und Soll-Analyse der Projekte\n- Gestaltung einer interaktiven Benutzeroberfläche mit HTML und CSS\n- Feedbackrunde",
+        "tuesday": "- Projektdaily und Vorstellung aktueller Ergebnisse\n- Einarbeitung von Funktionalitäten mit Webtechnologien (JavaScript: React, Vue, Angular | TypeScript | PHP Laravel)\n- Begleitete Einarbeitung von Funktionalitäten in die Projekte\n- Feedbackrunde",
+        "wednesday": "- Projektdaily und Vorstellung Projektfortschritt\n- Code Reviews und Verbesserungsvorschläge\n- Einarbeitung verbesserter Funktionalitäten in die Projekte\n- Feedbackrunde",
+        "thursday": "- Projektdaily und Code Review\n- Einarbeitung von Teststrategien\n- Erstellung projektbezogener Unit Tests\n- Feedbackrunde",
+        "friday": "- Projektdaily und Code Review\n- Fertigstellung der Projekte\n- Projektpräsentationen\n- Feedbackrunde"
     },
     "14.04.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Organisatorische Hinweise, Ziele des Kurses\n- Installation von PyCharm, C++ Compiler, MySQL-Server und Workbench\n- Python Grundlagen: Programmaufbau, Blöcke, Variablen, Literale, Kommentare, Sequenzen, Escape-Sequenzen, Schlüsselwörter, Module, Namensräume\n- Ein- und Ausgabe in der Konsole, Formatierungen\n- Demo: Temperaturberechnung in PyCharm\n- Primitive Datentypen, arithmetische und Zuweisungsoperatoren\n- Exception-Handling in Python\n- Übungsaufgaben (010-090) zur Bearbeitung",
+        "tuesday": "- Wiederholung des Vortags, FAQs\n- Demo und Besprechung der Übungsaufgaben (Glücksrad-Auswahl)\n- Exception-Handling (try, except, else, finally), Exceptiontypen und Einsatz\n- Verzweigungen in Python: if, else, elif, match\n- Relationale und boolesche Operatoren verstehen und anwenden\n- Programmierübungen (100-200), Einzelbearbeitung mit Dozentenbetreuung\n- Demos der Lösungen",
+        "wednesday": "- Wiederholung des Vortags, Demo der Übungen\n- Schleifen und Listen in Python (Theorie und Praxis)\n- Funktionen in Python: Parameter, Argumente, wichtige Variablen (__name__ etc.)\n- Sprungbefehle: break, continue, pass, return, raise\n- Dictionaries: ein- und mehrdimensional\n- Einführung OOP: Abstraktion, Kapselung, Vererbung, Klassen/Objekte\n- Aufgabe: Autovermietung mit Python dataclass\n- Einführung Tkinter: GUI-Beispiel Login-Dialog\n- Datenbanken: Projektverwaltung, Tabellen in MySQL anlegen\n- Übungsaufgabe: GUI für Mitarbeiterverwaltung (Listen statt DB, Demo am nächsten Tag)",
+        "thursday": "- Wiederholung des Vortags, Demos der GUI-Aufgabe (Tkinter)\n- Projektverwaltungsdatenbank anlegen (SQL-Skripte, Reverse Engineering in Workbench)\n- Zugriff auf Datenbank aus Python (MVC-Konzept, Connection, Cursor, SQL, fetchall/one)\n- Kopplung GUI und MySQL (Model: DAO, Controller: Verarbeitung, View: Anzeige)\n- Vorführung der Ergebnisse, FAQs, Korrekturen\n- Zusammenfassung, Ausblick und Literaturempfehlungen\n- Feedbackrunde",
+        "friday": "Frei"
     },
     "21.04.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub",
+        "tuesday": "Urlaub",
+        "wednesday": "Urlaub",
+        "thursday": "Urlaub",
+        "friday": "Urlaub"
     },
     "28.04.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in die Python-Zertifizierung PCEP\n- Vorstellung der Inhalte (Udemy-Kurs PCEP-30-02)\n- Variablen, Operatoren, Ein-/Ausgabe, Zufallszahlen, Kontrollstrukturen (EVA-Prinzip)\n- Built-in-Funktionen, Python Standard Library\n- Übung: 250 Fragen Test aus dem Udemy-Kurs\n- Kontrollstrukturen: Verzweigungen\n- Abschlussrunde",
+        "tuesday": "- Wiederholung: Datenstrukturen (Listen, Tupel, Sets, Dictionaries)\n- Listen erstellen, Methoden und Verarbeitung\n- Verschachtelte Listen, 2D-Listen, Nutzung mit for-Schleifen\n- Tupel und Sets erstellen und nutzen\n- Dictionaries: Erstellung und Methoden\n- PCEP-Übungsfragen (Udemy)\n- Weitere Beispiele zu for-Schleifen mit Datenstrukturen\n- Abschlussrunde",
+        "wednesday": "- PCEP-Vorbereitung\n- Einführung in Funktionen und Module\n- Funktionen ohne Rückgabewert, Argumente und Parameter\n- Beispiele: ausgabe(), Rechteck.py\n- Funktionen mit Rückgabewert\n- Rekursive Funktionen\n- Exceptions in Python\n- PCEP-Übungsfragen (Udemy)\n- Abschlussrunde",
+        "thursday": "Tag der Arbeit (Feiertag)",
+        "friday": "- Einführung: Thema PCEP-Zertifizierung\n- Tipps und individuelle Vorbereitung\n- Bearbeitung von Übungsfragen\n- Ablegen des PCEP-Tests\n- Abschlussrunde"
     },
     "05.05.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Vorstellungsrunde und Kursvorstellung\n- Einführung in Datentypen (primitive Datentypen in Java)\n- Ganze Zahlen und Fließkommazahlen: Literale und Zahlensysteme\n- Datentyp char: Escape-Sequenzen, ASCII/Unicode-Tabelle\n- Variablen: Regeln und Konventionen\n- Fallbeispiele: Einfache Java-Anwendungen für Umrechnungen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Zusammenfassung und Aufgabenbesprechung\n- Operatoren in Java\n- Operatoren: Prioritätstabelle und Assoziativität\n- Logische, Vergleichs- und arithmetische Operatoren\n- Fallbeispiele: Anwendung von Operatoren in Codefragmenten\n- Ausdrücke in Java und Typkonvertierungen\n- Selbstlernphase: Nacharbeiten mit Programmieraufgaben",
+        "wednesday": "- Zusammenfassung und Aufgabenbesprechung\n- Einführung in Kontrollstrukturen\n- Verzweigungen: if, if/else, switch/case\n- Einführung in Schleifen (Loops)\n- Zählerschleife: for\n- Kopfgesteuerte Schleife: while\n- Fußgesteuerte Schleife: do/while\n- Fallbeispiele: Schaltjahrprüfung, BMI-Auswertung\n- Selbstlernphase: Programmieraufgaben und Rückfragen",
+        "thursday": "- Zusammenfassung und Aufgabenbesprechung\n- Fallbeispiel: Ratespiel (Anwendung von Verzweigungen und Schleifen)\n- Programmablauf simulieren und Code analysieren\n- Vergleich der Schleifenvarianten: for ↔ while ↔ do/while\n- Fallstudien: Wahl der geeigneten Schleifenform\n- Übungen: BMI-Berechnung, Tage pro Monat ermitteln\n- Selbstlernphase: Nacharbeiten und Fragen klären",
+        "friday": "- Zusammenfassung und Aufgabenbesprechung\n- Zeichenketten in Java: String-Klasse, Literale, Escape-Sequenzen, Konkatenation\n- Arrays in Java: eindimensionale Arrays, Initialisierung, Größe, Zugriff\n- Fallbeispiele: Array mit Zufallszahlen, Temperaturwerte mit Mittelwert, Minimum und Maximum\n- Einführung in Methoden: Modularisierung, Definition und Aufruf\n- Selbstlernphase: Nacharbeiten und Fragen klären"
     },
     "12.05.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Zusammenfassung und Aufgabenbesprechung\n- Anwendung von Kontrollstrukturen\n- Anwendung von Operatoren\n- Fallbeispiele: numerische Aufgaben mit Kontrollstrukturen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Zusammenfassung und Aufgabenbesprechung\n- Einführung in Modularisierung und Methoden\n- Methoden: Signatur, Definition und Aufruf\n- Parameter vs. Argumente\n- Fallbeispiel: BMI berechnen und auswerten\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Zusammenfassung und Aufgabenbesprechung\n- Einführung in die Objektorientierung: Motivation und Paradigmen\n- Klassen und Objekte als Konzepte\n- Klassen als Datentyp im Vergleich zu primitiven Typen\n- Klassenmitglieder: Attribute, Methoden und Konstruktoren\n- Objekterzeugung, Konstruktor-Aufruf, Zugriff auf Methoden und Attribute\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Klassen definieren: Fallbeispiel Geometrie (Punkte und Kreise)\n- Konstruktoren: Wertebereiche prüfen, Überladen und Delegation\n- Methoden: Instanzmethoden, Rückgabewerttypen, Parameterlisten, Wirk- und Wertmethoden\n- Kapselung und Geheimnisprinzip: private, default, public\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Zusammenfassung und Aufgabenbesprechung\n- Zugriffskontrolle: Attribute private, Konstruktoren und Methoden public\n- Getter und Setter: Notwendigkeit und Empfehlungen\n- final-Attribute und deren Zusammenhang mit Konstruktoren\n- Fallbeispiel: Klassen definieren (Entscheidung final-Attribute)\n- Fallstudie: Online-Shop Artikelverwaltung\n- Selbstlernphase: Nacharbeiten und Fragen klären"
     },
     "19.05.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Zusammenfassung der Vorthemen\n- Konstanten (public static final) und Klassenattribute\n- Fallbeispiel Onlineshop: Artikelverwaltung (Klassendiagramm, Umsetzung in Java)\n- Array und foreach-Loop\n- Quiz und Übungsaufgaben\n- Selbstlernphase: Aufgabenbearbeitung und Vorbereitung",
+        "tuesday": "- Zusammenfassung des Vortags\n- Fallbeispiel Onlineshop: Anforderungsanalyse\n- Identifikation benötigter Klassen und Attribute\n- Klassendiagramme erstellen und Peer-Feedback\n- Kapselung, Getter/Setter, einfache Methoden\n- Implementierte Klassen testen (main-Methode)\n- Reflexion über Modellierungs- und Implementierungsprozess\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Zusammenfassung des Vortags (Klassenstruktur in Java)\n- Grundlagen OOP: Objekte, Klassen, Attribute und Methoden\n- UML-Klassendiagramm: Notation und Aufbau\n- Fallbeispiel: Geometrische Figuren modellieren\n- Identifikation von Attributen und Methoden\n- Beziehungen zwischen Klassen (Assoziation, Aggregation)\n- Selbstlernphase: Klassendiagramm und Implementierung (Fallbeispiel Bankkonten)",
+        "thursday": "- Zusammenfassung des Vortags\n- Einführung in Vererbung und abstrakte Klassen\n- Abstrakte Methoden und Polymorphie\n- Eigene Klassenhierarchien modellieren und umsetzen\n- Präsentation und Test funktionierender Klassendesigns\n- Fallbeispiel: Bankkonten (Sparkonto, Girokonto)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Zusammenfassung des Vortags\n- Begriffserklärung Polymorphie (statisch vs. dynamisch)\n- Dynamische Polymorphie in Java (@Override, Deklarations- vs. Laufzeittyp)\n- Methoden- und Konstruktorüberladung\n- Abstrakte Klassen vs. Interfaces\n- Polymorphie durch gemeinsame Typen\n- Wiederholung der Polymorphieformen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "26.05.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Zusammenfassung der Vorthemen\n- Überblick UML und Bedeutung der Modellierung\n- Klassendiagramme: Klassen, Attribute, Methoden, Sichtbarkeiten\n- Beziehungen: Assoziation, Aggregation, Komposition, Vererbung\n- Sichtbarkeiten (+, -, #), Datentypen, Konstruktoren, statische Mitglieder\n- Umsetzung von UML-Klassendiagrammen in Java\n- IHK-Prüfungsaufgabe zu Klassendiagrammen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Zusammenfassung des Vortags\n- Einführung in Interfaces: Motivation, Syntax, Beispiele\n- Interface-Implementierung und Mehrfachimplementierung\n- Interfaces in der Praxis: lose Kopplung, APIs (Comparable, Runnable, List)\n- Default-Methoden, funktionale Interfaces und Lambda-Ausdrücke\n- Übungen mit alten IHK-Aufgaben\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Zusammenfassung des Vortags\n- Wiederholung Klassen und Vererbung\n- Einführung: abstrakte Klassen und Interfaces im Detail\n- Abstrakte Klassen: abstrakte und konkrete Methoden, Konstruktoren, Felder\n- Interfaces: Syntax, default-Methoden, Konstanten, Mehrfachimplementierung\n- Vergleich: Interface vs. abstrakte Klasse, Einsatzszenarien\n- Anwendung: IHK-Prüfungsaufgabe zur objektorientierten Softwareentwicklung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "Christi Himmelfahrt (Feiertag)",
+        "friday": "- Zusammenfassung und Aufgabenbesprechung (Interfaces)\n- Abstrakte Klassen, Interfaces, Vererbung und Polymorphie\n- Fallbeispiel: Sensor-Klassen modellieren\n- Initialisierungsblöcke in Java: Instanz- und statische Blöcke\n- Reihenfolge der Ausführung von Initialisierungsblöcken\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "02.06.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Zusammenfassung der Vorthemen\n- Methodenüberladung (Overloading): Motivation, Regeln, Praxis\n- Methodenüberschreibung (Overriding): Motivation, Regeln, Praxis\n- Vergleich Overloading vs. Overriding (Parameterliste, Rückgabetyp, Zweck, Bindung)\n- Fallbeispiele und Quiz zu Overloading und Overriding\n- Interfaces in Java: Wiederholung und Quiz\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Einführung in Generics: Motivation, Typsicherheit\n- Verwendung generischer Klassen: Box<T>, Wrapper-Klassen\n- Eigene generische Klassen und Methoden: <T>, mehrere Typ-Parameter\n- Einschränkungen und Typgrenzen: T extends Number\n- Vergleich ohne vs. mit Generics, Listen und Arrays\n- Fallbeispiel: Onlineshop mit Artikel und Warenkorb\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Wiederholung: Generics und Typsicherheit\n- Java Collections Framework: Überblick (Collection, Map)\n- Listen, Sets, Maps: Eigenschaften und Einsatz (ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap)\n- Iteration: for-each, Iterator, ListIterator\n- equals() und hashCode(): Vertrag und Auswirkungen auf Sets/Maps\n- Wrapper-Klassen und Autoboxing in Collections\n- Praxisübungen: Duplikate entfernen, Häufigkeiten mit Map zählen, Konvertieren zwischen Collection-Typen\n- Vorbereitung auf Sortierung: natürliche Ordnung (Comparable) vs. Comparator\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Einführung in Sortierung in Java (Collections.sort)\n- Praxisübung: Schülerliste sortieren, Comparable einführen\n- Comparator nutzen: externe Sortierung mit Lambda\n- Praxisübung: Comparator<Teilnehmer> nach Alter, mehrere Comparatoren\n- Praxisübung: Comparable<Produkt>, Comparator Preis/Bewertung/Lager\n- Suche in sortierten Listen mit Collections.binarySearch\n- Reflexion: Unterschied Comparable vs. Comparator\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Einführung in innere Klassen (Nested Classes)\n- Praxisübung: Buch mit innerer Klasse Kapitel\n- Nicht-statische innere Klassen: Syntax, Verwendung, Zugriff\n- Praxisübung: Auto mit innerer Klasse Motor\n- Statische innere Klassen (Nested Static Classes): Einsatz als Utility- oder Builder-Klasse\n- Praxisübung: MatheTool mit innerer Klasse Bruch\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "09.06.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Pfingstmontag (Feiertag)",
+        "tuesday": "- Lokale Klassen innerhalb von Methoden: Theorie und Einschränkungen\n- Praxisübung: Methode berechneRabatt() mit lokaler Klasse RabattRegel\n- Anonyme Klassen und Alternativen mit Lambdas\n- Praxisübung: Comparator<Student> als anonyme Klasse\n- Aufgaben: Drei Arten innerer Klassen implementieren\n- Reflexion: Wann setze ich welche innere Klasse sinnvoll ein?\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Einführung in Lambda-Ausdrücke: Motivation und Syntax\n- Praxisübung: Runnable mit Lambda (Vergleich mit anonymer Klasse)\n- Functional Interfaces: Theorie und bekannte Interfaces (Runnable, Comparator, Predicate, Function)\n- Praxisübung: Eigenes Interface Rechner mit Lambda-Implementierungen\n- Standardfunktionale Interfaces: Predicate, Function, Consumer\n- Praxisübung: Liste von Namen filtern, transformieren, ausgeben\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Lambdas im Zusammenspiel mit Collections\n- Einführung in Immutable-Klassen: Definition, Bedeutung und Beispiele (String, Integer, LocalDate)\n- Praxisübung: Analyse String immutable, Vergleich veränderbar/unveränderbar\n- Regeln für Immutable-Klassen: final, private final Felder, keine Setter, defensive Kopien\n- Praxisübung: Klasse Adresse nach immutable Design umschreiben\n- Eigene Immutable-Klassen erstellen mit Validierung und defensiven Kopien\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Arbeiten mit String: Eigenschaften, Methoden, Literal-Pooling, Vergleich (== vs. equals())\n- Praxisübung: String-Methoden (length, charAt, substring, contains, equalsIgnoreCase)\n- Strings zusammensetzen und Performance-Probleme bei Verkettung\n- StringBuilder: mutable Zeichenketten, Methoden (append, insert, delete, reverse)\n- StringBuffer: threadsicherer StringBuilder, Einsatzszenarien\n- Aufgaben aus dem Buch bearbeiten\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "16.06.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in Factory Methods: Theorie und Vorteile\n- Praxisübung: Eigene Factory-Methode in Klasse Person erstellen\n- Vergleich Konstruktor vs. Factory Method\n- Praxisübung: Klasse Benutzer mit Konstruktor und Factory Method\n- Factory-Methoden in LocalDate und LocalTime analysieren\n- Praxisübungen mit LocalDate.of, parse und LocalTime.of\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Einführung in Fehler und Ausnahmen: Error vs. Exception\n- Compile-Time vs. Runtime-Fehler, Begriffe Stacktrace und Exception-Objekt\n- Praxisübung: Division durch 0 (ArithmeticException)\n- Grundlagen von try-catch-finally\n- Checked vs. Unchecked Exceptions\n- Methoden mit throws deklarieren\n- Klassische Fehlerbehandlung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Eigene Exception-Klassen erstellen (z. B. InvalidAgeException)\n- Praxisübung: Eigene Exception implementieren und verwenden\n- Best Practices der Fehlerbehandlung (kein leerer Catch, Logging, Nutzerfeedback)\n- Praxisübung: Benutzerregistrierung mit Fehlerabfang und Rückmeldung\n- Anwendung: Geburtsdatum validieren\n- Hierarchie häufig verwendeter Fehlerklassen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Wiederholung: Factory Methods und Exception Handling\n- Praxisübung: Kombination von Factory Methods mit Exception Handling\n- Fallstudie: Robuste Objekterstellung mit Validierung\n- Praxisübung: Factory Method mit try-catch für ungültige Parameter\n- Best Practices: Wann Factory Methods vs. Konstruktoren verwenden\n- Praxisübung: Exception-Hierarchie für verschiedene Validierungsfehler\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Wiederholung: try-catch und Exception-Hierarchie\n- Praxis: Programm mit mehreren Ausnahmen (Fakultät einer Zahl)\n- Mehrere catch-Blöcke selektiv einsetzen\n- Praxisübung: Fehler gezielt abfangen (NumberFormatException, ArithmeticException)\n- Eigene Exception-Klassen (Checked) erstellen\n- Konstruktoren und Weitergabe von Fehlermeldungen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "23.06.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung in Java IO und die Klasse File\n- File-Objekte erstellen und Pfade ausgeben\n- Dateien und Verzeichnisse prüfen (exists, isFile, isDirectory, canRead, canWrite)\n- Dateigröße und Änderungszeit auslesen\n- Übung: Dateien prüfen\n- Dateien und Verzeichnisse erstellen/löschen (createNewFile, mkdir, delete)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Fehlerquellen bei File-Operationen (Existenz, Berechtigungen)\n- Verzeichnisse und Dateien automatisch anlegen und entfernen\n- Verzeichnisinhalte mit list und listFiles ausgeben\n- Übung: Dateien mit Endung .txt filtern\n- Einführung in Reader und Writer (zeichenorientierte Streams)\n- Motivation: Unicode-Unterstützung\n- Klassenhierarchie: FileReader, BufferedReader, FileWriter, BufferedWriter, PrintWriter\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- FileReader und FileWriter: Zweck und Konstruktoren\n- Demo: Textdatei einlesen und wieder ausschreiben\n- BufferedReader und BufferedWriter: Effizienzsteigerung\n- Übung: Zeilenweise lesen und filtern\n- PrintWriter: Komfortmethoden für Ausgaben (print, println, printf)\n- Übung: Benutzereingaben in Datei loggen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Zusammenfassung und Abschlussprojekt: Dateien lesen und Logdatei schreiben\n- Wiederholung Reader vs. InputStream, Buffered vs. unbuffered, PrintWriter\n- Projektaufgabe: Datei einlesen, Zeilen und Zeichen zählen, Zusammenfassung loggen\n- Diskussion: Wann Reader/Writer vs. Streams nutzen\n- Tipp: try-with-resources verwenden\n- Abschlussquiz und Fragerunde\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Einführung in Serialisierung und Serializable-Interface\n- Beispiele mit ObjectOutputStream und ObjectInputStream\n- Praxisübung: Klasse Person serialisieren und wieder einlesen\n- Erweiterung: Listen von Objekten serialisieren\n- Fehleranalyse und Diskussion\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "30.06.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Wiederholung Serialisierung: Motivation & Einsatzgebiete (Persistenz, Netzwerk, Cache)\n- Erste Beispiele mit ObjectOutputStream & ObjectInputStream\n- Praxisübung: Klasse Person serialisieren und wieder einlesen\n- Diskussion: Vor- und Nachteile Serialisierung vs. Textspeicherung\n- transient & serialVersionUID (Sicherheit, Versionskontrolle)\n- Mini-Übung mit transient Passwort-Feld und serialVersionUID\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Serialisierung anpassen: writeObject & readObject\n- Beispiel: Timestamp beim Serialisieren ergänzen, Diskussion sinnvoller Szenarien\n- Typische Fehler: NotSerializableException, Versioninkompatibilitäten, komplexe Objektgraphen\n- Einführung Method Overriding: Regeln, Polymorphismus, dynamisches Binden\n- Overriding Rules im Detail: Signatur, Rückgabetyp, Sichtbarkeit\n- Einschränkungen: private, static, final Methoden, Checked Exceptions\n- Praxis: @Override und Codebeispiele\n- Selbstlernphase: Fehleranalyse und Vorbereitung",
+        "wednesday": "- Einführung Java NIO2 (Path, Paths, Files)\n- Motivation: Plattformunabhängigkeit, robuste Fehlerbehandlung\n- Path und Paths: Aufbau, absolute/relative Pfade, get-Methode\n- Methoden von Path: getFileName, getParent, getRoot, toAbsolutePath\n- Praxis: Pfade erstellen und Bestandteile ausgeben\n- Klasse Files: exists, isDirectory, isRegularFile, Attribute auslesen\n- Dateien schreiben mit Files.write\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Wiederholung NIO und Aufgabenbesprechung\n- Dateien lesen mit Files.readAllBytes und Files.readAllLines\n- Praxisübung: Textdatei erzeugen & einlesen, Unterschiede zu Streams\n- Dateien kopieren, verschieben, löschen (copy, move, delete)\n- Mini-Übung: Datei kopieren & verschieben\n- Fehlerquellen: FileAlreadyExistsException, NoSuchFileException\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Einführung in Streams: Motivation (imperativ vs. deklarativ)\n- Vorteile: kürzer, lesbarer, lazy/parallel möglich\n- Was ist ein Stream? Datenquelle → Zwischenoperationen → Terminaloperation\n- Quellen: Collections, Arrays, Dateien\n- Intermediate Operations: filter, map, sorted, distinct, limit, skip\n- Praxis: Zahlenliste filtern und transformieren\n- Terminal Operations & collect: forEach, collect, count, reduce, etc.\n- Collectors: toList, toSet, joining\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "07.07.2025": {
         "monday": "Platzhalter für Montag",
@@ -748,4 +748,4 @@
         "thursday": "Platzhalter für Donnerstag",
         "friday": "Platzhalter für Freitag"
     }
-} 
+}
