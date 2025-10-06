@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ausbildungsnachweis</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <style>
-  
+
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
 </head>
+
 <body>
     <div class="layout-wrapper">
         <div class="sidebar">
             <div class="sidebar-title">Wochenübersicht</div>
+            <button class="theoriephase" title="Theoriephase 07/24 - 10/25">
+                <i class="fi fi-sr-download"> Theoriezeitraum</i>
+            </button>
             <div class="year-buttons">
                 <div class="year-group">
                     <button class="year-button active" data-year="2024">2024</button>
@@ -26,9 +32,16 @@
                 </div>
                 <div class="year-group">
                     <button class="year-button" data-year="2025">2025</button>
+                    <button class="all2025files" title="Alle Berichte 2025 herunterladen">
+                        <i class="fi fi-sr-download"></i>
+                    </button>
+
                 </div>
                 <div class="year-group">
                     <button class="year-button" data-year="2026">2026</button>
+                    <button class="all2026files" title="Alle Berichte 2026 herunterladen">
+                        <i class="fi fi-sr-download"></i>
+                    </button>
                 </div>
             </div>
             <ul class="week-list visible" id="weekList2024" data-year="2024">
@@ -41,7 +54,7 @@
                 <!-- Wird durch JavaScript gefüllt -->
             </ul>
         </div>
-        
+
         <div class="main-content">
             <div class="container">
                 <div class="header">
@@ -52,40 +65,32 @@
                             <input type="text" class="number-input">
                         </div>
                         <button class="download-button" title="Herunterladen">
-                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMTVMMTcgMTBNMTIgMTVMNyAxME0xMiAxNUwxMiAzTTIwIDIxSDRDMy40NDc3MiAyMSAzIDIwLjU1MjMgMyAyMFYxOU0yMCAyMUMyMC41NTIzIDIxIDIxIDIwLjU1MjMgMjEgMjBWMTlNMjAgMjFIMjFWMTlNNCAxOUgzTTQgMTlIMjAiIHN0cm9rZT0iIzZFNkU2RSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==" 
-                             alt="Download">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMTVMMTcgMTBNMTIgMTVMNyAxME0xMiAxNUwxMiAzTTIwIDIxSDRDMy40NDc3MiAyMSAzIDIwLjU1MjMgMyAyMFYxOU0yMCAyMUMyMC41NTIzIDIxIDIxIDIwLjU1MjMgMjEgMjBWMTlNMjAgMjFIMjFWMTlNNCAxOUgzTTQgMTlIMjAiIHN0cm9rZT0iIzZFNkU2RSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg=="
+                                alt="Download">
                         </button>
                     </div>
-                    
+
                     <div class="info-row">
                         <label>Name des/der Auszubildenden:</label>
                         <input type="text" class="underline-input">
                     </div>
-                    
+
                     <div class="info-row">
                         <label>Ausbildungsberuf:</label>
                         <input type="text" class="underline-input" value="Fachinformatiker für ">
                         <label>Ausbildungsjahr:</label>
                         <input type="text" class="year-input" value="1">
                     </div>
-                    
+
                     <div class="info-row">
                         <label>Ausbildungswoche vom</label>
-                        <input type="text" 
-                               class="underline-input-small" 
-                               list="weekdays" 
-                               id="weekStart"
-                               autocomplete="off"
-                               onclick="this.value=''"
-                               onfocus="this.value=''">
+                        <input type="text" class="underline-input-small" list="weekdays" id="weekStart"
+                            autocomplete="off" onclick="this.value=''" onfocus="this.value=''">
                         <datalist id="weekdays">
                         </datalist>
                         <label>bis</label>
-                        <input type="text" 
-                               class="underline-input-small" 
-                               list="weekdays-end" 
-                               id="weekEnd"
-                               autocomplete="off">
+                        <input type="text" class="underline-input-small" list="weekdays-end" id="weekEnd"
+                            autocomplete="off">
                         <datalist id="weekdays-end">
                         </datalist>
                         <label>ggf. ausbildende Abteilung:</label>
@@ -97,7 +102,8 @@
                     <thead>
                         <tr>
                             <th class="day-column"></th>
-                            <th>Betriebliche Tätigkeiten, Unterweisungen, Lehrgespräche, sonstige Schulungen, Themen des Berufsschulunterrichts, ggf. Fehlzeiten</th>
+                            <th>Betriebliche Tätigkeiten, Unterweisungen, Lehrgespräche, sonstige Schulungen, Themen des
+                                Berufsschulunterrichts, ggf. Fehlzeiten</th>
                             <th class="hours-column">Stunden</th>
                         </tr>
                     </thead>
@@ -141,8 +147,9 @@
                 </table>
 
                 <div class="footer">
-                    <p>Durch die nachfolgenden Unterschriften wird die Richtigkeit und Vollständigkeit der obigen Angaben bestätigt.</p>
-                    
+                    <p>Durch die nachfolgenden Unterschriften wird die Richtigkeit und Vollständigkeit der obigen
+                        Angaben bestätigt.</p>
+
                     <div class="signatures">
                         <div class="signature-row">
                             <div class="signature-line">
@@ -154,7 +161,7 @@
                                 <label>Datum, Unterschrift des Ausbilders/der Ausbilderin</label>
                             </div>
                         </div>
-                        
+
                         <div class="signature-row">
                             <div class="signature-line">
                                 <div class="line"></div>
@@ -182,4 +189,5 @@
 
     <script src="./js/script.js"></script>
 </body>
-</html> 
+
+</html>
