@@ -142,6 +142,19 @@ function updateFormWithDates(startDate, endDate) {
     loadPredefinedTexts(startDate);
 }
 
+// Kompaktierungs-Helfer: kürzt auf max. 5 Zeilen und 60 Zeichen pro Zeile
+function compactText(input, maxLines = 5, maxCharsPerLine = 60) {
+    if (!input) return '';
+    const lines = String(input).split('\n')
+        .map(l => l.replace(/^\s*-\s*/, '').trim()) // führendes "- " entfernen
+        .filter(Boolean);
+    const limited = lines.slice(0, maxLines).map(l => {
+        if (l.length <= maxCharsPerLine) return l;
+        return l.slice(0, maxCharsPerLine - 1) + '…';
+    });
+    return limited.map(l => `- ${l}`).join('\n');
+}
+
 async function loadPredefinedTexts(startDate) {
     try {
         const response = await fetch('./js/weekTexts.json');
@@ -155,7 +168,8 @@ async function loadPredefinedTexts(startDate) {
             // Die ersten 5 Textareas (Mo-Fr) mit den vordefinierten Texten füllen
             days.forEach((day, index) => {
                 if (weekTexts[startDate][day]) {
-                    textareas[index].value = weekTexts[startDate][day];
+                    const compact = compactText(weekTexts[startDate][day]);
+                    textareas[index].value = compact;
                 }
             });
 

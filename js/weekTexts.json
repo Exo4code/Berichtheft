@@ -371,88 +371,88 @@
         "friday": "- Einführung in Streams: Motivation (imperativ vs. deklarativ)\n- Vorteile: kürzer, lesbarer, lazy/parallel möglich\n- Was ist ein Stream? Datenquelle → Zwischenoperationen → Terminaloperation\n- Quellen: Collections, Arrays, Dateien\n- Intermediate Operations: filter, map, sorted, distinct, limit, skip\n- Praxis: Zahlenliste filtern und transformieren\n- Terminal Operations & collect: forEach, collect, count, reduce, etc.\n- Collectors: toList, toSet, joining\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "07.07.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Vorstellungsrunde, Kursausblick\n- Einführung: Komponenten eines Datenbanksystems, 3-Schichten-Architektur\n- Praxisübung: 3-Schicht-Architektur in der Praxis\n- Übung: 3-Schichten-Architektur in der Bibliothek\n- Anwendungsformen von Datenbanken\n- Wiederholung: Anwendungsformen\n- Datenbankmodelle und Übung dazu\n- Wiederholung ERD und Nomenklatur\n- Praxisübung: ERD Aufgabe 1 in draw.io\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches, Wiederholung Vortag\n- Fortsetzung der ERD-Übungen (Aufgaben 3–4)\n- Besprechung Aufgaben 3–4\n- Bearbeitung und Besprechung Aufgabe 5\n- Bearbeitung Aufgabe 6\n- Bearbeitung Aufgabe 7\n- Besprechung Aufgabe 7\n- Bearbeitung Aufgabe 8\n- Besprechung Aufgabe 8\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Begrüßung, Organisatorisches\n- Einführung: RDBM, Beispiel in draw.io\n- Übung: Normalisierung 01 (Excel-Tabelle, NF)\n- Besprechung Normalisierung 01\n- Übung: Normalisierung 02\n- Besprechung Normalisierung 02\n- Umwandlung ERD Aufgabe 1 in RDBM\n- Bearbeitung und Besprechung ERD Aufgabe 1 (RDBM)\n- Bearbeitung und Besprechung ERD Aufgabe 8 (RDBM)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Begrüßung, Wiederholung Grundlagen RDBM (Schlüssel, Anomalien, Normalformen)\n- Bearbeitung Aufgabe 9 als RDBM in 3NF\n- Besprechung Aufgabe 9 als RDBM\n- Bearbeitung Aufgabe 10 (ERD/RDBM)\n- Besprechung Aufgabe 10 (ERD/RDBM)\n- Bearbeitung Aufgabe 11 (ERD/RDBM)\n- Besprechung Aufgabe 11 (ERD/RDBM)\n- Bearbeitung Aufgabe 12 (ERD/RDBM)\n- Besprechung Aufgabe 12 (ERD/RDBM)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Begrüßung, Wiederholung (Normalformen, Anomalien, AK)\n- Gemeinsame Bearbeitung Aufgabe 12 (ERD/RDBM)\n- Bearbeitung und Besprechung Aufgabe 13 (ERD/RDBM)\n- Bearbeitung und Besprechung Aufgabe 14 (ERD/RDBM)\n- Einführung: Datentypen in MySQL\n- Physikalisches Datenmodell in MySQL\n- Eigenes physikalisches Datenmodell Aufgabe 14 erstellen\n- Eigenes physikalisches Datenmodell Aufgabe 14 und 12 besprechen\n- Eigenes physikalisches Datenmodell Aufgabe 12 erstellen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "14.07.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Organisatorisches, Wiederholung\n- Wiederholung SQL DDL Befehle\n- Gemeinsames DDL Beispiel umsetzen\n- Aufgabe 1 bearbeiten\n- Besprechung Aufgabe 1\n- Aufgabe 2 bearbeiten\n- Besprechung Aufgabe 2\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches, Wiederholung\n- Fortführung DDL-Aufgaben (Aufgabe 12)\n- Bearbeitung Aufgabe 12\n- Besprechung Aufgabe 12\n- Bearbeitung Aufgabe 14\n- Besprechung Aufgabe 14\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Begrüßung, Organisatorisches, Wiederholung\n- Wiederholung DML mit gemeinsamem Beispiel\n- SQL-Arbeitsblatt (SQL-Story) Aufgaben 1–7 bearbeiten\n- Besprechung Aufgaben 1–7\n- SQL-Arbeitsblatt ab Aufgabe 8 (SQL-Story) weiter bearbeiten\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Begrüßung, Organisatorisches, Wiederholung\n- Fortführung SQL-Story: Besprechung Aufgaben 8–15\n- Bearbeitung Aufgaben 15–25\n- Besprechung Aufgaben 15–25\n- Bearbeitung Aufgaben 25–30\n- Projektrecherche für Woche 3\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Begrüßung, Organisatorisches\n- Fortsetzung SQL-Story (Restaufgaben)\n- Beginn IHK-Aufgabenblatt 1\n- Bearbeitung & Besprechung IHK-Aufgabenblatt 1\n- Bearbeitung & Besprechung IHK-Aufgabenblatt 2\n- Bearbeitung & Besprechung IHK-Aufgabenblatt 3\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "21.07.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub",
+        "tuesday": "Urlaub",
+        "wednesday": "Urlaub",
+        "thursday": "Urlaub",
+        "friday": "Urlaub"
     },
     "28.07.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "Urlaub",
+        "tuesday": "Urlaub",
+        "wednesday": "Urlaub",
+        "thursday": "Urlaub",
+        "friday": "Urlaub"
     },
     "04.08.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Wiederholung nach den Ferien\n- Einführung Projektwoche: Softwareprojekt mit CRUD (freie Wahl Techstack)\n- Projektfindungsphase (Thema, Zielsetzung)\n- Definition Anforderungen & Features (Absprache mit Trainer)\n- Überlegungen zum Techstack (Programmiersprache, Framework, Web/Nativ)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches, Projektklärung mit Trainer\n- Ausarbeitung Features & Ziele des Projekts\n- Absprache mit Trainer zu Zielen\n- Einarbeitung in den Techstack oder erste Projektdateien anlegen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Begrüßung, Organisatorisches\n- Einarbeitung in Techstack\n- Erstellung von ERD / RDM / physikalischem RDBM (mit Absprache Trainer)\n- Beginn Implementierung des Projekts\n- Fortsetzung Implementierung mit ERD/RDM/RDBM\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Begrüßung, Organisatorisches\n- Erstellung weiterer Diagramme (z. B. Klassendiagramme)\n- Beginn Implementierung\n- Anlegen der Datenbank\n- Fortsetzung Implementierung & Datenbankarbeit\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Begrüßung, Organisatorisches\n- Fortsetzung Implementierung\n- Entwicklung CRUD-Funktionalität\n- Entwicklung GUI\n- Fertigstellung des Projekts\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "11.08.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Organisatorisches\n- Vorstellung Lernziele LF12 (IHK-Planspiel)\n- Einführung in das IHK-Projekt\n- Präsentation des IHK-Projektantrags\n- Auswahl der Ausgangssituation (Absprache mit Trainer)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches\n- Erstellung von Sprints und Tagesplanung\n- Projektantrag: erste Entwürfe für den Trainer\n- Korrektur der Entwürfe nach Trainer-Anmerkungen\n- Erste Implementierungen einzelner Teile\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Begrüßung, Organisatorisches\n- Weitere Korrekturen der Projektanträge\n- Kontrolle/Genehmigung durch den Dozenten zur Projektumsetzung\n- Erste Entwürfe für das Datenbankmodell\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Begrüßung, Organisatorisches\n- Korrekturen am Projektantrag\n- Entwurf des Datenbankmodells\n- Erstellung erster UI-Wireframes\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "Feiertag"
     },
     "18.08.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Organisatorisches\n- Präsentation Projektdokumentation\n- Präsentation Projektantrag\n- Gemeinsame Durchsicht Dokumentationsvorlage/Demo\n- Beginn Implementierung\n- Paralleldokumentation während der Umsetzung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches\n- Projektimplementierung (Struktur, Entwürfe umsetzen)\n- Datenbank-Connections herstellen in gewählter Programmiersprache\n- Erzeugen von DDL-Anweisungen\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Begrüßung, Organisatorisches\n- Projektentwicklung & Entwürfe (z.B. Datenbank, UML)\n- API-Endpoints entwickeln\n- Paralleldokumentation\n- Selbstlernphase",
+        "thursday": "- Begrüßung, Organisatorisches\n- Selbstständige Projektarbeit mit Einzelgesprächen\n- Erstellung Frontend\n- Erstellung Backend\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Begrüßung, Organisatorisches\n- Fortsetzung der Projektarbeit (mit Unterstützung des Dozenten)\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "25.08.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Vorstellung der Tagesthemen\n- Einführung Softwareentwicklung (Folie)\n- Aufgabe: Programmiersprachen einordnen\n- Aufgabe: Pseudocode erstellen\n- Einführung HTML und XML\n- Übung zu HTML/XML\n- Aufgabe UML-Klassendiagramm bearbeiten und vergleichen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Einführung Use-Case-Diagramm (Präsentation)\n- Übungen zu Use-Case-Diagrammen\n- Projektmanagement-Aufgaben\n- Netzplan erstellen\n- Stromkosten berechnen\n- Programmierscript korrigieren\n- Einführung IT-Sicherheit\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Projekt, Stakeholder und Projektberater (Übung)\n- Einführung SQL\n- Algorithmus entwickeln\n- Einführung ER-Diagramm\n- Lastenheft & IST-Analyse\n- Workspace Management Software\n- Weitere Algorithmen entwickeln\n- Datenübertragung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Einführung KI (Übung)\n- Lasten- vs. Pflichtenheft\n- Klassendiagramm\n- ER-Diagramm\n- Digitales Zertifikat\n- Verschlüsselung (Übung)\n- Algorithmus entwickeln\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Einführung Verschlüsselungsverfahren (Symmetrisch, Asymmetrisch, Hybrid, Zertifikate)\n- Datenschutz (DSGVO, BDSG)\n- Aufgaben zu Dateiformaten\n- KI (Einsatzgebiete, technische Betrachtung)\n- Aufbau einer Webseite (Übung)\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "01.09.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Kursinhalt\n- Handelskalkulation (Zuschlags-, Rückwärts-, Gewinnkalkulation)\n- Darlehensarten (endfällig, Raten-, Annuitätendarlehen)\n- Gesellschaftsformen und Gewinnverteilung\n- Verbrauchskostenberechnung (Drucker), Bedarf/Bedürfnis/Nachfrage, Güterarten, VWL",
+        "tuesday": "- Besprechung Testfragen vom Vortag\n- Europathek Fachkompetenz 2.8.1 (Factoring, Geldströme, Marktformen)\n- Europathek Fachkompetenz 2.8.2\n- Preisfindung, Gleichgewichtspreis\n- Konjunktur und Staatseingriffe",
+        "wednesday": "- Altersversorgung, VWL\n- Notwendige Versicherungen, Überschuldung\n- BBiG: Rechte, Pflichten, Beendigung Ausbildungsvertrag\n- Kündigungsfristen, Kündigungsschutz, Betriebsrat, Gewerkschaft\n- Bearbeitung Fragen aus Fragensammlung (mit Zusatzinfos)",
+        "thursday": "- Quiz: Soziale Marktwirtschaft, Angebot/Nachfrage, Konjunktur\n- Quiz: Wirtschaftspolitik, Sozialversicherung, Lohn-/Gehaltsabrechnung\n- Quiz: Versicherungen, Überschuldung, Kreditarten/Leasing, BBiG\n- Quiz: Vertragsarten, Ausbildungsvertrag, Jugendarbeitsschutz\n- Europathek 2.8.3 und 2.8.4 (Prozesse, Beschaffung, Absatz)",
+        "friday": "- Quizfragen zu Themen vom Vortag\n- Kalkulationszuschlag und Marge berechnen\n- Simulation IHK-Prüfung 1\n- Simulation IHK-Prüfung 2\n- Nachbearbeitung Inhalte (Restgruppe)"
     },
     "08.09.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Wiederholung: Handelskalkulation, Darlehen, Gesellschaftsformen, VWL\n- Quiz: Soziale Marktwirtschaft, Marktformen, Konjunktur\n- Aufgaben: Vertragsarten, BBiG\n- Übungen: Versicherungen, Überschuldung, Altersvorsorge\n- Gruppenarbeit: Marktformen, ökonomisches Prinzip",
+        "tuesday": "- Besprechung Testfragen/Quiz vom Vortag\n- Aufgaben: Preisfindung, Gleichgewichtspreis\n- Übungen: Konjunktur und staatliche Eingriffe\n- Rechenbeispiele: Sozialversicherung & Lohnsteuer\n- Fragensammlung: Jugendarbeitsschutz, Gewerkschaften",
+        "wednesday": "- GFN-Prüfungssimulation 1–4 (Einzel-/Gruppenarbeit)\n- Nachbearbeitung der Fachinhalte\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Dozenten-Fragenliste (108 Zusatzfragen, Teil 1)\n- Einzel- und Gruppenarbeit\n- Offene Fragen und Diskussion zu Teil 1\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Dozenten-Fragenliste (Teil 2)\n- Einzel- und Gruppenarbeit\n- Offene Fragen und Diskussion zu Teil 2\n- Abschluss, Feedback und Verabschiedung\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "15.09.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Organisatorisches, Wiedereinstieg nach Urlaub\n- Weiterentwicklung des Projekts\n- Trainerunterstützung bei Bedarf\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches\n- Weiterentwicklung des Projekts\n- Trainerfeedback und Unterstützung, roter Faden bei Bedarf\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Begrüßung, Organisatorisches\n- Weiterentwicklung des Projekts\n- Trainerfeedback und Unterstützung, roter Faden\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Begrüßung, Organisatorisches\n- Weiterentwicklung des Projekts\n- Trainerfeedback, Unterstützung und Einzelcoachings zur Fortschrittskontrolle\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Begrüßung, Organisatorisches\n- Einführung in Projektpräsentationen (Schulung, Beispiele, Erfahrungsaustausch)\n- Fortsetzung Projektimplementierung\n- Paralleldokumentation und Trainerfeedback zu ersten Entwürfen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "22.09.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Begrüßung, Organisatorisches\n- Projektimplementierung und Weiterentwicklung\n- Trainerunterstützung bei Bedarf\n- Paralleldokumentation / Projektdokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "tuesday": "- Begrüßung, Organisatorisches\n- Fortsetzung Projektdokumentation\n- Feedback durch Dozent und Einzelcoachings\n- Codeanpassungen, Diagramm-Screenshots, Anhänge erstellen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "wednesday": "- Projektdokumentation fortführen\n- Inhalte und Code beschreiben\n- Screenshots und Diagramme einfügen\n- Anhänge erstellen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "thursday": "- Projektdokumentation fortführen und fertigstellen\n- Feinschliff der Dokumentation\n- Vorbereitung auf Projektpräsentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "friday": "- Projektpräsentation durchführen\n- Feedback und Reflexion der Ergebnisse\n- Abschlussrunde zur Projektphase\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
     },
     "29.09.2025": {
         "monday": "Platzhalter für Montag",
