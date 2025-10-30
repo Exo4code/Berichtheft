@@ -139,20 +139,14 @@ function updateFormWithDates(startDate, endDate) {
     localStorage.setItem('currentWeekStart', startDate);
     localStorage.setItem('currentWeekEnd', endDate);
 
-    loadPredefinedTexts(startDate);
+    // Vorrang: vorhandene lokale Daten laden; nur ohne lokale Daten
+    // werden Default-Texte aus JSON geladen (innerhalb von loadFormData)
+    loadFormData(startDate);
 }
 
-// Kompaktierungs-Helfer: kürzt auf max. 5 Zeilen und 60 Zeichen pro Zeile
-function compactText(input, maxLines = 5, maxCharsPerLine = 60) {
-    if (!input) return '';
-    const lines = String(input).split('\n')
-        .map(l => l.replace(/^\s*-\s*/, '').trim()) // führendes "- " entfernen
-        .filter(Boolean);
-    const limited = lines.slice(0, maxLines).map(l => {
-        if (l.length <= maxCharsPerLine) return l;
-        return l.slice(0, maxCharsPerLine - 1) + '…';
-    });
-    return limited.map(l => `- ${l}`).join('\n');
+// Kompaktierungs-Helfer: keine Kürzung – gibt den Text unverändert zurück
+function compactText(input) {
+    return input == null ? '' : String(input);
 }
 
 async function loadPredefinedTexts(startDate) {
@@ -324,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Event Listener für Änderungen an den persönlichen Daten
     document.querySelectorAll('.name-input, .profession-input').forEach(input => {
-        input.addEventListener('change', savePersonalData);
+        input.addEventListener('input', savePersonalData);
     });
 
     // Automatische Erkennung und Auswahl der aktuellen Woche
@@ -593,12 +587,23 @@ function exportToPDF() {
 // Event Listener für den Download-Button
 document.querySelector('.download-button').addEventListener('click', exportToPDF);
 
-// Event-Listener für Änderungen im Formular
-document.querySelectorAll('.activity-input, .hours-input, .number-input').forEach(input => {
-    input.addEventListener('change', () => {
+// Autosave: speichere Änderungen sofort während der Eingabe
+document.querySelectorAll('.activity-input, .hours-input, .number-input, .year-input').forEach(input => {
+    input.addEventListener('input', () => {
         const startDate = document.getElementById('weekStart').value;
-        saveFormData(startDate);
+        if (startDate) {
+            saveFormData(startDate);
+        }
     });
+});
+
+// Änderungen an Start/Ende-Datum ebenfalls direkt sichern
+document.getElementById('weekStart').addEventListener('input', function () {
+    localStorage.setItem('currentWeekStart', this.value);
+});
+
+document.getElementById('weekEnd').addEventListener('input', function () {
+    localStorage.setItem('currentWeekEnd', this.value);
 });
 
 // Event-Listener für die Jahr-Buttons hinzufügen
@@ -1145,3 +1150,32 @@ function updateWeekNumber() {
 
 // Fügen Sie diesen Event-Listener zu Ihrem bestehenden Code hinzu
 document.getElementById('weekStart').addEventListener('change', updateWeekNumber);
+
+// Reset-Logik: lokale Eingaben löschen und JSON-Defaults neu laden
+function resetLocalStorageAndReload() {
+    const confirmed = window.confirm('Bist du sicher? Alle deine Eingaben im localStorage werden zurückgesetzt. Die Standardtexte werden wieder geladen.');
+    if (!confirmed) return;
+
+    // Aktuelle Woche merken
+    const startDate = document.getElementById('weekStart').value;
+    const endDate = document.getElementById('weekEnd').value;
+
+    // Nur projektbezogene Keys entfernen
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+        const key = localStorage.key(i);
+        if (!key) continue;
+        if (key.startsWith('formData_') || key === 'apprenticeName' || key === 'apprenticeProfession') {
+            localStorage.removeItem(key);
+        }
+    }
+
+    // Formular mit JSON-Defaults für die aktuelle Woche neu füllen
+    if (startDate && endDate) {
+        updateFormWithDates(startDate, endDate);
+    }
+
+    alert('Zurückgesetzt. Standardtexte wurden geladen.');
+}
+
+// Button-Listener
+document.querySelector('.reset-button').addEventListener('click', resetLocalStorageAndReload);
