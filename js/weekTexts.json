@@ -196,74 +196,74 @@
         "friday": "- Lernerfolgskontrolle (LZK)\n- Smart-Home-Übungen\n- Abschluss mit Kahoot-Quiz"
     },
     "13.01.2025": {
-        "monday": "- Einführung in den Kurs und Einrichtung der Tools\n- Wiederholung von Variablen und Datentypen\n- Umwandlung von Datentypen und Feedbackrunde",
-        "tuesday": "- Mathematische Operatoren und Kontrollstrukturen\n- Projektarbeit: Trinkgeldrechner\n- Kombination von Kontrollstrukturen mit Operatoren",
-        "wednesday": "- Wiederholung von Listen und Verzweigungen\n- Projekt Schere-Stein-Papier\n- Feedback und Tagesabschluss",
-        "thursday": "- Übungen zu Zählerschleifen und Funktionen\n- Programmiertraining mit Reeborg's World\n- Abschluss mit Feedbackrunde",
-        "friday": "- Wiederholung von While-Schleifen und Funktionen\n- Einführung in UML und Use Cases\n- Feedback zur gesamten Woche"
+        "monday": "- Einführung Kurs & Tools\n- Variablen und Datentypen\n- Datentypumwandlung",
+        "tuesday": "- Operatoren und Kontrollstrukturen\n- Projekt: Trinkgeldrechner\n- Kombination Operatoren & Strukturen",
+        "wednesday": "- Listen und Verzweigungen\n- Projekt: Schere-Stein-Papier\n- Feedback",
+        "thursday": "- Zählerschleifen und Funktionen\n- Reeborg's World Training\n- Feedbackrunde",
+        "friday": "- While-Schleifen und Funktionen\n- UML und Use Cases\n- Wochenfeedback"
     },
     "20.01.2025": {
-        "monday": "- Einführung in Use Case Diagramme\n- Erstellung verschiedener Anwendungsfalldiagramme\n- Feedback und Transfer",
-        "tuesday": "- Einführung in Turtle für Benutzeroberflächen\n- Übungen zu Kontrollstrukturen und Objektorientierung\n- Erstellung eines Fraktalbaums",
-        "wednesday": "- Einführung in UML-Klassendiagramme\n- Erstellung von Klassendiagrammen für verschiedene Szenarien\n- Vertiefung von Beziehungen zwischen Klassen",
-        "thursday": "- Implementierung von Klassen und Objekten\n- Objektorientierung mit Konstruktoren und Methoden\n- Erstellung eines objektorientierten Quiz-Programms",
-        "friday": "- Fertigstellung des Quiz-Programms\n- Einführung in UML-Aktivitätsdiagramme\n- Erstellung verschiedener Aktivitätsdiagramme"
+        "monday": "- Use Case Diagramme\n- Anwendungsfalldiagramme erstellen\n- Feedback",
+        "tuesday": "- Turtle für GUIs\n- Kontrollstrukturen & OOP\n- Fraktalbaum erstellen",
+        "wednesday": "- UML-Klassendiagramme\n- Klassendiagramme für Szenarien\n- Beziehungen zwischen Klassen",
+        "thursday": "- Klassen und Objekte implementieren\n- Konstruktoren und Methoden\n- Quiz-Programm erstellen",
+        "friday": "- Quiz-Programm fertigstellen\n- UML-Aktivitätsdiagramme\n- Aktivitätsdiagramme erstellen"
     },
     "27.01.2025": {
-        "monday": "- Abschluss der Aktivitätsdiagramm-Aufgabe\n- Einführung in Vererbung und Polymorphie\n- Erste Schritte mit Tkinter für GUI-Entwicklung",
-        "tuesday": "- Einführung in MariaDB und Datenbankgrundlagen\n- CRUD-Befehle zur Datenbankmodifikation\n- Inner Join von Tabellen und Erweiterungen",
-        "wednesday": "- BASE vs. ACID in Datenbanken\n- Einführung in Entity-Relationship-Modelle\n- Erstellung von ER-Diagrammen für verschiedene Szenarien",
-        "thursday": "- Primär- und Fremdschlüssel in Datenbanken\n- Normalisierung bis zur dritten Normalform (3NF)\n- Einführung in SQL-Abfragen mit DQL",
-        "friday": "- Testvorbereitung und Lernerfolgskontrolle (LZK)\n- Nachbesprechung der Prüfungen\n- Abschlussprojekt \"SQL Island\""
+        "monday": "- Aktivitätsdiagramm abschließen\n- Vererbung und Polymorphie\n- Tkinter GUI-Entwicklung",
+        "tuesday": "- MariaDB & Datenbankgrundlagen\n- CRUD-Befehle\n- Inner Join",
+        "wednesday": "- BASE vs. ACID\n- ER-Modelle\n- ER-Diagramme erstellen",
+        "thursday": "- Primär- & Fremdschlüssel\n- Normalisierung (3NF)\n- SQL-Abfragen (DQL)",
+        "friday": "- LZK-Vorbereitung\n- Prüfungsnachbesprechung\n- Projekt: SQL Island"
     },
     "03.02.2025": {
-        "monday": "- Einführung in Windows 10 Editionen und Bereitstellung\n- Einrichtung eines RemoteLab mit Servern und Clients\n- Hochstufen des Servers zum Domänencontroller",
-        "tuesday": "- Upgrade und Migration auf Windows 10\n- Einführung in Gruppenrichtlinien (GPOs)\n- Praktische Übung zur GPO-Konfiguration",
-        "wednesday": "- Anpassung der Benutzeroberfläche und Systemsteuerung\n- Erweiterte Konfiguration mit AD, Azure AD und PowerShell\n- Verknüpfung und Verwaltung von Gruppenrichtlinien",
-        "thursday": "- Einführung in Treiber und Windows-Updates\n- Netzwerkfunktionen: Arbeitsgruppen, Domänen, Firewall\n- Remote-Zugriff, Proxy und NTFS-Freigaben",
-        "friday": "- VPN und WLAN-Sicherheit mit Verschlüsselungstypen\n- Ethernet, Firewall und IP-Adresskonfiguration\n- Speicherverwaltung: Partitionierung und RAID-Systeme"
+        "monday": "- Windows 10 Editionen\n- RemoteLab einrichten\n- Server zum Domänencontroller",
+        "tuesday": "- Windows 10 Upgrade/Migration\n- Gruppenrichtlinien (GPOs)\n- GPO-Konfiguration üben",
+        "wednesday": "- Benutzeroberfläche anpassen\n- AD, Azure AD, PowerShell\n- Gruppenrichtlinien verwalten",
+        "thursday": "- Treiber & Windows-Updates\n- Netzwerk: Arbeitsgruppen, Domänen\n- Remote-Zugriff & NTFS-Freigaben",
+        "friday": "- VPN & WLAN-Sicherheit\n- Ethernet, Firewall, IP-Konfiguration\n- Speicherverwaltung & RAID"
     },
     "10.02.2025": {
-        "monday": "- Einführung in Windows-Apps und Installationsmethoden\n- Sicherheit im Web: SSL-Zertifikate und EFS\n- Gruppenrichtlinien für zentrale Speicherverwaltung",
-        "tuesday": "- Authentifizierung und Autorisierung von Benutzerkonten\n- Einführung in NTFS-Berechtigungen und Dateisysteme\n- Praktische Übung zum Einrichten eines Dateiservers",
-        "wednesday": "- Schutzmaßnahmen gegen Malware und Windows Defender\n- Netzwerksicherheit durch Firewall-Regeln\n- Basisverzeichnisse für Administratoren einrichten",
-        "thursday": "- Simulationen zu Windows 10 Themen im RemoteLab\n- Einführung in BitLocker und AppLocker\n- Windows-Support-Tools: Task-Manager und MMCs",
-        "friday": "- Durchführung der Lernerfolgskontrolle (LZK)\n- Datensicherung mit Windows Backup und Wiederherstellung\n- Verwaltung lokaler Gruppenrichtlinien im RemoteLab"
+        "monday": "- Windows-Apps & Installation\n- SSL-Zertifikate & EFS\n- Gruppenrichtlinien Speicherverwaltung",
+        "tuesday": "- Authentifizierung & Autorisierung\n- NTFS-Berechtigungen\n- Dateiserver einrichten",
+        "wednesday": "- Malware-Schutz & Windows Defender\n- Firewall-Regeln\n- Admin-Basisverzeichnisse",
+        "thursday": "- Windows 10 Simulationen RemoteLab\n- BitLocker & AppLocker\n- Task-Manager & MMCs",
+        "friday": "- Lernerfolgskontrolle (LZK)\n- Windows Backup & Wiederherstellung\n- Lokale Gruppenrichtlinien"
     },
     "17.02.2025": {
-        "monday": "- Vorstellungsrunde\n- Ziele der Schulung und EXIN-Prüfung\n- Besprechung Prüfungsvorbereitung\n- Einführung Softwareentwicklungsprozess Teil 1\n- Produktvision und erste Anforderungsliste\n- Übung und Besprechung zur Produktvision",
-        "tuesday": "- Wiederholung Produktvision und Anforderungsliste\n- Softwareentwicklungsprozess Teil 2: Pflichtenheft, Implementierung, Testen, Release\n- Einführung Agiles Manifest\n- Agiles Mindset\n- Selbststudium: Scrum Guide\n- Übungsfragen (GFN und Exin) bearbeiten und besprechen",
-        "wednesday": "- Wiederholung Softwareentwicklungsprozess (Pflichtenheft bis Release)\n- Scrum Grundlagen und Scrum Framework\n- Scrum Team\n- Scrum Events Teil 1\n- Selbststudium Scrum Guide\n- Übungsaufgaben Kapitel 1–5 bearbeiten\n- Tagesabschluss und Feedback",
-        "thursday": "- Wiederholung Vortag\n- Scrum Events Teil 2\n- Scrum Artefakte\n- Planung vom Groben zum Detail (Teil 1)\n- Selbstlernphase\n- Übungsaufgaben besprechen",
-        "friday": "- Wiederholung Scrum Events\n- Wiederholung Scrum Artefakte\n- Planung vom Groben zum Detail\n- Extreme Programming (XP)\n- Selbstlernphase\n- Übungsaufgaben Kapitel 8 und 9 besprechen"
+        "monday": "- Kursziele (EXIN-Prüfung)\n- Softwareentwicklungsprozess\n- Produktvision & Anforderungsliste",
+        "tuesday": "- Prozess: Pflichtenheft bis Release\n- Agiles Manifest\n- Scrum Guide studieren",
+        "wednesday": "- Scrum: Framework, Team, Events\n- Scrum Guide\n- Übungsaufgaben",
+        "thursday": "- Scrum Events & Artefakte\n- Planung Grob → Detail\n- Übungsaufgaben",
+        "friday": "- Scrum Events & Artefakte\n- Extreme Programming (XP)\n- Planung & Übungen"
     },
     "24.02.2025": {
-        "monday": "- Wiederholung Scrum Artefakte\n- SCRUM-Skalierung und agile Methoden\n- Selbstlernzeit\n- Übungsfragen des Tages besprechen",
-        "tuesday": "- Besprechung GFN Zusatzfragen\n- Selbstlernzeit: EXIN Musterprüfung\n- Besprechung EXIN Musterprüfung\n- Selbstlernphase",
-        "wednesday": "- Einführung Übungstage Agiles Arbeiten / Kursprojekt\n- Selbstlernen und Prüfung ablegen\n- Übung: Vom Epic zur User Story\n- Besprechung der Übung\n- Selbstlernen und Prüfung ablegen\n- Tagesabschluss und Feedback",
-        "thursday": "- Einführung Tools für Sprintbacklog (Trello etc.)\n- Einführung Jira\n- Selbstlernphase / Prüfung\n- Übung: Eindeutige User Story\n- Besprechung der Übung\n- Tagesabschluss",
-        "friday": "- Einführung Low-Code / No-Code Anwendungen\n- Selbstlernzeit / EXIN-Prüfung extern\n- Übung: Vom Epic zur User Story\n- Übung: Drei Commitments\n- Besprechung Übungen\n- Interaktive Besprechung Scrum (Wortwolken)\n- Kursabschluss und Feedback"
+        "monday": "- Scrum Artefakte\n- SCRUM-Skalierung\n- Übungsfragen",
+        "tuesday": "- GFN Zusatzfragen\n- EXIN Musterprüfung\n- Selbstlernphase",
+        "wednesday": "- Agiles Arbeiten / Kursprojekt\n- Epic → User Story\n- Prüfung & Feedback",
+        "thursday": "- Sprintbacklog-Tools (Trello, Jira)\n- User Story Übung\n- Tagesabschluss",
+        "friday": "- Low-Code / No-Code\n- Epic/User Story & Commitments\n- Scrum-Besprechung & Abschluss"
     },
     "03.03.2025": {
-        "monday": "- Einführung und Vorstellung des Kursblocks\n- Einrichtung der notwendigen Tools\n- Einführung in HTML: Tags und Elemente\n- Verwendung verschiedener Tags mit Vertiefungsaufgaben\n- HTML Miniprojekte: Geburtstagseinladung\n- HTML Miniprojekte: Portfolio Website\n- Feedbackrunde",
-        "tuesday": "- Transfer des Vortages\n- Projekte auf GitHub bereitstellen\n- HTML Resume Portfolio Projekt\n- Einführung in CSS\n- Unterschiede Inline, Internal und External CSS\n- CSS Selektoren\n- Miniprojekt zu CSS-Grundlagen\n- Feedbackrunde und Transfer",
-        "wednesday": "- Transfer des Vortages\n- CSS Eigenschaften: Schriften, Farben, Textausrichtung\n- Vorstellung des CSS Boxmodels\n- Vertiefungsaufgabe zum Boxmodel\n- Projekt: Motivations-Meme-Webseite\n- CSS Vererbunghierarchien\n- Vertiefungsaufgaben zu Vererbungshierarchien\n- Kombinationen von Selektoren\n- Vertiefungsaufgaben zu Selektorkombinationen",
-        "thursday": "- Transfer des Vortages\n- Inline, Internal und External CSS\n- Farbwerte, Hintergrundfarben, Templates\n- Schriftarten, Größen, Breite, Serif vs. Sans-Serif\n- Schriftarten im HTML-Dokument implementieren, Text-Ausrichtung\n- Browser DevTools: Edge, Firefox, Chrome\n- CSS Box Model: Margin, Border, Padding, Div-Container\n- Projekt: Motivations-Meme-Webseite\n- Feedbackrunde",
-        "friday": "- Transfer des Vortages\n- Einführung Responsive Design, Block vs. Inline Elemente\n- Float-Eigenschaft\n- Media Queries (Theorie und Übungen)\n- Einführung Flexbox\n- Einführung CSS Grid\n- Feedbackrunde"
+        "monday": "- HTML: Tags & Elemente\n- Miniprojekte: Geburtstagseinladung & Portfolio\n- Tools einrichten",
+        "tuesday": "- Projekte auf GitHub\n- CSS: Inline, Internal, External\n- CSS Selektoren",
+        "wednesday": "- CSS: Schriften, Farben, Textausrichtung\n- CSS Boxmodel\n- Projekt: Motivations-Meme-Webseite",
+        "thursday": "- CSS: Farbwerte, Schriftarten\n- Browser DevTools\n- Projekt: Motivations-Meme-Webseite",
+        "friday": "- Responsive Design\n- Float & Media Queries\n- Flexbox & CSS Grid"
     },
     "10.03.2025": {
-        "monday": "- Transfer der letzten Woche\n- CSS Flexbox Eigenschaften mit Vertiefungsaufgaben\n- Flexbox Defence Übung\n- Projekt: Preistabelle mit Flexbox\n- CSS Grid: Schachbrett erstellen\n- Grid Eigenschaften und Attribute\n- Projekt Grid-Garden\n- Feedbackrunde",
-        "tuesday": "- Transfer des Vortages\n- Einführung in JavaScript\n- Datentypen in JavaScript\n- Miniprojekt: Wurfspiel in JavaScript\n- Variablen in JavaScript\n- Zeichenketten und Methoden\n- Zahlen: Floats und Ganzzahlen (BMI-/Trinkgeldrechner)\n- Feedbackrunde",
-        "wednesday": "- Transfer des Vortages\n- Projekt Trinkgeldrechner abschließen\n- Verzweigungen in JavaScript (if/else if)\n- Übungen zu Verzweigungen: Gerade/Ungerade, BMI, Schaltjahr, Steuerrechner\n- Vorbereitung Minispiel: Fallgeschwindigkeit und Wurfweite (For-Schleifen)\n- Feedbackrunde und Transfer",
-        "thursday": "- Transfer des Vortages\n- Kontrollstrukturen: Vertiefungsprojekt mit For-Schleifen und Verzweigungen\n- Umgang mit zufälligen Werten\n- Einführung While-Schleifen\n- Projekt: Zahlen Raten (DOM-Zugriff in JavaScript)\n- Feedbackrunde",
-        "friday": "- Transfer des Vortages\n- Projekt Zahlenraten mit Benutzeroberfläche\n- Einführung in Funktionen\n- Übungen Kontrollstrukturen und Funktionen mit Reeborg World\n- Projekt Schere-Stein-Papier mit Benutzeroberfläche\n- Feedbackrunde"
+        "monday": "- CSS Flexbox\n- Projekte: Preistabelle & Grid-Garden\n- CSS Grid: Schachbrett",
+        "tuesday": "- JavaScript: Datentypen & Variablen\n- Projekt: Wurfspiel\n- Zeichenketten & Methoden",
+        "wednesday": "- Projekt Trinkgeldrechner\n- Verzweigungen (if/else if)\n- Übungen: BMI, Schaltjahr",
+        "thursday": "- For-Schleifen & Verzweigungen\n- Zufällige Werte & While-Schleifen\n- Projekt: Zahlen Raten",
+        "friday": "- Projekt Zahlenraten mit GUI\n- Funktionen\n- Projekt Schere-Stein-Papier"
     },
     "17.03.2025": {
-        "monday": "- Transfer der Vorwoche\n- Grundlagen Web-Design\n- Benutzeroberflächen gestalten\n- Projekt Schere-Stein-Papier: Benutzerinterface aufsetzen\n- Projekt Schere-Stein-Papier: Logik implementieren\n- Feedbackrunde",
-        "tuesday": "- Transfer des Vortages\n- Weiterführung Projekt Schere-Stein-Papier\n- Gestaltung der Portfoliowebseite mit Projekten\n- Einführung Projekt Codebreaker (Operatoren und Kontrollstrukturen)\n- Projekt Codebreaker: GUI erstellen\n- Projekt Codebreaker: Logik implementieren\n- Feedbackrunde",
-        "wednesday": "- Transfer des Vortages (Projektdaily)\n- Weiterführung Portfoliowebseite mit allen Projekten\n- UI/UX Design und Barrierefreiheit in Projekten umsetzen\n- Feedbackrunde",
-        "thursday": "- Transfer des Vortages\n- UI/UX Design: Farben und Schriftarten\n- UI/UX Design: Barrierefreiheit\n- UI/UX Design: Intuitiver Seitenaufbau\n- Umsetzung in Projekten\n- Veröffentlichung auf GitHub\n- Code Reviews, QM und Tests\n- Feedbackgespräch",
-        "friday": "- Transfer der gesamten drei Wochen\n- Testvorbereitung\n- Durchführung der Lernerfolgskontrolle (LZK)\n- Besprechung der LZK\n- Implementierung von Unit Tests\n- Feedbackrunde und Kursabschluss"
+        "monday": "- Web-Design Grundlagen\n- Projekt Schere-Stein-Papier: GUI & Logik\n- Feedback",
+        "tuesday": "- Projekt Schere-Stein-Papier\n- Portfoliowebseite\n- Projekt Codebreaker: GUI & Logik",
+        "wednesday": "- Portfoliowebseite mit Projekten\n- UI/UX Design & Barrierefreiheit\n- Projektdaily",
+        "thursday": "- UI/UX: Farben, Schriftarten\n- Projekte auf GitHub\n- Code Reviews & Tests",
+        "friday": "- LZK-Vorbereitung\n- LZK durchführen\n- Unit Tests & Kursabschluss"
     },
     "24.03.2025": {
         "monday": "Platzhalter für Montag",
@@ -280,17 +280,17 @@
         "friday": "Platzhalter für Freitag"
     },
     "07.04.2025": {
-        "monday": "- Vorstellung des Kurses\n- Vorstellung und Auswahl der Projektideen\n- Einarbeitung, Absprache und Soll-Analyse der Projekte\n- Gestaltung einer interaktiven Benutzeroberfläche mit HTML und CSS\n- Feedbackrunde",
-        "tuesday": "- Projektdaily und Vorstellung aktueller Ergebnisse\n- Einarbeitung von Funktionalitäten mit Webtechnologien (JavaScript: React, Vue, Angular | TypeScript | PHP Laravel)\n- Begleitete Einarbeitung von Funktionalitäten in die Projekte\n- Feedbackrunde",
-        "wednesday": "- Projektdaily und Vorstellung Projektfortschritt\n- Code Reviews und Verbesserungsvorschläge\n- Einarbeitung verbesserter Funktionalitäten in die Projekte\n- Feedbackrunde",
-        "thursday": "- Projektdaily und Code Review\n- Einarbeitung von Teststrategien\n- Erstellung projektbezogener Unit Tests\n- Feedbackrunde",
-        "friday": "- Projektdaily und Code Review\n- Fertigstellung der Projekte\n- Projektpräsentationen\n- Feedbackrunde"
+        "monday": "- Kursvorstellung\n- Projektideen auswählen\n- HTML/CSS GUI gestalten",
+        "tuesday": "- Projektdaily\n- Webtechnologien einarbeiten\n- Funktionalitäten implementieren",
+        "wednesday": "- Projektdaily\n- Code Reviews\n- Funktionalitäten verbessern",
+        "thursday": "- Projektdaily & Code Review\n- Teststrategien\n- Unit Tests erstellen",
+        "friday": "- Projektdaily & Code Review\n- Projekte fertigstellen\n- Projektpräsentationen"
     },
     "14.04.2025": {
-        "monday": "- Begrüßung, Organisatorische Hinweise, Ziele des Kurses\n- Installation von PyCharm, C++ Compiler, MySQL-Server und Workbench\n- Python Grundlagen: Programmaufbau, Blöcke, Variablen, Literale, Kommentare, Sequenzen, Escape-Sequenzen, Schlüsselwörter, Module, Namensräume\n- Ein- und Ausgabe in der Konsole, Formatierungen\n- Demo: Temperaturberechnung in PyCharm\n- Primitive Datentypen, arithmetische und Zuweisungsoperatoren\n- Exception-Handling in Python\n- Übungsaufgaben (010-090) zur Bearbeitung",
-        "tuesday": "- Wiederholung des Vortags, FAQs\n- Demo und Besprechung der Übungsaufgaben (Glücksrad-Auswahl)\n- Exception-Handling (try, except, else, finally), Exceptiontypen und Einsatz\n- Verzweigungen in Python: if, else, elif, match\n- Relationale und boolesche Operatoren verstehen und anwenden\n- Programmierübungen (100-200), Einzelbearbeitung mit Dozentenbetreuung\n- Demos der Lösungen",
-        "wednesday": "- Wiederholung des Vortags, Demo der Übungen\n- Schleifen und Listen in Python (Theorie und Praxis)\n- Funktionen in Python: Parameter, Argumente, wichtige Variablen (__name__ etc.)\n- Sprungbefehle: break, continue, pass, return, raise\n- Dictionaries: ein- und mehrdimensional\n- Einführung OOP: Abstraktion, Kapselung, Vererbung, Klassen/Objekte\n- Aufgabe: Autovermietung mit Python dataclass\n- Einführung Tkinter: GUI-Beispiel Login-Dialog\n- Datenbanken: Projektverwaltung, Tabellen in MySQL anlegen\n- Übungsaufgabe: GUI für Mitarbeiterverwaltung (Listen statt DB, Demo am nächsten Tag)",
-        "thursday": "- Wiederholung des Vortags, Demos der GUI-Aufgabe (Tkinter)\n- Projektverwaltungsdatenbank anlegen (SQL-Skripte, Reverse Engineering in Workbench)\n- Zugriff auf Datenbank aus Python (MVC-Konzept, Connection, Cursor, SQL, fetchall/one)\n- Kopplung GUI und MySQL (Model: DAO, Controller: Verarbeitung, View: Anzeige)\n- Vorführung der Ergebnisse, FAQs, Korrekturen\n- Zusammenfassung, Ausblick und Literaturempfehlungen\n- Feedbackrunde",
+        "monday": "- Installation: PyCharm, MySQL\n- Python Grundlagen\n- Exception-Handling",
+        "tuesday": "- Exception-Handling: try/except\n- Verzweigungen (if/elif/match)\n- Programmierübungen",
+        "wednesday": "- Schleifen & Listen\n- Funktionen & Parameter\n- Tkinter GUI & MySQL",
+        "thursday": "- Datenbank anlegen\n- Python-Datenbankzugriff (MVC)\n- GUI & MySQL koppeln",
         "friday": "Frei"
     },
     "21.04.2025": {
@@ -301,88 +301,88 @@
         "friday": "Urlaub"
     },
     "28.04.2025": {
-        "monday": "- Einführung in die Python-Zertifizierung PCEP\n- Vorstellung der Inhalte (Udemy-Kurs PCEP-30-02)\n- Variablen, Operatoren, Ein-/Ausgabe, Zufallszahlen, Kontrollstrukturen (EVA-Prinzip)\n- Built-in-Funktionen, Python Standard Library\n- Übung: 250 Fragen Test aus dem Udemy-Kurs\n- Kontrollstrukturen: Verzweigungen\n- Abschlussrunde",
-        "tuesday": "- Wiederholung: Datenstrukturen (Listen, Tupel, Sets, Dictionaries)\n- Listen erstellen, Methoden und Verarbeitung\n- Verschachtelte Listen, 2D-Listen, Nutzung mit for-Schleifen\n- Tupel und Sets erstellen und nutzen\n- Dictionaries: Erstellung und Methoden\n- PCEP-Übungsfragen (Udemy)\n- Weitere Beispiele zu for-Schleifen mit Datenstrukturen\n- Abschlussrunde",
-        "wednesday": "- PCEP-Vorbereitung\n- Einführung in Funktionen und Module\n- Funktionen ohne Rückgabewert, Argumente und Parameter\n- Beispiele: ausgabe(), Rechteck.py\n- Funktionen mit Rückgabewert\n- Rekursive Funktionen\n- Exceptions in Python\n- PCEP-Übungsfragen (Udemy)\n- Abschlussrunde",
+        "monday": "- PCEP-Zertifizierung (Udemy)\n- Variablen, Operatoren, Kontrollstrukturen\n- Übung: 250 Fragen Test",
+        "tuesday": "- Datenstrukturen: Listen, Tupel, Sets\n- Verschachtelte Listen\n- PCEP-Übungsfragen",
+        "wednesday": "- Funktionen & Module\n- Rekursive Funktionen\n- PCEP-Übungsfragen",
         "thursday": "Tag der Arbeit (Feiertag)",
-        "friday": "- Einführung: Thema PCEP-Zertifizierung\n- Tipps und individuelle Vorbereitung\n- Bearbeitung von Übungsfragen\n- Ablegen des PCEP-Tests\n- Abschlussrunde"
+        "friday": "- PCEP-Vorbereitung\n- Übungsfragen bearbeiten\n- PCEP-Test ablegen"
     },
     "05.05.2025": {
-        "monday": "- Vorstellungsrunde und Kursvorstellung\n- Einführung in Datentypen (primitive Datentypen in Java)\n- Ganze Zahlen und Fließkommazahlen: Literale und Zahlensysteme\n- Datentyp char: Escape-Sequenzen, ASCII/Unicode-Tabelle\n- Variablen: Regeln und Konventionen\n- Fallbeispiele: Einfache Java-Anwendungen für Umrechnungen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Zusammenfassung und Aufgabenbesprechung\n- Operatoren in Java\n- Operatoren: Prioritätstabelle und Assoziativität\n- Logische, Vergleichs- und arithmetische Operatoren\n- Fallbeispiele: Anwendung von Operatoren in Codefragmenten\n- Ausdrücke in Java und Typkonvertierungen\n- Selbstlernphase: Nacharbeiten mit Programmieraufgaben",
-        "wednesday": "- Zusammenfassung und Aufgabenbesprechung\n- Einführung in Kontrollstrukturen\n- Verzweigungen: if, if/else, switch/case\n- Einführung in Schleifen (Loops)\n- Zählerschleife: for\n- Kopfgesteuerte Schleife: while\n- Fußgesteuerte Schleife: do/while\n- Fallbeispiele: Schaltjahrprüfung, BMI-Auswertung\n- Selbstlernphase: Programmieraufgaben und Rückfragen",
-        "thursday": "- Zusammenfassung und Aufgabenbesprechung\n- Fallbeispiel: Ratespiel (Anwendung von Verzweigungen und Schleifen)\n- Programmablauf simulieren und Code analysieren\n- Vergleich der Schleifenvarianten: for ↔ while ↔ do/while\n- Fallstudien: Wahl der geeigneten Schleifenform\n- Übungen: BMI-Berechnung, Tage pro Monat ermitteln\n- Selbstlernphase: Nacharbeiten und Fragen klären",
-        "friday": "- Zusammenfassung und Aufgabenbesprechung\n- Zeichenketten in Java: String-Klasse, Literale, Escape-Sequenzen, Konkatenation\n- Arrays in Java: eindimensionale Arrays, Initialisierung, Größe, Zugriff\n- Fallbeispiele: Array mit Zufallszahlen, Temperaturwerte mit Mittelwert, Minimum und Maximum\n- Einführung in Methoden: Modularisierung, Definition und Aufruf\n- Selbstlernphase: Nacharbeiten und Fragen klären"
+        "monday": "- Java Datentypen (primitive)\n- Zahlen: Literale, Zahlensysteme\n- Variablen & Konventionen",
+        "tuesday": "- Operatoren: Priorität & Assoziativität\n- Logische & arithmetische Operatoren\n- Typkonvertierungen",
+        "wednesday": "- Verzweigungen (if/else/switch)\n- Schleifen (for/while/do-while)\n- Übungen: Schaltjahr, BMI",
+        "thursday": "- Ratespiel (Verzweigungen & Schleifen)\n- Schleifenvarianten vergleichen\n- Übungen: BMI, Tage pro Monat",
+        "friday": "- String-Klasse & Konkatenation\n- Arrays: Initialisierung & Zugriff\n- Methoden: Definition & Aufruf"
     },
     "12.05.2025": {
-        "monday": "- Zusammenfassung und Aufgabenbesprechung\n- Anwendung von Kontrollstrukturen\n- Anwendung von Operatoren\n- Fallbeispiele: numerische Aufgaben mit Kontrollstrukturen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Zusammenfassung und Aufgabenbesprechung\n- Einführung in Modularisierung und Methoden\n- Methoden: Signatur, Definition und Aufruf\n- Parameter vs. Argumente\n- Fallbeispiel: BMI berechnen und auswerten\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Zusammenfassung und Aufgabenbesprechung\n- Einführung in die Objektorientierung: Motivation und Paradigmen\n- Klassen und Objekte als Konzepte\n- Klassen als Datentyp im Vergleich zu primitiven Typen\n- Klassenmitglieder: Attribute, Methoden und Konstruktoren\n- Objekterzeugung, Konstruktor-Aufruf, Zugriff auf Methoden und Attribute\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Klassen definieren: Fallbeispiel Geometrie (Punkte und Kreise)\n- Konstruktoren: Wertebereiche prüfen, Überladen und Delegation\n- Methoden: Instanzmethoden, Rückgabewerttypen, Parameterlisten, Wirk- und Wertmethoden\n- Kapselung und Geheimnisprinzip: private, default, public\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Zusammenfassung und Aufgabenbesprechung\n- Zugriffskontrolle: Attribute private, Konstruktoren und Methoden public\n- Getter und Setter: Notwendigkeit und Empfehlungen\n- final-Attribute und deren Zusammenhang mit Konstruktoren\n- Fallbeispiel: Klassen definieren (Entscheidung final-Attribute)\n- Fallstudie: Online-Shop Artikelverwaltung\n- Selbstlernphase: Nacharbeiten und Fragen klären"
+        "monday": "- Kontrollstrukturen & Operatoren\n- Numerische Aufgaben\n- Selbstlernphase",
+        "tuesday": "- Methoden: Signatur, Definition\n- Parameter vs. Argumente\n- BMI berechnen",
+        "wednesday": "- Objektorientierung Grundlagen\n- Klassen & Objekte\n- Attribute, Methoden, Konstruktoren",
+        "thursday": "- Klassen definieren (Geometrie)\n- Konstruktoren überladen\n- Kapselung (private/public)",
+        "friday": "- Getter & Setter\n- final-Attribute\n- Fallstudie: Online-Shop"
     },
     "19.05.2025": {
-        "monday": "- Zusammenfassung der Vorthemen\n- Konstanten (public static final) und Klassenattribute\n- Fallbeispiel Onlineshop: Artikelverwaltung (Klassendiagramm, Umsetzung in Java)\n- Array und foreach-Loop\n- Quiz und Übungsaufgaben\n- Selbstlernphase: Aufgabenbearbeitung und Vorbereitung",
-        "tuesday": "- Zusammenfassung des Vortags\n- Fallbeispiel Onlineshop: Anforderungsanalyse\n- Identifikation benötigter Klassen und Attribute\n- Klassendiagramme erstellen und Peer-Feedback\n- Kapselung, Getter/Setter, einfache Methoden\n- Implementierte Klassen testen (main-Methode)\n- Reflexion über Modellierungs- und Implementierungsprozess\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Zusammenfassung des Vortags (Klassenstruktur in Java)\n- Grundlagen OOP: Objekte, Klassen, Attribute und Methoden\n- UML-Klassendiagramm: Notation und Aufbau\n- Fallbeispiel: Geometrische Figuren modellieren\n- Identifikation von Attributen und Methoden\n- Beziehungen zwischen Klassen (Assoziation, Aggregation)\n- Selbstlernphase: Klassendiagramm und Implementierung (Fallbeispiel Bankkonten)",
-        "thursday": "- Zusammenfassung des Vortags\n- Einführung in Vererbung und abstrakte Klassen\n- Abstrakte Methoden und Polymorphie\n- Eigene Klassenhierarchien modellieren und umsetzen\n- Präsentation und Test funktionierender Klassendesigns\n- Fallbeispiel: Bankkonten (Sparkonto, Girokonto)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Zusammenfassung des Vortags\n- Begriffserklärung Polymorphie (statisch vs. dynamisch)\n- Dynamische Polymorphie in Java (@Override, Deklarations- vs. Laufzeittyp)\n- Methoden- und Konstruktorüberladung\n- Abstrakte Klassen vs. Interfaces\n- Polymorphie durch gemeinsame Typen\n- Wiederholung der Polymorphieformen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Konstanten & Klassenattribute\n- Onlineshop: Artikelverwaltung\n- Array & foreach-Loop",
+        "tuesday": "- Onlineshop: Anforderungsanalyse\n- Klassendiagramme erstellen\n- Kapselung & Getter/Setter",
+        "wednesday": "- OOP-Grundlagen\n- UML-Klassendiagramm\n- Beziehungen: Assoziation, Aggregation",
+        "thursday": "- Vererbung & abstrakte Klassen\n- Polymorphie\n- Fallbeispiel: Bankkonten",
+        "friday": "- Polymorphie: statisch vs. dynamisch\n- @Override\n- Abstrakte Klassen vs. Interfaces"
     },
     "26.05.2025": {
-        "monday": "- Zusammenfassung der Vorthemen\n- Überblick UML und Bedeutung der Modellierung\n- Klassendiagramme: Klassen, Attribute, Methoden, Sichtbarkeiten\n- Beziehungen: Assoziation, Aggregation, Komposition, Vererbung\n- Sichtbarkeiten (+, -, #), Datentypen, Konstruktoren, statische Mitglieder\n- Umsetzung von UML-Klassendiagrammen in Java\n- IHK-Prüfungsaufgabe zu Klassendiagrammen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Zusammenfassung des Vortags\n- Einführung in Interfaces: Motivation, Syntax, Beispiele\n- Interface-Implementierung und Mehrfachimplementierung\n- Interfaces in der Praxis: lose Kopplung, APIs (Comparable, Runnable, List)\n- Default-Methoden, funktionale Interfaces und Lambda-Ausdrücke\n- Übungen mit alten IHK-Aufgaben\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Zusammenfassung des Vortags\n- Wiederholung Klassen und Vererbung\n- Einführung: abstrakte Klassen und Interfaces im Detail\n- Abstrakte Klassen: abstrakte und konkrete Methoden, Konstruktoren, Felder\n- Interfaces: Syntax, default-Methoden, Konstanten, Mehrfachimplementierung\n- Vergleich: Interface vs. abstrakte Klasse, Einsatzszenarien\n- Anwendung: IHK-Prüfungsaufgabe zur objektorientierten Softwareentwicklung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "monday": "- UML-Klassendiagramme\n- Beziehungen: Assoziation, Aggregation, Vererbung\n- IHK-Prüfungsaufgabe",
+        "tuesday": "- Interfaces: Syntax & Implementierung\n- APIs: Comparable, Runnable, List\n- Lambda-Ausdrücke",
+        "wednesday": "- Abstrakte Klassen vs. Interfaces\n- Einsatzszenarien vergleichen\n- IHK-Prüfungsaufgabe",
         "thursday": "Christi Himmelfahrt (Feiertag)",
-        "friday": "- Zusammenfassung und Aufgabenbesprechung (Interfaces)\n- Abstrakte Klassen, Interfaces, Vererbung und Polymorphie\n- Fallbeispiel: Sensor-Klassen modellieren\n- Initialisierungsblöcke in Java: Instanz- und statische Blöcke\n- Reihenfolge der Ausführung von Initialisierungsblöcken\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "friday": "- Vererbung & Polymorphie\n- Sensor-Klassen modellieren\n- Initialisierungsblöcke"
     },
     "02.06.2025": {
-        "monday": "- Zusammenfassung der Vorthemen\n- Methodenüberladung (Overloading): Motivation, Regeln, Praxis\n- Methodenüberschreibung (Overriding): Motivation, Regeln, Praxis\n- Vergleich Overloading vs. Overriding (Parameterliste, Rückgabetyp, Zweck, Bindung)\n- Fallbeispiele und Quiz zu Overloading und Overriding\n- Interfaces in Java: Wiederholung und Quiz\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Einführung in Generics: Motivation, Typsicherheit\n- Verwendung generischer Klassen: Box<T>, Wrapper-Klassen\n- Eigene generische Klassen und Methoden: <T>, mehrere Typ-Parameter\n- Einschränkungen und Typgrenzen: T extends Number\n- Vergleich ohne vs. mit Generics, Listen und Arrays\n- Fallbeispiel: Onlineshop mit Artikel und Warenkorb\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Wiederholung: Generics und Typsicherheit\n- Java Collections Framework: Überblick (Collection, Map)\n- Listen, Sets, Maps: Eigenschaften und Einsatz (ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap)\n- Iteration: for-each, Iterator, ListIterator\n- equals() und hashCode(): Vertrag und Auswirkungen auf Sets/Maps\n- Wrapper-Klassen und Autoboxing in Collections\n- Praxisübungen: Duplikate entfernen, Häufigkeiten mit Map zählen, Konvertieren zwischen Collection-Typen\n- Vorbereitung auf Sortierung: natürliche Ordnung (Comparable) vs. Comparator\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Einführung in Sortierung in Java (Collections.sort)\n- Praxisübung: Schülerliste sortieren, Comparable einführen\n- Comparator nutzen: externe Sortierung mit Lambda\n- Praxisübung: Comparator<Teilnehmer> nach Alter, mehrere Comparatoren\n- Praxisübung: Comparable<Produkt>, Comparator Preis/Bewertung/Lager\n- Suche in sortierten Listen mit Collections.binarySearch\n- Reflexion: Unterschied Comparable vs. Comparator\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Einführung in innere Klassen (Nested Classes)\n- Praxisübung: Buch mit innerer Klasse Kapitel\n- Nicht-statische innere Klassen: Syntax, Verwendung, Zugriff\n- Praxisübung: Auto mit innerer Klasse Motor\n- Statische innere Klassen (Nested Static Classes): Einsatz als Utility- oder Builder-Klasse\n- Praxisübung: MatheTool mit innerer Klasse Bruch\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Overloading vs. Overriding\n- Parameterliste, Rückgabetyp\n- Interfaces Wiederholung",
+        "tuesday": "- Generics: Typsicherheit\n- Generische Klassen & Methoden\n- Fallbeispiel: Onlineshop",
+        "wednesday": "- Collections Framework\n- ArrayList, HashSet, HashMap\n- equals() & hashCode()",
+        "thursday": "- Sortierung: Collections.sort\n- Comparable vs. Comparator\n- binarySearch",
+        "friday": "- Innere Klassen\n- Statische & nicht-statische Klassen\n- Praxisübungen"
     },
     "09.06.2025": {
         "monday": "Pfingstmontag (Feiertag)",
-        "tuesday": "- Lokale Klassen innerhalb von Methoden: Theorie und Einschränkungen\n- Praxisübung: Methode berechneRabatt() mit lokaler Klasse RabattRegel\n- Anonyme Klassen und Alternativen mit Lambdas\n- Praxisübung: Comparator<Student> als anonyme Klasse\n- Aufgaben: Drei Arten innerer Klassen implementieren\n- Reflexion: Wann setze ich welche innere Klasse sinnvoll ein?\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Einführung in Lambda-Ausdrücke: Motivation und Syntax\n- Praxisübung: Runnable mit Lambda (Vergleich mit anonymer Klasse)\n- Functional Interfaces: Theorie und bekannte Interfaces (Runnable, Comparator, Predicate, Function)\n- Praxisübung: Eigenes Interface Rechner mit Lambda-Implementierungen\n- Standardfunktionale Interfaces: Predicate, Function, Consumer\n- Praxisübung: Liste von Namen filtern, transformieren, ausgeben\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Lambdas im Zusammenspiel mit Collections\n- Einführung in Immutable-Klassen: Definition, Bedeutung und Beispiele (String, Integer, LocalDate)\n- Praxisübung: Analyse String immutable, Vergleich veränderbar/unveränderbar\n- Regeln für Immutable-Klassen: final, private final Felder, keine Setter, defensive Kopien\n- Praxisübung: Klasse Adresse nach immutable Design umschreiben\n- Eigene Immutable-Klassen erstellen mit Validierung und defensiven Kopien\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Arbeiten mit String: Eigenschaften, Methoden, Literal-Pooling, Vergleich (== vs. equals())\n- Praxisübung: String-Methoden (length, charAt, substring, contains, equalsIgnoreCase)\n- Strings zusammensetzen und Performance-Probleme bei Verkettung\n- StringBuilder: mutable Zeichenketten, Methoden (append, insert, delete, reverse)\n- StringBuffer: threadsicherer StringBuilder, Einsatzszenarien\n- Aufgaben aus dem Buch bearbeiten\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "tuesday": "- Lokale Klassen\n- Anonyme Klassen & Lambdas\n- Comparator Übung",
+        "wednesday": "- Lambda-Ausdrücke\n- Functional Interfaces\n- Liste filtern & transformieren",
+        "thursday": "- Lambdas mit Collections\n- Immutable-Klassen\n- Praxis: Adresse immutable",
+        "friday": "- String: Methoden & Literal-Pooling\n- == vs. equals()\n- StringBuilder & StringBuffer"
     },
     "16.06.2025": {
-        "monday": "- Einführung in Factory Methods: Theorie und Vorteile\n- Praxisübung: Eigene Factory-Methode in Klasse Person erstellen\n- Vergleich Konstruktor vs. Factory Method\n- Praxisübung: Klasse Benutzer mit Konstruktor und Factory Method\n- Factory-Methoden in LocalDate und LocalTime analysieren\n- Praxisübungen mit LocalDate.of, parse und LocalTime.of\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Einführung in Fehler und Ausnahmen: Error vs. Exception\n- Compile-Time vs. Runtime-Fehler, Begriffe Stacktrace und Exception-Objekt\n- Praxisübung: Division durch 0 (ArithmeticException)\n- Grundlagen von try-catch-finally\n- Checked vs. Unchecked Exceptions\n- Methoden mit throws deklarieren\n- Klassische Fehlerbehandlung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Eigene Exception-Klassen erstellen (z. B. InvalidAgeException)\n- Praxisübung: Eigene Exception implementieren und verwenden\n- Best Practices der Fehlerbehandlung (kein leerer Catch, Logging, Nutzerfeedback)\n- Praxisübung: Benutzerregistrierung mit Fehlerabfang und Rückmeldung\n- Anwendung: Geburtsdatum validieren\n- Hierarchie häufig verwendeter Fehlerklassen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Wiederholung: Factory Methods und Exception Handling\n- Praxisübung: Kombination von Factory Methods mit Exception Handling\n- Fallstudie: Robuste Objekterstellung mit Validierung\n- Praxisübung: Factory Method mit try-catch für ungültige Parameter\n- Best Practices: Wann Factory Methods vs. Konstruktoren verwenden\n- Praxisübung: Exception-Hierarchie für verschiedene Validierungsfehler\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Wiederholung: try-catch und Exception-Hierarchie\n- Praxis: Programm mit mehreren Ausnahmen (Fakultät einer Zahl)\n- Mehrere catch-Blöcke selektiv einsetzen\n- Praxisübung: Fehler gezielt abfangen (NumberFormatException, ArithmeticException)\n- Eigene Exception-Klassen (Checked) erstellen\n- Konstruktoren und Weitergabe von Fehlermeldungen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Factory Methods\n- Konstruktor vs. Factory Method\n- LocalDate & LocalTime",
+        "tuesday": "- Error vs. Exception\n- Compile-Time vs. Runtime-Fehler\n- try-catch-finally",
+        "wednesday": "- Eigene Exception-Klassen\n- Best Practices Fehlerbehandlung\n- Benutzerregistrierung",
+        "thursday": "- Factory Methods & Exceptions\n- Robuste Objekterstellung\n- Exception-Hierarchie",
+        "friday": "- Mehrere catch-Blöcke\n- Fehler gezielt abfangen\n- Checked Exceptions"
     },
     "23.06.2025": {
-        "monday": "- Einführung in Java IO und die Klasse File\n- File-Objekte erstellen und Pfade ausgeben\n- Dateien und Verzeichnisse prüfen (exists, isFile, isDirectory, canRead, canWrite)\n- Dateigröße und Änderungszeit auslesen\n- Übung: Dateien prüfen\n- Dateien und Verzeichnisse erstellen/löschen (createNewFile, mkdir, delete)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Fehlerquellen bei File-Operationen (Existenz, Berechtigungen)\n- Verzeichnisse und Dateien automatisch anlegen und entfernen\n- Verzeichnisinhalte mit list und listFiles ausgeben\n- Übung: Dateien mit Endung .txt filtern\n- Einführung in Reader und Writer (zeichenorientierte Streams)\n- Motivation: Unicode-Unterstützung\n- Klassenhierarchie: FileReader, BufferedReader, FileWriter, BufferedWriter, PrintWriter\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- FileReader und FileWriter: Zweck und Konstruktoren\n- Demo: Textdatei einlesen und wieder ausschreiben\n- BufferedReader und BufferedWriter: Effizienzsteigerung\n- Übung: Zeilenweise lesen und filtern\n- PrintWriter: Komfortmethoden für Ausgaben (print, println, printf)\n- Übung: Benutzereingaben in Datei loggen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Zusammenfassung und Abschlussprojekt: Dateien lesen und Logdatei schreiben\n- Wiederholung Reader vs. InputStream, Buffered vs. unbuffered, PrintWriter\n- Projektaufgabe: Datei einlesen, Zeilen und Zeichen zählen, Zusammenfassung loggen\n- Diskussion: Wann Reader/Writer vs. Streams nutzen\n- Tipp: try-with-resources verwenden\n- Abschlussquiz und Fragerunde\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Einführung in Serialisierung und Serializable-Interface\n- Beispiele mit ObjectOutputStream und ObjectInputStream\n- Praxisübung: Klasse Person serialisieren und wieder einlesen\n- Erweiterung: Listen von Objekten serialisieren\n- Fehleranalyse und Diskussion\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Java IO: Klasse File\n- Dateien & Verzeichnisse prüfen\n- Dateien erstellen/löschen",
+        "tuesday": "- File-Operationen\n- Verzeichnisinhalte ausgeben\n- Reader & Writer",
+        "wednesday": "- FileReader & FileWriter\n- BufferedReader & BufferedWriter\n- PrintWriter",
+        "thursday": "- Projekt: Dateien lesen & loggen\n- Reader vs. InputStream\n- try-with-resources",
+        "friday": "- Serialisierung\n- ObjectOutputStream & ObjectInputStream\n- Objekte serialisieren"
     },
     "30.06.2025": {
-        "monday": "- Wiederholung Serialisierung: Motivation & Einsatzgebiete (Persistenz, Netzwerk, Cache)\n- Erste Beispiele mit ObjectOutputStream & ObjectInputStream\n- Praxisübung: Klasse Person serialisieren und wieder einlesen\n- Diskussion: Vor- und Nachteile Serialisierung vs. Textspeicherung\n- transient & serialVersionUID (Sicherheit, Versionskontrolle)\n- Mini-Übung mit transient Passwort-Feld und serialVersionUID\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Serialisierung anpassen: writeObject & readObject\n- Beispiel: Timestamp beim Serialisieren ergänzen, Diskussion sinnvoller Szenarien\n- Typische Fehler: NotSerializableException, Versioninkompatibilitäten, komplexe Objektgraphen\n- Einführung Method Overriding: Regeln, Polymorphismus, dynamisches Binden\n- Overriding Rules im Detail: Signatur, Rückgabetyp, Sichtbarkeit\n- Einschränkungen: private, static, final Methoden, Checked Exceptions\n- Praxis: @Override und Codebeispiele\n- Selbstlernphase: Fehleranalyse und Vorbereitung",
-        "wednesday": "- Einführung Java NIO2 (Path, Paths, Files)\n- Motivation: Plattformunabhängigkeit, robuste Fehlerbehandlung\n- Path und Paths: Aufbau, absolute/relative Pfade, get-Methode\n- Methoden von Path: getFileName, getParent, getRoot, toAbsolutePath\n- Praxis: Pfade erstellen und Bestandteile ausgeben\n- Klasse Files: exists, isDirectory, isRegularFile, Attribute auslesen\n- Dateien schreiben mit Files.write\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Wiederholung NIO und Aufgabenbesprechung\n- Dateien lesen mit Files.readAllBytes und Files.readAllLines\n- Praxisübung: Textdatei erzeugen & einlesen, Unterschiede zu Streams\n- Dateien kopieren, verschieben, löschen (copy, move, delete)\n- Mini-Übung: Datei kopieren & verschieben\n- Fehlerquellen: FileAlreadyExistsException, NoSuchFileException\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Einführung in Streams: Motivation (imperativ vs. deklarativ)\n- Vorteile: kürzer, lesbarer, lazy/parallel möglich\n- Was ist ein Stream? Datenquelle → Zwischenoperationen → Terminaloperation\n- Quellen: Collections, Arrays, Dateien\n- Intermediate Operations: filter, map, sorted, distinct, limit, skip\n- Praxis: Zahlenliste filtern und transformieren\n- Terminal Operations & collect: forEach, collect, count, reduce, etc.\n- Collectors: toList, toSet, joining\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Serialisierung: Motivation\n- ObjectOutputStream & ObjectInputStream\n- transient & serialVersionUID",
+        "tuesday": "- Serialisierung anpassen\n- NotSerializableException\n- Method Overriding",
+        "wednesday": "- Java NIO2: Path, Paths, Files\n- Path-Methoden\n- Klasse Files",
+        "thursday": "- Dateien lesen: readAllBytes/readAllLines\n- Dateien kopieren/verschieben/löschen\n- Unterschiede zu Streams",
+        "friday": "- Streams: Motivation\n- Intermediate Operations\n- Terminal Operations & Collectors"
     },
     "07.07.2025": {
-        "monday": "- Begrüßung, Vorstellungsrunde, Kursausblick\n- Einführung: Komponenten eines Datenbanksystems, 3-Schichten-Architektur\n- Praxisübung: 3-Schicht-Architektur in der Praxis\n- Übung: 3-Schichten-Architektur in der Bibliothek\n- Anwendungsformen von Datenbanken\n- Wiederholung: Anwendungsformen\n- Datenbankmodelle und Übung dazu\n- Wiederholung ERD und Nomenklatur\n- Praxisübung: ERD Aufgabe 1 in draw.io\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches, Wiederholung Vortag\n- Fortsetzung der ERD-Übungen (Aufgaben 3–4)\n- Besprechung Aufgaben 3–4\n- Bearbeitung und Besprechung Aufgabe 5\n- Bearbeitung Aufgabe 6\n- Bearbeitung Aufgabe 7\n- Besprechung Aufgabe 7\n- Bearbeitung Aufgabe 8\n- Besprechung Aufgabe 8\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Begrüßung, Organisatorisches\n- Einführung: RDBM, Beispiel in draw.io\n- Übung: Normalisierung 01 (Excel-Tabelle, NF)\n- Besprechung Normalisierung 01\n- Übung: Normalisierung 02\n- Besprechung Normalisierung 02\n- Umwandlung ERD Aufgabe 1 in RDBM\n- Bearbeitung und Besprechung ERD Aufgabe 1 (RDBM)\n- Bearbeitung und Besprechung ERD Aufgabe 8 (RDBM)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Begrüßung, Wiederholung Grundlagen RDBM (Schlüssel, Anomalien, Normalformen)\n- Bearbeitung Aufgabe 9 als RDBM in 3NF\n- Besprechung Aufgabe 9 als RDBM\n- Bearbeitung Aufgabe 10 (ERD/RDBM)\n- Besprechung Aufgabe 10 (ERD/RDBM)\n- Bearbeitung Aufgabe 11 (ERD/RDBM)\n- Besprechung Aufgabe 11 (ERD/RDBM)\n- Bearbeitung Aufgabe 12 (ERD/RDBM)\n- Besprechung Aufgabe 12 (ERD/RDBM)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Begrüßung, Wiederholung (Normalformen, Anomalien, AK)\n- Gemeinsame Bearbeitung Aufgabe 12 (ERD/RDBM)\n- Bearbeitung und Besprechung Aufgabe 13 (ERD/RDBM)\n- Bearbeitung und Besprechung Aufgabe 14 (ERD/RDBM)\n- Einführung: Datentypen in MySQL\n- Physikalisches Datenmodell in MySQL\n- Eigenes physikalisches Datenmodell Aufgabe 14 erstellen\n- Eigenes physikalisches Datenmodell Aufgabe 14 und 12 besprechen\n- Eigenes physikalisches Datenmodell Aufgabe 12 erstellen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Datenbanksysteme: 3-Schichten-Architektur\n- Datenbankmodelle & ERD\n- ERD Aufgabe 1",
+        "tuesday": "- ERD-Übungen (Aufgaben 3–8)\n- Aufgaben bearbeiten\n- Selbstlernphase",
+        "wednesday": "- RDBM Einführung\n- Normalisierung Übungen\n- ERD → RDBM umwandeln",
+        "thursday": "- RDBM: Schlüssel, Normalformen\n- Aufgaben 9–12 als RDBM\n- Selbstlernphase",
+        "friday": "- Aufgaben 12–14 (ERD/RDBM)\n- MySQL Datentypen\n- Physikalisches Datenmodell"
     },
     "14.07.2025": {
-        "monday": "- Begrüßung, Organisatorisches, Wiederholung\n- Wiederholung SQL DDL Befehle\n- Gemeinsames DDL Beispiel umsetzen\n- Aufgabe 1 bearbeiten\n- Besprechung Aufgabe 1\n- Aufgabe 2 bearbeiten\n- Besprechung Aufgabe 2\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches, Wiederholung\n- Fortführung DDL-Aufgaben (Aufgabe 12)\n- Bearbeitung Aufgabe 12\n- Besprechung Aufgabe 12\n- Bearbeitung Aufgabe 14\n- Besprechung Aufgabe 14\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Begrüßung, Organisatorisches, Wiederholung\n- Wiederholung DML mit gemeinsamem Beispiel\n- SQL-Arbeitsblatt (SQL-Story) Aufgaben 1–7 bearbeiten\n- Besprechung Aufgaben 1–7\n- SQL-Arbeitsblatt ab Aufgabe 8 (SQL-Story) weiter bearbeiten\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Begrüßung, Organisatorisches, Wiederholung\n- Fortführung SQL-Story: Besprechung Aufgaben 8–15\n- Bearbeitung Aufgaben 15–25\n- Besprechung Aufgaben 15–25\n- Bearbeitung Aufgaben 25–30\n- Projektrecherche für Woche 3\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Begrüßung, Organisatorisches\n- Fortsetzung SQL-Story (Restaufgaben)\n- Beginn IHK-Aufgabenblatt 1\n- Bearbeitung & Besprechung IHK-Aufgabenblatt 1\n- Bearbeitung & Besprechung IHK-Aufgabenblatt 2\n- Bearbeitung & Besprechung IHK-Aufgabenblatt 3\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- SQL DDL Befehle\n- DDL Beispiel umsetzen\n- Aufgaben 1–2",
+        "tuesday": "- DDL-Aufgaben (12 & 14)\n- Aufgaben bearbeiten\n- Selbstlernphase",
+        "wednesday": "- DML Wiederholung\n- SQL-Story: Aufgaben 1–7\n- Weiterbearbeitung",
+        "thursday": "- SQL-Story: Aufgaben 8–15\n- Aufgaben 15–30\n- Projektrecherche",
+        "friday": "- SQL-Story Restaufgaben\n- IHK-Aufgabenblätter 1–3\n- Selbstlernphase"
     },
     "21.07.2025": {
         "monday": "Urlaub",
@@ -399,60 +399,60 @@
         "friday": "Urlaub"
     },
     "04.08.2025": {
-        "monday": "- Begrüßung, Wiederholung nach den Ferien\n- Einführung Projektwoche: Softwareprojekt mit CRUD (freie Wahl Techstack)\n- Projektfindungsphase (Thema, Zielsetzung)\n- Definition Anforderungen & Features (Absprache mit Trainer)\n- Überlegungen zum Techstack (Programmiersprache, Framework, Web/Nativ)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches, Projektklärung mit Trainer\n- Ausarbeitung Features & Ziele des Projekts\n- Absprache mit Trainer zu Zielen\n- Einarbeitung in den Techstack oder erste Projektdateien anlegen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Begrüßung, Organisatorisches\n- Einarbeitung in Techstack\n- Erstellung von ERD / RDM / physikalischem RDBM (mit Absprache Trainer)\n- Beginn Implementierung des Projekts\n- Fortsetzung Implementierung mit ERD/RDM/RDBM\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Begrüßung, Organisatorisches\n- Erstellung weiterer Diagramme (z. B. Klassendiagramme)\n- Beginn Implementierung\n- Anlegen der Datenbank\n- Fortsetzung Implementierung & Datenbankarbeit\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Begrüßung, Organisatorisches\n- Fortsetzung Implementierung\n- Entwicklung CRUD-Funktionalität\n- Entwicklung GUI\n- Fertigstellung des Projekts\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Projektwoche: CRUD-Projekt\n- Projektfindungsphase\n- Features & Techstack",
+        "tuesday": "- Projektklärung mit Trainer\n- Features & Ziele\n- Techstack einarbeiten",
+        "wednesday": "- Techstack einarbeiten\n- ERD/RDM/RDBM erstellen\n- Implementierung beginnen",
+        "thursday": "- Klassendiagramme\n- Implementierung & Datenbank\n- Datenbankarbeit",
+        "friday": "- Implementierung fortsetzen\n- CRUD-Funktionalität & GUI\n- Projekt fertigstellen"
     },
     "11.08.2025": {
-        "monday": "- Begrüßung, Organisatorisches\n- Vorstellung Lernziele LF12 (IHK-Planspiel)\n- Einführung in das IHK-Projekt\n- Präsentation des IHK-Projektantrags\n- Auswahl der Ausgangssituation (Absprache mit Trainer)\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches\n- Erstellung von Sprints und Tagesplanung\n- Projektantrag: erste Entwürfe für den Trainer\n- Korrektur der Entwürfe nach Trainer-Anmerkungen\n- Erste Implementierungen einzelner Teile\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Begrüßung, Organisatorisches\n- Weitere Korrekturen der Projektanträge\n- Kontrolle/Genehmigung durch den Dozenten zur Projektumsetzung\n- Erste Entwürfe für das Datenbankmodell\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Begrüßung, Organisatorisches\n- Korrekturen am Projektantrag\n- Entwurf des Datenbankmodells\n- Erstellung erster UI-Wireframes\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
+        "monday": "- LF12 Lernziele (IHK-Planspiel)\n- IHK-Projekt Einführung\n- Ausgangssituation auswählen",
+        "tuesday": "- Sprints & Tagesplanung\n- Projektantrag Entwürfe\n- Erste Implementierungen",
+        "wednesday": "- Projektantrag korrigieren\n- Genehmigung durch Dozent\n- Datenbankmodell Entwürfe",
+        "thursday": "- Projektantrag korrigieren\n- Datenbankmodell entwerfen\n- UI-Wireframes erstellen",
         "friday": "Feiertag"
     },
     "18.08.2025": {
-        "monday": "- Begrüßung, Organisatorisches\n- Präsentation Projektdokumentation\n- Präsentation Projektantrag\n- Gemeinsame Durchsicht Dokumentationsvorlage/Demo\n- Beginn Implementierung\n- Paralleldokumentation während der Umsetzung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches\n- Projektimplementierung (Struktur, Entwürfe umsetzen)\n- Datenbank-Connections herstellen in gewählter Programmiersprache\n- Erzeugen von DDL-Anweisungen\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Begrüßung, Organisatorisches\n- Projektentwicklung & Entwürfe (z.B. Datenbank, UML)\n- API-Endpoints entwickeln\n- Paralleldokumentation\n- Selbstlernphase",
-        "thursday": "- Begrüßung, Organisatorisches\n- Selbstständige Projektarbeit mit Einzelgesprächen\n- Erstellung Frontend\n- Erstellung Backend\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Begrüßung, Organisatorisches\n- Fortsetzung der Projektarbeit (mit Unterstützung des Dozenten)\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Projektdokumentation präsentieren\n- Projektantrag präsentieren\n- Implementierung beginnen",
+        "tuesday": "- Projektimplementierung\n- Datenbank-Connections\n- DDL-Anweisungen",
+        "wednesday": "- Projektentwicklung & Entwürfe\n- API-Endpoints entwickeln\n- Paralleldokumentation",
+        "thursday": "- Projektarbeit mit Einzelgesprächen\n- Frontend erstellen\n- Backend erstellen",
+        "friday": "- Projektarbeit fortsetzen\n- Paralleldokumentation\n- Selbstlernphase"
     },
     "25.08.2025": {
-        "monday": "- Begrüßung, Vorstellung der Tagesthemen\n- Einführung Softwareentwicklung (Folie)\n- Aufgabe: Programmiersprachen einordnen\n- Aufgabe: Pseudocode erstellen\n- Einführung HTML und XML\n- Übung zu HTML/XML\n- Aufgabe UML-Klassendiagramm bearbeiten und vergleichen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Einführung Use-Case-Diagramm (Präsentation)\n- Übungen zu Use-Case-Diagrammen\n- Projektmanagement-Aufgaben\n- Netzplan erstellen\n- Stromkosten berechnen\n- Programmierscript korrigieren\n- Einführung IT-Sicherheit\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Projekt, Stakeholder und Projektberater (Übung)\n- Einführung SQL\n- Algorithmus entwickeln\n- Einführung ER-Diagramm\n- Lastenheft & IST-Analyse\n- Workspace Management Software\n- Weitere Algorithmen entwickeln\n- Datenübertragung\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Einführung KI (Übung)\n- Lasten- vs. Pflichtenheft\n- Klassendiagramm\n- ER-Diagramm\n- Digitales Zertifikat\n- Verschlüsselung (Übung)\n- Algorithmus entwickeln\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Einführung Verschlüsselungsverfahren (Symmetrisch, Asymmetrisch, Hybrid, Zertifikate)\n- Datenschutz (DSGVO, BDSG)\n- Aufgaben zu Dateiformaten\n- KI (Einsatzgebiete, technische Betrachtung)\n- Aufbau einer Webseite (Übung)\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Softwareentwicklung\n- Programmiersprachen & Pseudocode\n- HTML & XML",
+        "tuesday": "- Use-Case-Diagramm\n- Projektmanagement: Netzplan\n- IT-Sicherheit",
+        "wednesday": "- Projekt & Stakeholder\n- SQL & ER-Diagramm\n- Lastenheft & IST-Analyse",
+        "thursday": "- KI Einführung\n- Lasten- vs. Pflichtenheft\n- Zertifikate & Verschlüsselung",
+        "friday": "- Verschlüsselungsverfahren\n- Datenschutz (DSGVO)\n- KI Einsatzgebiete"
     },
     "01.09.2025": {
-        "monday": "- Begrüßung, Kursinhalt\n- Handelskalkulation (Zuschlags-, Rückwärts-, Gewinnkalkulation)\n- Darlehensarten (endfällig, Raten-, Annuitätendarlehen)\n- Gesellschaftsformen und Gewinnverteilung\n- Verbrauchskostenberechnung (Drucker), Bedarf/Bedürfnis/Nachfrage, Güterarten, VWL",
-        "tuesday": "- Besprechung Testfragen vom Vortag\n- Europathek Fachkompetenz 2.8.1 (Factoring, Geldströme, Marktformen)\n- Europathek Fachkompetenz 2.8.2\n- Preisfindung, Gleichgewichtspreis\n- Konjunktur und Staatseingriffe",
-        "wednesday": "- Altersversorgung, VWL\n- Notwendige Versicherungen, Überschuldung\n- BBiG: Rechte, Pflichten, Beendigung Ausbildungsvertrag\n- Kündigungsfristen, Kündigungsschutz, Betriebsrat, Gewerkschaft\n- Bearbeitung Fragen aus Fragensammlung (mit Zusatzinfos)",
-        "thursday": "- Quiz: Soziale Marktwirtschaft, Angebot/Nachfrage, Konjunktur\n- Quiz: Wirtschaftspolitik, Sozialversicherung, Lohn-/Gehaltsabrechnung\n- Quiz: Versicherungen, Überschuldung, Kreditarten/Leasing, BBiG\n- Quiz: Vertragsarten, Ausbildungsvertrag, Jugendarbeitsschutz\n- Europathek 2.8.3 und 2.8.4 (Prozesse, Beschaffung, Absatz)",
-        "friday": "- Quizfragen zu Themen vom Vortag\n- Kalkulationszuschlag und Marge berechnen\n- Simulation IHK-Prüfung 1\n- Simulation IHK-Prüfung 2\n- Nachbearbeitung Inhalte (Restgruppe)"
+        "monday": "- Handelskalkulation\n- Darlehensarten\n- Gesellschaftsformen",
+        "tuesday": "- Europathek 2.8.1 & 2.8.2\n- Factoring & Marktformen\n- Preisfindung & Konjunktur",
+        "wednesday": "- Altersversorgung & VWL\n- Versicherungen\n- BBiG: Rechte & Pflichten",
+        "thursday": "- Quiz: Marktwirtschaft & Konjunktur\n- Quiz: Wirtschaftspolitik\n- Europathek 2.8.3 & 2.8.4",
+        "friday": "- Kalkulationszuschlag berechnen\n- IHK-Prüfungssimulation\n- Nachbearbeitung"
     },
     "08.09.2025": {
-        "monday": "- Wiederholung: Handelskalkulation, Darlehen, Gesellschaftsformen, VWL\n- Quiz: Soziale Marktwirtschaft, Marktformen, Konjunktur\n- Aufgaben: Vertragsarten, BBiG\n- Übungen: Versicherungen, Überschuldung, Altersvorsorge\n- Gruppenarbeit: Marktformen, ökonomisches Prinzip",
-        "tuesday": "- Besprechung Testfragen/Quiz vom Vortag\n- Aufgaben: Preisfindung, Gleichgewichtspreis\n- Übungen: Konjunktur und staatliche Eingriffe\n- Rechenbeispiele: Sozialversicherung & Lohnsteuer\n- Fragensammlung: Jugendarbeitsschutz, Gewerkschaften",
-        "wednesday": "- GFN-Prüfungssimulation 1–4 (Einzel-/Gruppenarbeit)\n- Nachbearbeitung der Fachinhalte\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Dozenten-Fragenliste (108 Zusatzfragen, Teil 1)\n- Einzel- und Gruppenarbeit\n- Offene Fragen und Diskussion zu Teil 1\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Dozenten-Fragenliste (Teil 2)\n- Einzel- und Gruppenarbeit\n- Offene Fragen und Diskussion zu Teil 2\n- Abschluss, Feedback und Verabschiedung\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Wiederholung: Handelskalkulation, VWL\n- Quiz: Marktwirtschaft & Konjunktur\n- Übungen: Versicherungen, BBiG",
+        "tuesday": "- Testfragen besprechen\n- Preisfindung & Gleichgewichtspreis\n- Sozialversicherung & Lohnsteuer",
+        "wednesday": "- GFN-Prüfungssimulation 1–4\n- Fachinhalte nachbearbeiten\n- Selbstlernphase",
+        "thursday": "- Fragenliste Teil 1 (108 Fragen)\n- Einzel- & Gruppenarbeit\n- Diskussion Teil 1",
+        "friday": "- Fragenliste Teil 2\n- Einzel- & Gruppenarbeit\n- Abschluss & Feedback"
     },
     "15.09.2025": {
-        "monday": "- Begrüßung, Organisatorisches, Wiedereinstieg nach Urlaub\n- Weiterentwicklung des Projekts\n- Trainerunterstützung bei Bedarf\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches\n- Weiterentwicklung des Projekts\n- Trainerfeedback und Unterstützung, roter Faden bei Bedarf\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Begrüßung, Organisatorisches\n- Weiterentwicklung des Projekts\n- Trainerfeedback und Unterstützung, roter Faden\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Begrüßung, Organisatorisches\n- Weiterentwicklung des Projekts\n- Trainerfeedback, Unterstützung und Einzelcoachings zur Fortschrittskontrolle\n- Paralleldokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Begrüßung, Organisatorisches\n- Einführung in Projektpräsentationen (Schulung, Beispiele, Erfahrungsaustausch)\n- Fortsetzung Projektimplementierung\n- Paralleldokumentation und Trainerfeedback zu ersten Entwürfen\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Projekt weiterentwickeln\n- Trainerunterstützung\n- Paralleldokumentation",
+        "tuesday": "- Projekt weiterentwickeln\n- Trainerfeedback\n- Paralleldokumentation",
+        "wednesday": "- Projekt weiterentwickeln\n- Trainerfeedback\n- Paralleldokumentation",
+        "thursday": "- Projekt weiterentwickeln\n- Einzelcoachings\n- Paralleldokumentation",
+        "friday": "- Projektpräsentationen Einführung\n- Projektimplementierung\n- Trainerfeedback"
     },
     "22.09.2025": {
-        "monday": "- Begrüßung, Organisatorisches\n- Projektimplementierung und Weiterentwicklung\n- Trainerunterstützung bei Bedarf\n- Paralleldokumentation / Projektdokumentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "tuesday": "- Begrüßung, Organisatorisches\n- Fortsetzung Projektdokumentation\n- Feedback durch Dozent und Einzelcoachings\n- Codeanpassungen, Diagramm-Screenshots, Anhänge erstellen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "wednesday": "- Projektdokumentation fortführen\n- Inhalte und Code beschreiben\n- Screenshots und Diagramme einfügen\n- Anhänge erstellen\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "thursday": "- Projektdokumentation fortführen und fertigstellen\n- Feinschliff der Dokumentation\n- Vorbereitung auf Projektpräsentation\n- Selbstlernphase: Nacharbeiten und Vorbereitung",
-        "friday": "- Projektpräsentation durchführen\n- Feedback und Reflexion der Ergebnisse\n- Abschlussrunde zur Projektphase\n- Selbstlernphase: Nacharbeiten und Vorbereitung"
+        "monday": "- Projektimplementierung\n- Trainerunterstützung\n- Projektdokumentation",
+        "tuesday": "- Projektdokumentation\n- Feedback & Einzelcoachings\n- Codeanpassungen & Screenshots",
+        "wednesday": "- Projektdokumentation\n- Code beschreiben\n- Screenshots & Diagramme",
+        "thursday": "- Projektdokumentation fertigstellen\n- Feinschliff\n- Präsentationsvorbereitung",
+        "friday": "- Projektpräsentation\n- Feedback & Reflexion\n- Projektphase Abschluss"
     },
     "29.09.2025": {
         "monday": "Ablauf des Praxislabors – Vorstellung der Projektthemen; Themenauswahl und Beginn der Themenerarbeitung; Einzelarbeit mit Themenerarbeitung und Einzelgesprächen zu Projektthemen",
