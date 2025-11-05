@@ -266,18 +266,18 @@
         "friday": "- LZK-Vorbereitung\n- LZK durchführen\n- Unit Tests & Kursabschluss"
     },
     "24.03.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Einführung: Java Installation & IDE\n- Erste Java-Programme\n- Compilieren & Ausführen",
+        "tuesday": "- Basics: Datentypen & Variablen\n- Operatoren & Ausdrücke\n- Übungen",
+        "wednesday": "- Arrays: Deklaration & Initialisierung\n- Mehrdimensionale Arrays\n- Array-Methoden",
+        "thursday": "- Strings: String-Klasse & Methoden\n- String-Vergleiche\n- StringBuilder",
+        "friday": "- Wrapper-Klassen\n- Autoboxing & Unboxing\n- Übungen zu Wrappers"
     },
     "31.03.2025": {
-        "monday": "Platzhalter für Montag",
-        "tuesday": "Platzhalter für Dienstag",
-        "wednesday": "Platzhalter für Mittwoch",
-        "thursday": "Platzhalter für Donnerstag",
-        "friday": "Platzhalter für Freitag"
+        "monday": "- Object Orientation: Klassen & Objekte\n- Konstruktoren & Methoden\n- Attribute & Kapselung",
+        "tuesday": "- OOP: Vererbung & Polymorphie\n- Abstrakte Klassen\n- Interfaces",
+        "wednesday": "- Collections: List, Set, Map\n- ArrayList, HashSet, HashMap\n- Iteration & Modifikation",
+        "thursday": "- Exceptions: try-catch-finally\n- Checked vs. Unchecked\n- Eigene Exceptions",
+        "friday": "- Sonderthemen: Generics, Lambda\n- Tools & Resources\n- Projektarbeit"
     },
     "07.04.2025": {
         "monday": "- Kursvorstellung\n- Projektideen auswählen\n- HTML/CSS GUI gestalten",
